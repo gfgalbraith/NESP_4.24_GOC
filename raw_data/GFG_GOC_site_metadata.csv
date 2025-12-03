@@ -1,0 +1,763 @@
+﻿site_code,reef_name,lat,long,zone,region,sector,situation,depth_morph,geomorph,Harris_site,report_site
+GC1,Lamatha Reef,-16.48,139.27,Open,GOC,Southern,Nearshore,Emergent,Fringing,No,Yes
+GC10,Foggy Bottom,-16.07,138.91,Blue,GOC,Southern,Offshore,Submerged,Pinnacle,R4,Yes
+GC11,Chinamans Reef,-15.89,139.03,Blue,GOC,Southern,Offshore,Submerged,Pinnacle,No,Yes
+GC12,Carpentaria Reef SW,-15.52,140.12,Blue,GOC,Southern,Offshore,Submerged,Pinnacle,R3,Yes
+GC13,Carpentaria Reef,-15.45,140.18,Blue,GOC,Southern,Offshore,Submerged,Pinnacle,R2,Yes
+GC2,Bowengun,-16.42,139.47,Open,GOC,Southern,Nearshore,Emergent,Fringing,No,Yes
+GC3,Mandalbi-Bellaleea,-16.41,139.63,Open,GOC,Southern,Nearshore,Emergent,Fringing,No,Yes
+GC4,Mandalbi-outer,-16.39,139.63,Open,GOC,Southern,Nearshore,Emergent,Fringing,No,Yes
+GC5,Thabugan Reef South,-16.38,139.6,Open,GOC,Southern,Nearshore,Emergent,Fringing,No,Yes
+GC6,Thabugan Reef,-16.38,139.6,Open,GOC,Southern,Nearshore,Emergent,Fringing,No,Yes
+GC7,Steves Bommie,-16.29,139.42,Open,GOC,Southern,Offshore,Submerged,Pinnacle,No,Yes
+GC8,Glasseye Reef,-16.24,139.6,Blue,GOC,Southern,Offshore,Submerged,Pinnacle,No,Yes
+GC9,Manowar Island,-16.23,139.25,Open,GOC,Southern,Offshore,Emergent,Fringing,No,Yes
+NT60,Groper Shoal,-15.47,137.92,Open,GOC,Southern,Offshore,Submerged,Pinnacle,R7,Yes
+GC14,Carpentaria Shoal,-10.74,141.06,Open,GOC,Northeast,Offshore,Submerged,Shoal,No,Yes
+GC15,Proudfoot Shoal,-10.53,141.47,Open,GOC,Northeast,Offshore,Submerged,Shoal,No,Yes
+GC17,Merkara Shoal N,-10.5,141.23,Open,GOC,Northeast,Offshore,Submerged,Shoal,No,Yes
+NT103,Norruum Islet,-11.23,136.69,Open,GOC,Wessel,Nearshore,Emergent,Fringing,No,Yes
+NT35,Warrnga Reef,-11.94,135.6,Open,GOC,Wessel,Nearshore,Emergent,Fringing,No,Yes
+NT36,Guluwuru Island NE,-11.55,136.42,Open,GOC,Wessel,Nearshore,Emergent,Fringing,No,Yes
+NT38,Truant Island N,-11.66,136.83,Open,GOC,Wessel,Offshore,Emergent,Fringing,No,Yes
+NT39,Truant Island S,-11.68,136.82,Open,GOC,Wessel,Offshore,Emergent,Fringing,No,Yes
+NT40,Truant Bank SW,-11.65,136.91,Open,GOC,Wessel,Offshore,Submerged,Shoal,No,Yes
+NT41,Truant Bank SE,-11.63,136.93,Open,GOC,Wessel,Offshore,Submerged,Shoal,No,Yes
+NT44,East Bremer Islet bay,-12.09,136.87,Open,GOC,Northwest,Nearshore,Emergent,Fringing,No,Yes
+NT45,Porlsche Rock,-12.07,136.87,Open,GOC,Northwest,Offshore,Submerged,Pinnacle,No,Yes
+NT46,East Bremer Islet SW,-12.09,136.87,Open,GOC,Northwest,Nearshore,Emergent,Fringing,No,Yes
+NT48,Bremer Island East,-12.09,136.83,Open,GOC,Northwest,Nearshore,Emergent,Fringing,No,Yes
+NT49,Bonner Rocks NE,-12.06,136.61,Open,GOC,Northwest,Nearshore,Emergent,Shoal,No,Yes
+NT52,Dudley Island SE,-12.89,136.73,Open,GOC,Western,Nearshore,Emergent,Fringing,No,Yes
+NT55,Brady Rock,-13.68,136.45,Open,GOC,Western,Nearshore,Emergent,Shoal,No,Yes
+NT56,Cape Beatrice SW,-14.31,136.89,Open,GOC,Western,Nearshore,Emergent,Fringing,No,Yes
+NT59,Cape Beatrice Islet West,-14.35,136.94,Open,GOC,Western,Nearshore,Emergent,Fringing,No,Yes
+NT63,Arafura Shoal,-11.23,134.75,Open,GOC,Outer-shoals,Offshore,Submerged,Shoal,R8,Yes
+TS2,Booby Island SW,-10.61,141.91,Open,GOC,Northeast,Offshore,Emergent,Fringing,No,Yes
+NT37,Truant Island SW,-11.674,136.823,Open,GOC,Wessel,Nearshore,Emergent,Fringing,No,No
+NT102,Burston Bay,-11.222,136.685,Open,GOC,Wessel,Nearshore,Emergent,Fringing,No,No
+TS1,Booby Island,-10.606,141.916,Open,GOC,Northeast,Offshore,Emergent,Fringing,No,No
+NT100,Truant Island NE,-11.669,136.827,Open,GOC,Wessel,Nearshore,Emergent,Fringing,No,No
+NT47,Bremer Islet anchorage,-12.087,136.865,Open,GOC,Northwest,Nearshore,Emergent,Fringing,No,No
+NT51,Bremer Island west,-12.108,136.79,Open,GOC,Northwest,Nearshore,Emergent,Fringing,No,No
+NT57,Cape Beatrice South,-14.309,136.889,Open,GOC,Western,Nearshore,Emergent,Fringing,No,No
+NT58,Turtle Cave,-14.355,136.95,Open,GOC,Western,Nearshore,Emergent,Fringing,No,No
+NT42,Pugh Shoal,-11.613,136.89,Open,GOC,Wessel,Offshore,Submerged,Shoal,No,No
+NT43,Buccaneer Shoal,-11.618,136.878,Open,GOC,Wessel,Offshore,Submerged,Shoal,No,No
+NT50,Bonner Rocks NW,-12.06,136.611,Open,GOC,Northwest,Nearshore,Emergent,Shoal,No,No
+NT53,Dudley Island,-12.881,136.726,Open,GOC,Western,Nearshore,Emergent,Fringing,No,No
+NT54,Dudley Rock,-12.884,136.712,Open,GOC,Western,Offshore,Emergent,Shoal,No,No
+GC16,Merkara Shoal SW,-10.502,141.228,Open,GOC,Northeast,Offshore,Submerged,Shoal,No,No
+TS3,Booby Island NW,-10.603,141.909,Open,GOC,Northeast,Offshore,Emergent,Fringing,No,No
+TS28,Booby Island Bommie,-10.603,141.907,Open,GOC,Northeast,Offshore,Emergent,Fringing,No,No
+GC18,Carpentaria Shoal West,-10.744,141.05,Open,GOC,Northeast,Offshore,Submerged,Shoal,No,No
+NT30,Arnhem CMR Gadgets Reef North West,-11.283,133.8,Open,GOC,Outer-shoals,Offshore,Submerged,Shoal,No,No
+NT32,Arnham Shoal,-11.45,133.717,Open,GOC,Outer-shoals,Offshore,Submerged,Shoal,No,No
+NT31,Arnhem CMR Gadgets Reef West,-11.3,133.8,Open,GOC,Outer-shoals,Offshore,Submerged,Shoal,No,No
+WA83,Bardi Hole  Cape Leveque,-16.44,123.05,Open,WA,,,,,No,No
+WA85,Bardi Hole2  Cape Leveque,-16.43,123.07,Open,WA,,,,,No,No
+WA84,Rippy channel  Cape Leveque,-16.43,123.09,Open,WA,,,,,No,No
+WA87,One tree reef S,-16.4,123.04,Open,WA,,,,,No,No
+WA86,Gundanin Headland,-16.42,123.03,Open,WA,,,,,No,No
+NT13,East Point North,-12.41,130.81,Open,WA,,,,,No,No
+NT8,Dudley Point Bommies,-12.42,130.81,Open,WA,,,,,No,No
+NT9,East Point Coral Gardens,-12.41,130.81,Open,WA,,,,,No,No
+NT5,Platter Rock,-12.48,130.79,Open,WA,,,,,No,No
+NT2,Edge Town Hall Hole,-12.56,130.86,Open,WA,,,,,No,No
+NT11,Old Man Rock,-12.34,130.85,Open,WA,,,,,No,No
+NT14,Anglers Reef,-12.31,130.87,Open,WA,,,,,No,No
+NT12,The Grottos,-12.41,130.79,Open,WA,,,,,No,No
+NT3,Weed Reef,-12.49,130.8,Open,WA,,,,,No,No
+NT4,Stevens Rock,-12.49,130.79,Open,WA,,,,,No,No
+NWS33,NE Passage,-14.06,121.96,Open,WA,,,,,No,No
+NWS11,Hibernia Lagoon SW,-11.98,123.34,Open,WA,,,,,No,No
+NWS12,Hibernia Lagoon NW,-11.98,123.34,Open,WA,,,,,No,No
+NWS13,Golden Sleeper Corner,-11.98,123.33,Open,WA,,,,,No,No
+NWS15,Surge Crest West,-12.22,123.01,Open,WA,,,,,No,No
+NWS17,Turtle Patch,-12.24,122.99,Open,WA,,,,,No,No
+NWS20,Flat's Edge,-12.24,123,Open,WA,,,,,No,No
+NWS21,Hemiplage Bommie,-12.24,123,Open,WA,,,,,No,No
+NWS1,Vulcan Shoal,-12.8,124.27,Open,WA,,,,,No,No
+NWS23,Kuhlii Bommie,-12.23,122.99,Open,WA,,,,,No,No
+NWS26,Seringapatam North,-13.62,121.99,Open,WA,,,,,No,No
+NWS27,Election Day Reef,-14.07,121.96,Open,WA,,,,,No,No
+NWS30,Longnose Spur,-14.14,121.96,Open,WA,,,,,No,No
+NWS31,Napoleon Reef,-14.14,121.96,Open,WA,,,,,No,No
+NWS32,Goby Heaven,-14.11,121.96,Open,WA,,,,,No,No
+NWS34,Table Tip,-14.06,121.97,Open,WA,,,,,No,No
+NWS35,Ian's Anchorage,-14.07,121.95,Open,WA,,,,,No,No
+NWS36,Fungiid Fields,-14.07,121.79,Open,WA,,,,,No,No
+NWS37,Stake Edge,-14.05,121.78,Open,WA,,,,,No,No
+NWS2,Barracouta Shoal,-12.56,124.04,Open,WA,,,,,No,No
+NWS38,Chaetodontoides,-14.07,121.78,Open,WA,,,,,No,No
+NWS39,Odonus Dropoff,-14.08,121.75,Open,WA,,,,,No,No
+NWS40,Stern Trawler Reef,-14.08,121.74,Open,WA,,,,,No,No
+NWS41,Dead West,-14.11,121.72,Open,WA,,,,,No,No
+NWS3,Cardinal Shoal,-11.97,123.39,Open,WA,,,,,No,No
+NWS4,Titan Reef,-11.97,123.38,Open,WA,,,,,No,No
+NWS7,Big Fish Gulch,-11.97,123.36,Open,WA,,,,,No,No
+NWS9,Spur and Groove Reef,-11.97,123.34,Open,WA,,,,,No,No
+NWS10,Rogaa Bommie,-11.97,123.32,Open,WA,,,,,No,No
+NWS14,Surge Crest East,-12.22,123,Open,WA,,,,,No,No
+NWS16,Guardian Reef,-12.24,122.98,Open,WA,,,,,No,No
+NWS19,Grand Oculis Bommie,-12.24,122.98,Open,WA,,,,,No,No
+NWS22,Dotty Reef,-12.24,122.99,Open,WA,,,,,No,No
+NWS5,Hibernia Lagoon SE,-11.98,123.38,Open,WA,,,,,No,No
+NWS24,Reel Lost Bommie,-12.24,122.99,Open,WA,,,,,No,No
+NWS25,Eviota Bommie,-12.24,122.99,Open,WA,,,,,No,No
+NWS28,Consolation Bommie,-14.13,121.94,Open,WA,,,,,No,No
+NWS29,Moray Bommie,-14.13,121.95,Open,WA,,,,,No,No
+NWS6,Hibernia Lagoon SE2,-11.97,123.38,Open,WA,,,,,No,No
+NWS8,Hibernia Lagoon South,-11.98,123.36,Open,WA,,,,,No,No
+NWS18,Busy Bommie,-12.24,122.98,Open,WA,,,,,No,No
+NT24,Bramble Rocks,-10.89,132.78,Open,GOC,,,,,No,No
+NT61,Jones Shoal,-10.96,132.22,Open,GOC,Outer-shoals,Offshore,Submerged,Shoal,No,Yes
+NT62,Jones Shoal East,-10.959,132.226,Open,GOC,Outer-shoals,Offshore,Submerged,Shoal,No,No
+NT22,Money Shoal E,-10.32,132.71,Open,GOC,,,,,No,No
+NT27,New Year Island Boulder,-10.91,133.04,Open,WA,,,,,No,No
+NT20,Money Shoal NW,-10.32,132.71,Open,GOC,,,,,No,No
+NT21,Money Shoal S,-10.33,132.71,Open,GOC,,,,,No,No
+NT23,Money Shoal SE,-10.33,132.71,Open,GOC,,,,,No,No
+NT25,New Year Island anchorage,-10.91,133.02,Open,GOC,,,,,No,No
+OS3,Evans Shoal,-9.89,129.55,Open,WA,,,,,No,No
+OS4,Blackwood Shoal,-9.88,129.42,Open,WA,,,,,No,No
+OS5,Moss Shoal Central,-11.14,129.91,Open,WA,,,,,No,No
+OS6,Moss Shoal West,-11.13,129.91,Open,WA,,,,,No,No
+OS7,Marie Shoal,-10.89,130.1,Open,WA,,,,,No,No
+OS8,Marie Shoal South,-10.91,130.1,Open,WA,,,,,No,No
+OS1,Flinders Shoal East,-9.88,129.29,Open,WA,,,,,No,No
+OS2,Flinders Shoal Central,-9.88,129.29,Open,WA,,,,,No,No
+NWS169,Chruchill Reef South West,-15.52,123.27,Open,WA,,,,,No,No
+NWS171,Churchill Reef North,-15.45,123.25,Open,WA,,,,,No,No
+NWS172,Scott Outside anchorage,-14.07,121.97,Open,WA,,,,,No,No
+NWS163,Berthier Island,-14.5,125,Open,WA,,,,,No,No
+NWS164,White Island bommie,-15.07,124.33,Open,WA,,,,,No,No
+NWS165,Brue Reef North East,-15.92,123.05,Open,WA,,,,,No,No
+NWS174,North Scott Lagoon,-13.93,121.9,Open,WA,,,,,No,No
+NWS177,Seringapatam channel north,-13.63,122.02,Open,WA,,,,,No,No
+NWS178,Ashmore Central Lagoon Entrance,-12.2,123.04,Open,WA,,,,,No,No
+NWS181,Ashmore East Lagoon,-12.19,123.08,Open,WA,,,,,No,No
+NWS185,Northwest Ashmore,-12.18,123.11,Open,WA,,,,,No,No
+NWS184,Ashmore East Lagoon Entrance,-12.18,123.07,Open,WA,,,,,No,No
+NWS189,Cartier Garden,-12.53,123.57,Open,WA,,,,,No,No
+NWS201,Lesueur Island South,-13.82,127.27,Open,WA,,,,,No,No
+NWS194,Browse Ledge,-14.1,123.55,Open,WA,,,,,No,No
+NWS193,Cartier Island,-12.52,123.56,Open,WA,,,,,No,No
+NWS188,Cartier Platform,-12.53,123.58,Open,WA,,,,,No,No
+NWS192,Cartier Anchorage,-12.53,123.58,Open,WA,,,,,No,No
+NWS199,Cassini Point,-13.94,125.64,Open,WA,,,,,No,No
+NWS198,Jameson Reef Anchorage,-14.06,125.36,Open,WA,,,,,No,No
+NWS195,Browse Fats,-14.11,123.56,Open,WA,,,,,No,No
+NWS200,Cassini anchorage,-13.94,125.64,Open,WA,,,,,No,No
+NWS166,Brue Reef,-15.92,123.04,Open,WA,,,,,No,No
+NWS167,Frost Shoal,-15.78,123.36,Open,WA,,,,,No,No
+NWS168,Churchill Reef South East,-15.52,123.23,Open,WA,,,,,No,No
+NWS175,North Reef bommies,-13.92,121.91,Open,WA,,,,,No,No
+NWS180,Grubfish Reef,-12.21,123.05,Open,WA,,,,,No,No
+NWS182,Ashmore Outer North,-12.17,123.06,Open,WA,,,,,No,No
+NWS183,Ashmore Inner North,-12.18,123.07,Open,WA,,,,,No,No
+NWS173,Shawrie's Folly,-14.13,121.97,Open,WA,,,,,No,No
+NWS186,Cartier North,-12.53,123.58,Open,WA,,,,,No,No
+NWS170,Churchill Reef North West,-15.45,123.24,Open,WA,,,,,No,No
+NWS176,Shackle Reef,-13.62,122.01,Open,WA,,,,,No,No
+NWS187,Cartier Reef Slope,-12.53,123.58,Open,WA,,,,,No,No
+NWS190,Nuclear Bommie,-12.52,123.57,Open,WA,,,,,No,No
+NWS191,Unexploded Bommie,-12.52,123.56,Open,WA,,,,,No,No
+NWS196,Browse Anchorage,-14.1,123.55,Open,WA,,,,,No,No
+NWS197,Groper Reef,-14.06,125.36,Open,WA,,,,,No,No
+NWS179,Not Much Reef,-12.21,123.04,Open,WA,,,,,No,No
+NT26,New Year Island East,-10.9,133.03,Open,GOC,,,,,No,No
+OS16,Parry Shoal,-11.22,129.66,Open,WA,,,,,No,No
+NWS202,Ashmore North,-12.2,123.03,Open,WA,,,,,No,No
+OS12,Kitan Shoal East,-10.7,126.34,Open,WA,,,,,No,No
+OS14,NW Jabiru Shoal,-11.72,125.02,Open,WA,,,,,No,No
+OS10,Cootamundra Shoal,-10.84,129.22,Open,WA,,,,,No,No
+OS13,Mangola Shoal,-11.66,125.11,Open,WA,,,,,No,No
+OS11,Kitan Shoal West,-10.7,126.33,Open,WA,,,,,No,No
+OS15,Blue Coral Shoal,-11.73,123.99,Open,WA,,,,,No,No
+OS9,South Evans Shoal,-10.13,129.54,Open,WA,,,,,No,No
+NWS203,Whatever Reef,-12.54,123.57,Open,WA,,,,,No,No
+NWS204,Annas Delight,-12.54,123.54,Open,WA,,,,,No,No
+NWS206,Ashmore Shoal North,-12.22,122.96,Open,WA,,,,,No,No
+NWS205,Marlin Shoal Flats,-12.19,123,Open,WA,,,,,No,No
+OS17,Halimeda Shoal,-11.51,125.28,Open,WA,,,,,No,No
+GBR200,Fitzroy Island,-16.93,145.99,Open,GBR,,,,,No,No
+GBR213,Hastings Reef,-16.53,145.99,Open,GBR,,,,,No,No
+GBR216,Norman Reef Pontoon,-16.43,145.99,Open,GBR,,,,,No,No
+GBR210,Michaelmis Cay,-16.6,145.97,Open,GBR,,,,,No,No
+GBR204,Petaj Bommie Milln Reef,-16.79,146.27,Open,GBR,,,,,No,No
+GBR201,Moore Reef,-16.89,146.19,Open,GBR,,,,,No,No
+GBR206,Whale Bommie Milln Reef,-16.78,146.27,Open,GBR,,,,,No,No
+GBR209,Traceys Bommie Flynn Reef,-16.73,146.27,Open,GBR,,,,,No,No
+GBR192,Russell Island,-17.23,146.09,Open,GBR,,,,,No,No
+GBR195,Normandy Island,-17.2,146.08,Open,GBR,,,,,No,No
+GBR193,Russell Island Outside,-17.23,146.1,Open,GBR,,,,,No,No
+GBR194,Round Island,-17.22,146.09,Open,GBR,,,,,No,No
+GBR207,Tennis Court Flynn Reef,-16.73,146.27,Open,GBR,,,,,No,No
+GBR205,Swimming Pool Milln Reef,-16.79,146.27,Open,GBR,,,,,No,No
+GBR208,Gordons Mooring Flynn Reef,-16.73,146.27,Open,GBR,,,,,No,No
+GBR217,Agincourt Reef - The Gap,-15.98,145.83,Open,GBR,,,,,No,No
+GBR219,Agincourt Reef - Three Sisters,-15.96,145.8,Open,GBR,,,,,No,No
+GBR218,Agincourt Reef - The Point,-15.97,145.82,Open,GBR,,,,,No,No
+GBR188,Dunk Is NE,-17.94,146.16,Open,GBR,,,,,No,No
+GBR228,Watsons Bay north,-14.66,145.45,Open,GBR,,,,,No,No
+GBR225,Vickys Reef,-14.69,145.44,Open,GBR,,,,,No,No
+GBR223,Blue Lagoon Channel,-14.69,145.47,Open,GBR,,,,,No,No
+GBR226,Loomis Reef,-14.68,145.47,Open,GBR,,,,,No,No
+GBR233,Mermaid Cove dropoff,-14.65,145.46,Open,GBR,,,,,No,No
+GBR227,Osprey Island,-14.67,145.44,Open,GBR,,,,,No,No
+GBR222,Palfrey Island,-14.69,145.44,Open,GBR,,,,,No,No
+GBR230,Turtle Beach,-14.65,145.45,Open,GBR,,,,,No,No
+GBR232,Mermaid Cove north,-14.65,145.45,Open,GBR,,,,,No,No
+GBR220,Blue Hole,-14.69,145.46,Open,GBR,,,,,No,No
+GBR229,Watsons-Turtle Reef,-14.66,145.45,Open,GBR,,,,,No,No
+GBR224,Horseshoe Reef,-14.69,145.44,Open,GBR,,,,,No,No
+GBR234,Mermaid dropoff north,-14.65,145.45,Open,GBR,,,,,No,No
+GBR231,Cobia Hole,-14.65,145.45,Open,GBR,,,,,No,No
+GBR221,Bird Islets,-14.69,145.47,Open,GBR,,,,,No,No
+GBR182,Brook Is NE,-18.14,146.28,Open,GBR,,,,,No,No
+GBR189,Mooring Bommie,-17.77,146.45,Open,GBR,,,,,No,No
+GBR183,Hudson Is,-18.05,146.2,Open,GBR,,,,,No,No
+GBR187,Smith Is,-18.04,146.2,Open,GBR,,,,,No,No
+GBR184,Smith Is SW,-18.04,146.2,Open,GBR,,,,,No,No
+GBR186,Coombe Is,-18.04,146.18,Open,GBR,,,,,No,No
+GBR185,Coombe Is East,-18.04,146.18,Open,GBR,,,,,No,No
+GBR150,Horseshoe Bay,-19.98,148.26,Open,GBR,,,,,No,No
+GBR146,Alcyonaria Point,-20.06,148.92,Open,GBR,,,,,No,No
+GBR147,East Hayman Island,-20.05,148.9,Open,GBR,,,,,No,No
+GBR143,Stonehaven Nth,-20.09,148.91,Open,GBR,,,,,No,No
+GBR144,Langford island,-20.08,148.88,Open,GBR,,,,,No,No
+GBR148,Blue Pearl Bay,-20.04,148.88,Open,GBR,,,,,No,No
+GBR142,Cataren Bay,-20.16,149.04,Open,GBR,,,,,No,No
+GBR162,Chicken Reef NW,-18.65,147.71,Open,GBR,,,,,No,No
+GBR168,Bowl Reef S,-18.54,147.53,Open,GBR,,,,,No,No
+GBR177,Inner Dip,-18.41,147.45,Open,GBR,,,,,No,No
+GBR178,Dip Reef NE,-18.4,147.45,Open,GBR,,,,,No,No
+GBR179,Myrmidon Reef,-18.27,147.38,Open,GBR,,,,,No,No
+GBR180,Myrmidon Lagoon,-18.27,147.38,Open,GBR,,,,,No,No
+GBR181,Myrmidon Wall,-18.26,147.38,Open,GBR,,,,,No,No
+GBR163,Grub Reef SW,-18.65,147.4,Open,GBR,,,,,No,No
+GBR156,Davies Reef,-18.83,147.63,Open,GBR,,,,,No,No
+GBR159,Lynch's Reef,-18.73,147.72,Open,GBR,,,,,No,No
+GBR161,Chicken Reef,-18.66,147.7,Open,GBR,,,,,No,No
+GBR160,Chicken Reef East,-18.66,147.72,Open,GBR,,,,,No,No
+GBR164,Grub Reef,-18.65,147.4,Open,GBR,,,,,No,No
+CS1,Long Reef West,-19.3,152.24,Open,GBR,,,,,No,No
+CS2,Brodie Cay NW,-19.28,152.21,Open,GBR,,,,,No,No
+CS3,Brodie Cay SE,-19.28,152.22,Open,GBR,,,,,No,No
+CS4,Paget Cay Bommie,-19.23,152.33,Open,GBR,,,,,No,No
+CS6,Paget Cay South,-19.26,152.34,Open,GBR,,,,,No,No
+CS7,Weather Station Inner Reef,-19.13,152.39,Open,GBR,,,,,No,No
+CS10,NE Herald Cay SW,-16.95,149.18,Open,GBR,,,,,No,No
+CS11,NE Herald Cay Central,-16.94,149.2,Open,GBR,,,,,No,No
+CS12,NE Herald Bommie,-16.93,149.19,Open,GBR,,,,,No,No
+CS13,NE Herald Back Reef,-16.93,149.2,Open,GBR,,,,,No,No
+CS14,Chilcott South,-16.94,149.99,Open,GBR,,,,,No,No
+CS15,Chilcott Bommie,-16.92,150.01,Open,GBR,,,,,No,No
+CS16,Chilcott NE,-16.92,150.01,Open,GBR,,,,,No,No
+CS17,SW South West Islet,-16.97,149.9,Open,GBR,,,,,No,No
+CS18,South West Islet Bommie,-16.96,149.91,Open,GBR,,,,,No,No
+CS8,Carola Cay,-19.1,152.39,Open,GBR,,,,,No,No
+CS5,Paget Cay South East,-19.25,152.35,Open,GBR,,,,,No,No
+CS9,NE Herald Cay NE,-16.92,149.2,Open,GBR,,,,,No,No
+VAN1,Tranquility Reef,-17.56,168.23,Open,GBR,,,,,No,No
+CS29,Shag Rock,-22.17,155.48,Open,GBR,,,,,No,No
+CS30,Booby Rock,-22.17,155.47,Open,GBR,,,,,No,No
+CS31,Bird Lagoon,-22.18,155.47,Open,GBR,,,,,No,No
+CS32,Bird Reef Hole,-22.17,155.48,Open,GBR,,,,,No,No
+CS33,Bird North Bommie,-22.16,155.45,Open,GBR,,,,,No,No
+CS34,Bird Inner West,-22.17,155.45,Open,GBR,,,,,No,No
+CS35,Bird NW Bommie,-22.17,155.45,Open,GBR,,,,,No,No
+CS36,Porpoise North,-22.19,155.36,Open,GBR,,,,,No,No
+CS37,Porpoise NE,-22.19,155.37,Open,GBR,,,,,No,No
+CS38,Porpoise Anchorage,-22.19,155.36,Open,GBR,,,,,No,No
+CS39,Porpoise Lagoon,-22.19,155.36,Open,GBR,,,,,No,No
+CS46,Saumarez SW Islet,-21.85,153.52,Open,GBR,,,,,No,No
+CS47,Saumarez egg seasnake,-21.9,153.54,Open,GBR,,,,,No,No
+CS48,Saumarez SW reef cay,-21.9,153.54,Open,GBR,,,,,No,No
+CS50,Saumarez SW,-21.92,153.58,Open,GBR,,,,,No,No
+CS40,Wreck Reef NE,-22.2,155.3,Open,GBR,,,,,No,No
+CS51,Saumarez stripe seasnake,-21.92,153.59,Open,GBR,,,,,No,No
+CS52,Kenn Reef anchorage bommie,-21.26,155.75,Open,GBR,,,,,No,No
+CS53,Kenn Break,-21.26,155.76,Open,GBR,,,,,No,No
+CS54,Kenn Reef bommie,-21.25,155.76,Open,GBR,,,,,No,No
+CS55,Kenn Labyrinth,-21.25,155.76,Open,GBR,,,,,No,No
+CS56,Kenn Reef rubble,-21.25,155.76,Open,GBR,,,,,No,No
+CS57,Kenn Cave,-21.25,155.76,Open,GBR,,,,,No,No
+CS58,Kenn Reef North Cay bommie,-21.2,155.77,Open,GBR,,,,,No,No
+CS41,Wreck North,-22.2,155.29,Open,GBR,,,,,No,No
+CS59,Kenn Twin Bommies,-21.2,155.77,Open,GBR,,,,,No,No
+CS60,Kenn Reef North Cay,-21.2,155.77,Open,GBR,,,,,No,No
+CS42,Hilton Pool,-22.19,155.18,Open,GBR,,,,,No,No
+CS43,West Islet Passage,-22.19,155.17,Open,GBR,,,,,No,No
+CS44,NW Wreck Reef,-22.18,155.16,Open,GBR,,,,,No,No
+CS66,Frederick Split Rocks,-21.01,154.39,Open,GBR,,,,,No,No
+CS67,Frederick Bosom,-21.01,154.38,Open,GBR,,,,,No,No
+CS45,North Wreck Reef,-22.18,155.18,Open,GBR,,,,,No,No
+CS68,Frederick Ridge Rock,-20.98,154.35,Open,GBR,,,,,No,No
+CS69,Fredrick Reef SW,-20.99,154.35,Open,GBR,,,,,No,No
+CS70,Frederick Leo,-21,154.36,Open,GBR,,,,,No,No
+CS71,Quay West Bommie,-21.02,154.37,Open,GBR,,,,,No,No
+CS61,Kenn Reef Pipeline,-21.21,155.77,Open,GBR,,,,,No,No
+CS72,Fredrick Observatory Cay,-21.02,154.37,Open,GBR,,,,,No,No
+CS73,North Fredrick Bommie,-20.94,154.4,Open,GBR,,,,,No,No
+CS74,Frederick Lighthouse,-20.94,154.4,Open,GBR,,,,,No,No
+CS79,Mellish SW,-17.43,155.85,Open,GBR,,,,,No,No
+CS80,Mellish Grouper Cave,-17.42,155.86,Open,GBR,,,,,No,No
+CS62,Fredrick Reef north bommie,-20.98,154.39,Open,GBR,,,,,No,No
+CS81,Mellish lagoon entrance,-17.41,155.86,Open,GBR,,,,,No,No
+CS82,Mellish Crossroads Bommie,-17.41,155.86,Open,GBR,,,,,No,No
+CS83,Mellish lagoon east,-17.39,155.88,Open,GBR,,,,,No,No
+CS84,Mellish overflow,-17.39,155.86,Open,GBR,,,,,No,No
+CS85,Mellish Drainholes,-17.39,155.86,Open,GBR,,,,,No,No
+CS63,Frederick Passage,-21,154.39,Open,GBR,,,,,No,No
+CS86,Mellish Grassland,-17.39,155.86,Open,GBR,,,,,No,No
+CS87,Mellish bommie,-17.39,155.86,Open,GBR,,,,,No,No
+CS88,Mellish NW Dungeons,-17.38,155.85,Open,GBR,,,,,No,No
+CS75,Mellish Herald Beacon Cay East,-17.4,155.86,Open,GBR,,,,,No,No
+CS76,Mellish Lion Rock,-17.4,155.87,Open,GBR,,,,,No,No
+CS64,Fredrick Central Bommie,-21,154.39,Open,GBR,,,,,No,No
+CS77,Mellish dropoff,-17.42,155.85,Open,GBR,,,,,No,No
+CS78,Mellish Wall,-17.42,155.85,Open,GBR,,,,,No,No
+CS89,Lihou Cay bommie,-17.11,152.08,Open,GBR,,,,,No,No
+CS90,Lihou Shark Wall,-17.12,152.07,Open,GBR,,,,,No,No
+CS65,Fredrick central reef,-21.01,154.39,Open,GBR,,,,,No,No
+CS92,Lihou Staircase,-17.13,152.08,Open,GBR,,,,,No,No
+CS93,Lihou Gardens,-17.13,152.08,Open,GBR,,,,,No,No
+CS94,Lihou Turtle Islet,-17.12,152,Open,GBR,,,,,No,No
+CS170,Lihou Turtle Islet SW,-17.12,152,Open,GBR,,,,,No,No
+CS95,Turtle Marathon,-17.12,152,Open,GBR,,,,,No,No
+CS96,Lihou outer bank,-17.11,151.96,Open,GBR,,,,,No,No
+CS97,Lihou Flatlands,-17.11,151.96,Open,GBR,,,,,No,No
+CS98,Lihou Kingy,-17.11,151.84,Open,GBR,,,,,No,No
+CS99,Lihou Ribbon Cay,-17.11,151.84,Open,GBR,,,,,No,No
+CS105,Central Diamond Islet,-17.45,150.95,Open,GBR,,,,,No,No
+CS106,Central Diamond Islet Bald Bommie,-17.45,150.95,Open,GBR,,,,,No,No
+CS107,South Diamond Islet,-17.66,150.82,Open,GBR,,,,,No,No
+CS100,Lihou west,-17.36,151.53,Open,GBR,,,,,No,No
+CS108,South Dimond Milky,-17.66,150.83,Open,GBR,,,,,No,No
+CS91,Lihou North east,-17.12,152.07,Open,GBR,,,,,No,No
+CS111,Tregrosse Outlier Reef,-17.71,150.73,Open,GBR,,,,,No,No
+CS112,Tregrosse Reef Cricket Pitch,-17.77,150.63,Open,GBR,,,,,No,No
+CS113,Tregosse Reef,-17.77,150.63,Open,GBR,,,,,No,No
+CS101,Diamond Cay Islet,-17.41,151.07,Open,GBR,,,,,No,No
+CS114,Tregrosse Abundance,-17.77,150.63,Open,GBR,,,,,No,No
+CS104,East Diamond Islet Tower,-17.43,151.07,Open,GBR,,,,,No,No
+CS116,Abington Reef Dark Gutter,-18.07,149.61,Open,GBR,,,,,No,No
+CS117,Abington Reef central,-18.07,149.61,Open,GBR,,,,,No,No
+CS118,Abington Reef Passage,-18.07,149.61,Open,GBR,,,,,No,No
+CS109,South Diamond Islet Swim Through,-17.66,150.82,Open,GBR,,,,,No,No
+CS102,East Diamond Islet NW,-17.42,151.07,Open,GBR,,,,,No,No
+CS110,Tregrosse Outlier Reef Down,-17.71,150.74,Open,GBR,,,,,No,No
+CS124,Flinders Reef Bommie,-17.83,148.5,Open,GBR,,,,,No,No
+CS125,Flinders S Cay Bommie,-17.71,148.44,Open,GBR,,,,,No,No
+CS126,Flinders Ribbon Reef South Cay,-17.72,148.44,Open,GBR,,,,,No,No
+CS127,Flinders Ribbon Reef South Cay SW,-17.72,148.44,Open,GBR,,,,,No,No
+CS128,Flinders Cay Storm Bommie,-17.71,148.46,Open,GBR,,,,,No,No
+CS103,East Diamond Islet lagoon,-17.44,151.07,Open,GBR,,,,,No,No
+CS129,Flinders Ribbon Reef South Cay E bommie,-17.7,148.46,Open,GBR,,,,,No,No
+CS130,Chilcott Islet bommie,-16.93,150,Open,GBR,,,,,No,No
+CS119,Abington Reef SW point,-18.07,149.62,Open,GBR,,,,,No,No
+CS120,Flinders Reef Entrance,-17.86,148.47,Open,GBR,,,,,No,No
+CS121,South Flinders Horseshoe SW,-17.86,148.47,Open,GBR,,,,,No,No
+CS122,South Flinders Horseshoe centre,-17.88,148.51,Open,GBR,,,,,No,No
+CS123,South Flinders Horseshoe NW,-17.83,148.51,Open,GBR,,,,,No,No
+CS131,Chilcott Islet Haven,-16.93,150,Open,GBR,,,,,No,No
+CS132,Chilcott Islet SW inner reef,-16.93,149.99,Open,GBR,,,,,No,No
+CS136,Magdelaine Islet South,-16.61,150.33,Open,GBR,,,,,No,No
+CS133,Chilcott Islet SW outer reef,-16.93,149.99,Open,GBR,,,,,No,No
+CS137,Magdelaine Islet point,-16.6,150.33,Open,GBR,,,,,No,No
+CS134,Chilcott Islet inshore reef,-16.94,150,Open,GBR,,,,,No,No
+CS142,South Willis Islet bommie,-16.3,149.96,Open,GBR,,,,,No,No
+CS143,South Willis islet south,-16.3,149.96,Open,GBR,,,,,No,No
+CS144,Willis Islet Dark Wall,-16.29,149.96,Open,GBR,,,,,No,No
+CS138,Magdelaine Islet inner reef north,-16.6,150.34,Open,GBR,,,,,No,No
+CS145,South Willis islet anchorage bommie,-16.29,149.96,Open,GBR,,,,,No,No
+CS146,Holmes South Cay Inner Reef,-16.5,147.84,Open,GBR,,,,,No,No
+CS139,Magdelaine Cay SW,-16.53,150.27,Open,GBR,,,,,No,No
+CS135,Magdelaine Cays Rip Bommie,-16.59,150.33,Open,GBR,,,,,No,No
+CS148,Holmes South Cay South Reef,-16.51,147.84,Open,GBR,,,,,No,No
+CS149,Holmes South Cay South Inner Reef,-16.5,147.84,Open,GBR,,,,,No,No
+CS150,Holmes Reef South Cay Swim through,-16.49,147.85,Open,GBR,,,,,No,No
+CS140,Magdelaine Cay gulch,-16.53,150.27,Open,GBR,,,,,No,No
+CS151,Holmes N Cay anchorage,-16.48,147.87,Open,GBR,,,,,No,No
+CS152,Holmes N Cay bommie,-16.47,147.86,Open,GBR,,,,,No,No
+GBR265,Swains SE,-22.37,152.55,Open,GBR,,,,,No,No
+CS141,Magdelaine Reef Cruise Ship,-16.52,150.28,Open,GBR,,,,,No,No
+GBR153,Yongala wreck,-19.3,147.63,Open,GBR,,,,,No,No
+CS147,Holmes Reef Cay Buoy Wall,-16.51,147.84,Open,GBR,,,,,No,No
+CS155,Osprey Pass South,-13.89,146.55,Open,GBR,,,,,No,No
+GBR236,"Iris Reef, Stainer Island",-13.96,143.84,Open,GBR,,,,,No,No
+GBR235,"Iris Reef Beacon, Stainer Island",-13.96,143.84,Open,GBR,,,,,No,No
+CS159,Osprey Admiralties,-13.85,146.57,Open,GBR,,,,,No,No
+GBR237,Eel Reef North,-12.4,143.37,Open,GBR,,,,,No,No
+GBR238,Moody Reef W,-12.1,143.26,Open,GBR,,,,,No,No
+GBR240,Moody Reef Beacon SW,-12.09,143.26,Open,GBR,,,,,No,No
+CS154,Inside Osprey NE,-13.85,146.63,Open,GBR,,,,,No,No
+CS156,Osprey Pass,-13.88,146.56,Open,GBR,,,,,No,No
+CS157,Osprey Pass Channel,-13.9,146.56,Open,GBR,,,,,No,No
+CS158,Osprey Castle,-13.87,146.58,Open,GBR,,,,,No,No
+CS153,Inner Osprey East,-13.86,146.62,Open,GBR,,,,,No,No
+GBR239,Moody Reef NW,-12.09,143.25,Open,GBR,,,,,No,No
+GBR241,Moody Reef NW2,-12.08,143.25,Open,GBR,,,,,No,No
+GBR23,Pine Island1,-20.38,148.89,Open,GBR,,,,,No,No
+GBR24,Hook Reef Passage,-19.81,149.13,Open,GBR,,,,,No,No
+GBR25,Hook Reef1,-19.81,149.14,Open,GBR,,,,,No,No
+GBR26,Bait Reef1,-19.79,149.07,Open,GBR,,,,,No,No
+GBR27,Bait Reef2,-19.8,149.08,Open,GBR,,,,,No,No
+GBR28,Pelorus and Orpheus Islands West1,-18.57,146.48,Open,GBR,,,,,No,No
+GBR29,Adelaide Reef,-17.66,146.46,Open,GBR,,,,,No,No
+GBR30,Nathan Reef Bommie1,-17.52,146.5,Open,GBR,,,,,No,No
+GBR31,Nathan Reef Bommie2,-17.52,146.5,Open,GBR,,,,,No,No
+GBR32,Nathan Reef,-17.52,146.5,Open,GBR,,,,,No,No
+GBR34,Fitzroy Island West 1 AIMS,-16.92,146,Open,GBR,,,,,No,No
+GBR39,Cod Hole,-14.66,145.66,Open,GBR,,,,,No,No
+CS178,Osprey South reef flat,-13.99,146.69,Open,GBR,,,,,No,No
+CS179,Osprey south bommie,-13.98,146.68,Open,GBR,,,,,No,No
+CS175,Bougainville Reef point,-15.49,147.09,Open,GBR,,,,,No,No
+CS176,Bougainville Reef inlet,-15.48,147.1,Open,GBR,,,,,No,No
+GBR36,Egmont Reef,-16.52,145.54,Open,GBR,,,,,No,No
+CS182,Osprey Lagoon entrance bommie,-13.89,146.57,Open,GBR,,,,,No,No
+GBR41,Tydeman Cay anchorage,-13.98,144.5,Open,GBR,,,,,No,No
+GBR40,Tydeman Reef North West,-13.97,144.5,Open,GBR,,,,,No,No
+CS184,Osprey Reef North Horn,-13.8,146.55,Open,GBR,,,,,No,No
+GBR43,Wilson Reef SW,-13.96,144.38,Open,GBR,,,,,No,No
+GBR33,Fitzroy Island Anchorage,-16.93,145.98,Open,GBR,,,,,No,No
+GBR35,Fitzroy Island West 2 AIMS,-16.92,146,Open,GBR,,,,,No,No
+CS171,Bougainville Reef southwest,-15.49,147.09,Open,GBR,,,,,No,No
+GBR37,Wentworth Reef,-16.52,145.53,Open,GBR,,,,,No,No
+CS174,Bougainville Reef Lagoon East,-15.48,147.11,Open,GBR,,,,,No,No
+CS177,Osprey Reef Lagoon South,-13.99,146.69,Open,GBR,,,,,No,No
+CS183,Osprey Lagoon Entrance NW Bommie,-13.89,146.57,Open,GBR,,,,,No,No
+CS180,Osprey S W Bommie,-13.97,146.67,Open,GBR,,,,,No,No
+GBR42,Tydeman Rf W,-13.98,144.5,Open,GBR,,,,,No,No
+CS181,Osprey S E Lagoon,-13.97,146.68,Open,GBR,,,,,No,No
+GBR44,Wilson Reef Lagoon,-13.96,144.39,Open,GBR,,,,,No,No
+GBR45,Forbes Island west boulders,-12.29,143.4,Open,GBR,,,,,No,No
+GBR46,Forbes Island NE,-12.28,143.41,Open,GBR,,,,,No,No
+GBR47,Forbes Island bommie,-12.28,143.41,Open,GBR,,,,,No,No
+CS172,Bougainville Reef W central,-15.48,147.1,Open,GBR,,,,,No,No
+CS186,Ashmore South bommie,-10.43,144.45,Open,GBR,,,,,No,No
+CS187,Ashmore South lagoon shore,-10.44,144.45,Open,GBR,,,,,No,No
+CS190,Ashmore Reef lagoon east entrance,-10.3,144.52,Open,GBR,,,,,No,No
+CS194,Boot Reef lagoon bommie,-10.03,144.7,Open,GBR,,,,,No,No
+CS192,Ashmore reef SW anchorage,-10.38,144.53,Open,GBR,,,,,No,No
+CS173,Bougainville Reef lagoon,-15.49,147.11,Open,GBR,,,,,No,No
+CS195,Ashmore North East Entrance,-10.22,144.6,Open,GBR,,,,,No,No
+CS196,Ashmore NE entrance bommie,-10.22,144.59,Open,GBR,,,,,No,No
+TS6,Yule Passage,-10.38,143.93,Open,GBR,,,,,No,No
+TS7,Seven Reefs east,-10.29,143.72,Open,GBR,,,,,No,No
+CS199,Ashmore NW Wall,-10.14,144.44,Open,GBR,,,,,No,No
+CS200,Ashmore Reef NW slope,-10.12,144.46,Open,GBR,,,,,No,No
+CS201,Ashmore Reef NNW point,-10.08,144.47,Open,GBR,,,,,No,No
+CS185,Ashmore reef lagoon South,-10.45,144.45,Open,GBR,,,,,No,No
+GBR48,Forbes Island Bommie West,-12.28,143.4,Open,GBR,,,,,No,No
+GBR49,Forbes Island Isthmus Rf,-12.29,143.4,Open,GBR,,,,,No,No
+CS188,Ashmore Rf Lagoon Bommie SW,-10.44,144.43,Open,GBR,,,,,No,No
+CS189,Ashmore Rf Lagoon SW,-10.45,144.43,Open,GBR,,,,,No,No
+CS191,Ashmore Rf Lagoon East Bommie,-10.37,144.53,Open,GBR,,,,,No,No
+CS193,Boot Rf Wall,-10.04,144.69,Open,GBR,,,,,No,No
+CS197,Ashmore NE Bommie,-10.23,144.59,Open,GBR,,,,,No,No
+CS198,Ashmore NE Lagoon,-10.23,144.59,Open,GBR,,,,,No,No
+TS8,Seven Reefs Anchorage,-10.29,143.71,Open,GBR,,,,,No,No
+TS9,Nagir Islet W,-10.25,142.47,Open,GBR,,,,,No,No
+TS10,Nagir Islet NW,-10.25,142.48,Open,GBR,,,,,No,No
+TS27,Mourilyan Reef,-9.79,142.63,Open,GBR,,,,,No,No
+TS23,Bourke Islet W,-9.88,143.48,Open,GBR,,,,,No,No
+TS24,Bourke Islet NW,-9.88,143.49,Open,GBR,,,,,No,No
+TS25,Hannah Banks SW,-9.86,143.59,Open,GBR,,,,,No,No
+TS26,Hannah Bank E,-9.86,143.6,Open,GBR,,,,,No,No
+CS202,Ashmore Reef NW,-10.07,144.52,Open,GBR,,,,,No,No
+CS203,Boot Rock W,-10.11,144.68,Open,GBR,,,,,No,No
+CS204,Boot Rock NW,-10.11,144.69,Open,GBR,,,,,No,No
+CS205,Boot Reef NW Point,-9.99,144.68,Open,GBR,,,,,No,No
+CS206,Boot Reef Birds,-9.97,144.69,Open,GBR,,,,,No,No
+CS207,Boot Reef Longiceps Point,-9.97,144.69,Open,GBR,,,,,No,No
+CS208,Boot Reef Lagoon E,-9.99,144.69,Open,GBR,,,,,No,No
+CS209,Boot Reef Lagoon W,-9.97,144.69,Open,GBR,,,,,No,No
+CS210,Boot Reef South Point,-10.04,144.69,Open,GBR,,,,,No,No
+CS211,Kate's Garden,-10.14,144.58,Open,GBR,,,,,No,No
+CS212,Ashmore Reef NE bommy,-10.15,144.57,Open,GBR,,,,,No,No
+CS213,Ashmore Reef NE passage,-10.15,144.58,Open,GBR,,,,,No,No
+CS214,Gnathodentex Gulch,-10.14,144.57,Open,GBR,,,,,No,No
+CS215,Genicanthus Reef,-10.23,144.41,Open,GBR,,,,,No,No
+CS216,Genicanthus Reef NE,-10.23,144.41,Open,GBR,,,,,No,No
+CS217,Naso Rock,-10.24,144.41,Open,GBR,,,,,No,No
+CS218,Ctenochaetus Reef,-10.19,144.41,Open,GBR,,,,,No,No
+TS20,Murray Channel,-9.96,144.15,Open,GBR,,,,,No,No
+TS18,Mer Passage,-9.96,144.15,Open,GBR,,,,,No,No
+TS19,Mer Slope,-9.96,144.16,Open,GBR,,,,,No,No
+TS17,Mer Outer Reef,-9.97,144.15,Open,GBR,,,,,No,No
+TS21,Waier Island,-9.95,144.03,Open,GBR,,,,,No,No
+TS22,Dowar Island SW,-9.94,144.02,Open,GBR,,,,,No,No
+TS16,Maze Lagoon Bommy,-10.06,143.84,Open,GBR,,,,,No,No
+TS15,Maze Lagoon Reef,-10.06,143.84,Open,GBR,,,,,No,No
+TS14,Round Maze,-10.06,143.88,Open,GBR,,,,,No,No
+TS5,Dugong Island Anchorage,-10.52,143.09,Open,GBR,,,,,No,No
+TS4,Dugong Island,-10.52,143.09,Open,GBR,,,,,No,No
+TS12,The Maze Channel,-10.07,143.87,Open,GBR,,,,,No,No
+TS11,The Maze Anchorage,-10.07,143.88,Open,GBR,,,,,No,No
+TS13,Morning Maze,-10.07,143.87,Open,GBR,,,,,No,No
+GBR76,Bait Reef inner buoy,-19.81,149.07,Open,GBR,,,,,No,No
+CS221,Marion Reef NE Bommie,-18.99,152.34,Open,GBR,,,,,No,No
+CS219,Paget Cay Far North,-19.24,152.36,Open,GBR,,,,,No,No
+CS220,Marion NE Entrance,-18.99,152.35,Open,GBR,,,,,No,No
+GBR145,Butterfly Bay,-20.07,148.93,Open,GBR,,,,,No,No
+GBR72,Low Isles 3,-16.39,145.57,Open,GBR,,,,,No,No
+GBR78,Chinamans Reef,-16.21,145.79,Open,GBR,,,,,No,No
+GBR71,Low Isles 2,-16.39,145.57,Open,GBR,,,,,No,No
+GBR77,Chinamans Reef NW,-16.21,145.78,Open,GBR,,,,,No,No
+GBR79,Burke Reef 2,-12.63,143.58,Open,GBR,,,,,No,No
+GBR58,Burke Reef,-12.63,143.58,Open,GBR,,,,,No,No
+GBR56,Lagoon Reef Outer NW,-12.38,143.76,Open,GBR,,,,,No,No
+GBR55,Lagoon Reef Inner NW,-12.38,143.76,Open,GBR,,,,,No,No
+GBR57,Lagoon Reef Inner E,-12.38,143.77,Open,GBR,,,,,No,No
+GBR157,Davies Reef 3,-18.82,147.67,Open,GBR,,,,,No,No
+GBR62,Crocodile Bommie,-13.82,144.28,Open,GBR,,,,,No,No
+GBR94,Swains SE new,-22.37,152.54,Open,GBR,,,,,No,No
+GBR53,Salamander Reef,-11.77,143.65,Open,GBR,,,,,No,No
+GBR54,Two Hour Reef,-12.16,143.65,Open,GBR,,,,,No,No
+GBR59,Shark Reef,-12.87,143.82,Open,GBR,,,,,No,No
+GBR60,Shark Reef Gardens,-12.88,143.82,Open,GBR,,,,,No,No
+GBR63,Surprise Reef,-14,144.68,Open,GBR,,,,,No,No
+GBR64,Surprise Reef Paradise,-13.99,144.68,Open,GBR,,,,,No,No
+GBR66,Day Reef Outer,-14.49,145.55,Open,GBR,,,,,No,No
+GBR65,Surprise Reef Rubble,-14.01,144.71,Open,GBR,,,,,No,No
+GBR61,Cat Reef Bommie,-12,143.84,Open,GBR,,,,,No,No
+GBR70,Low Isles 1,-16.38,145.57,Open,GBR,,,,,No,No
+GBR67,Day Reef Inner,-14.52,145.53,Open,GBR,,,,,No,No
+GBR73,Michaelmas Reef 1,-16.55,146.05,Open,GBR,,,,,No,No
+GBR74,Michaelmas Reef 2,-16.55,146.05,Open,GBR,,,,,No,No
+GBR75,Michaelmas Reef 3,-16.56,146.06,Open,GBR,,,,,No,No
+GBR215,Green Island Reef 3,-16.77,145.97,Open,GBR,,,,,No,No
+GBR214,Green Island Reef 2,-16.77,145.98,Open,GBR,,,,,No,No
+GBR202,Moore Reef 2,-16.87,146.24,Open,GBR,,,,,No,No
+GBR203,Moore Reef 3,-16.85,146.24,Open,GBR,,,,,No,No
+GBR198,High Island West 1,-17.16,146.01,Open,GBR,,,,,No,No
+GBR197,High Island West 2,-17.16,146.01,Open,GBR,,,,,No,No
+GBR196,High Island East 2,-17.16,146.01,Open,GBR,,,,,No,No
+GBR68,North Direction Reef 1,-14.74,145.52,Open,GBR,,,,,No,No
+GBR199,High Island East 1,-17.16,146.01,Open,GBR,,,,,No,No
+GBR190,Peart reef 3,-17.47,146.41,Open,GBR,,,,,No,No
+GBR191,Peart Reef 2,-17.47,146.41,Open,GBR,,,,,No,No
+GBR169,Rib Reef 3,-18.48,146.88,Open,GBR,,,,,No,No
+GBR172,Rib Reef 1,-18.47,146.88,Open,GBR,,,,,No,No
+GBR176,Roxburgh Reef 1,-18.43,147.06,Open,GBR,,,,,No,No
+GBR175,Roxburg Reef 3,-18.44,147.06,Open,GBR,,,,,No,No
+GBR69,North Direction Reef 2,-14.75,145.52,Open,GBR,,,,,No,No
+GBR155,Havannah Island 2,-18.85,146.54,Open,GBR,,,,,No,No
+GBR154,Havannah Island 1,-18.85,146.54,Open,GBR,,,,,No,No
+GBR165,John Brewer Reef 3,-18.63,147.08,Open,GBR,,,,,No,No
+GBR166,John Brewer Reef 2,-18.62,147.08,Open,GBR,,,,,No,No
+GBR170,Fore and Aft Reef 3,-18.48,147.06,Open,GBR,,,,,No,No
+GBR171,Fore and Aft Reef 2,-18.47,147.06,Open,GBR,,,,,No,No
+GBR174,Little Kelso Reef 2,-18.46,147,Open,GBR,,,,,No,No
+GBR173,Little Kelso Reef 3,-18.46,147,Open,GBR,,,,,No,No
+GBR167,Grub Reef 3,-18.62,147.44,Open,GBR,,,,,No,No
+GBR158,Davies Reef 2,-18.81,147.67,Open,GBR,,,,,No,No
+GBR149,AIMS-20104S1,-20.03,149.7,Open,GBR,,,,,No,No
+GBR151,AIMS-19138S3,-19.81,149.42,Open,GBR,,,,,No,No
+GBR152,AIMS-19131S1,-19.77,149.38,Open,GBR,,,,,No,No
+GBR80,Womer Cay,-10.79,142.97,Open,GBR,,,,,No,No
+GBR82,Sinclair Is Sth,-11.12,143.02,Open,GBR,,,,,No,No
+GBR83,Sinclair Lagoon,-11.11,143.02,Open,GBR,,,,,No,No
+GBR85,Collette Reef,-11.23,143.36,Open,GBR,,,,,No,No
+GBR87,Pandora Passage,-11.37,143.99,Open,GBR,,,,,No,No
+GBR88,Boxing Day test,-11.49,143.85,Open,GBR,,,,,No,No
+GBR90,Salamander Reef Nth,-11.76,143.65,Open,GBR,,,,,No,No
+GBR91,Distant Garden,-11.98,143.65,Open,GBR,,,,,No,No
+GBR92,Garden of Eden,-12.16,143.65,Open,GBR,,,,,No,No
+GBR93,Forbes Island SE,-12.3,143.42,Open,GBR,,,,,No,No
+GBR95,Reticulatus Reef,-13.18,143.84,Open,GBR,,,,,No,No
+GBR89,Boxing Day Reef,-11.49,143.85,Open,GBR,,,,,No,No
+GBR97,Eel Reef NW,-12.4,143.37,Open,GBR,,,,,No,No
+GBR81,Womer Cay anchorage,-10.79,142.97,Open,GBR,,,,,No,No
+GBR84,Sinclair Islet West,-11.11,143.02,Open,GBR,,,,,No,No
+GBR96,Day Reef Bommie,-14.51,145.52,Open,GBR,,,,,No,No
+GBR86,Collette Reef anchorage,-11.23,143.35,Open,GBR,,,,,No,No
+CS222,Abington Reef Anchorage,-18.09,149.63,Open,GBR,,,,,No,No
+CS223,Abington Reef Hole,-18.09,149.63,Open,GBR,,,,,No,No
+CS224,Tregosse Reef Booby,-17.78,150.64,Open,GBR,,,,,No,No
+CS225,Magdelaine Vista del Mar,-16.53,150.28,Open,GBR,,,,,No,No
+GBR211,Michaelmas Cay North Anchorage,-16.55,146.04,Open,GBR,,,,,No,No
+GBR212,Michaelmas Cay Sunny Outlook,-16.55,146.04,Open,GBR,,,,,No,No
+CS226,Holmes Reef South,-16.55,147.82,Open,GBR,,,,,No,No
+CS227,NE Herald Cay E,-16.94,149.21,Open,GBR,,,,,No,No
+CS228,Chilcott Islet South,-16.94,150,Open,GBR,,,,,No,No
+CS229,Chilcott Islet South Bommies,-16.94,150,Open,GBR,,,,,No,No
+GBR100,Keeper Reef NW,-18.73,147.27,Open,GBR,,,,,No,No
+CS230,Jen's Bommies,-17.14,152.13,Open,GBR,,,,,No,No
+CS231,Cyclone Bommies,-17.13,152.14,Open,GBR,,,,,No,No
+GBR99,Broadhurst Bommie,-18.87,147.71,Open,GBR,,,,,No,No
+GBR98,Broadhurst North,-18.87,147.71,Open,GBR,,,,,No,No
+GBR107,Goulds Reef SW Lagoon,-19.52,148.73,Open,GBR,,,,,No,No
+GBR102,Tobias Reef West,-19.1,148.28,Open,GBR,,,,,No,No
+GBR101,Tobias Reef Bommie,-19.1,148.28,Open,GBR,,,,,No,No
+GBR103,Faith Reef,-19.27,148.35,Open,GBR,,,,,No,No
+GBR105,Goulds Reef SW Point,-19.52,148.72,Open,GBR,,,,,No,No
+GBR106,Goulds Reef SW Wall,-19.52,148.72,Open,GBR,,,,,No,No
+GBR108,Middle Percy NW,-21.64,150.25,Open,GBR,,,,,No,No
+GBR104,Faith Sundowner,-19.27,148.34,Open,GBR,,,,,No,No
+GBR109,Middle Percy NW Notch,-21.62,150.25,Open,GBR,,,,,No,No
+GBR110,Middle Percy A Frame,-21.65,150.24,Open,GBR,,,,,No,No
+GBR111,21465 Reef Mid North,-21.79,151.87,Open,GBR,,,,,No,No
+GBR112,21465 Reef Mid North Inlet,-21.79,151.88,Open,GBR,,,,,No,No
+GBR113,Oval Reef,-21.84,152.33,Open,GBR,,,,,No,No
+GBR114,Pike Reef,-21.96,152.43,Open,GBR,,,,,No,No
+CS235,Lisa's Bommie,-17.47,151.61,Open,GBR,,,,,No,No
+GBR115,Bird Islets Crest,-14.69,145.46,Open,GBR,,,,,No,No
+GBR116,Loomis Reef Moorings,-14.68,145.45,Open,GBR,,,,,No,No
+GBR117,Round Reef anchorage,-19.97,149.62,Open,GBR,,,,,No,No
+GBR129,Little Stevens Reef,-20.57,150.03,Open,GBR,,,,,No,No
+GBR119,Goldsmith anchorage south,-20.69,149.14,Open,GBR,,,,,No,No
+GBR121,Linne Island,-20.68,149.18,Open,GBR,,,,,No,No
+GBR139,Black Reef East,-19.83,149.48,Open,GBR,,,,,No,No
+GBR140,Round Reef,-19.96,149.63,Open,GBR,,,,,No,No
+GBR118,Goldsmith anchorage,-20.68,149.14,Open,GBR,,,,,No,No
+GBR122,Pelican Island,-20.8,149.27,Open,GBR,,,,,No,No
+GBR124,Halichoeres Heaven,-20.81,149.25,Open,GBR,,,,,No,No
+GBR126,Connie Bay,-20.9,149.41,Open,GBR,,,,,No,No
+GBR123,Brampton Island SW,-20.8,149.26,Open,GBR,,,,,No,No
+GBR127,Keswick Passage,-20.92,149.42,Open,GBR,,,,,No,No
+GBR128,Little Stevens anchorage,-20.56,150.03,Open,GBR,,,,,No,No
+GBR130,Hydrographers Outer Reef,-20.26,150.49,Open,GBR,,,,,No,No
+GBR125,Keswick NW,-20.9,149.4,Open,GBR,,,,,No,No
+CS232,Paget Cay seaward lagoon,-19.26,152.35,Open,GBR,,,,,No,No
+CS233,Marion Central bommie,-19.18,152.27,Open,GBR,,,,,No,No
+GBR131,South Blue Pearl Bay,-20.05,148.88,Open,GBR,,,,,No,No
+GBR133,Dolphin Point,-20.04,148.88,Open,GBR,,,,,No,No
+CS234,Marion Centre Bommie Nth,-19.17,152.27,Open,GBR,,,,,No,No
+GBR132,Blue Pearl Bay central,-20.04,148.88,Open,GBR,,,,,No,No
+CS236,Coral Mountain,-17.37,151.54,Open,GBR,,,,,No,No
+GBR134,Luncheon Bay,-20.07,148.95,Open,GBR,,,,,No,No
+GBR135,Butterfly Bay East,-20.07,148.93,Open,GBR,,,,,No,No
+GBR136,Mackerel Bay South,-20.09,148.95,Open,GBR,,,,,No,No
+GBR120,Goldsmith SW,-20.69,149.14,Open,GBR,,,,,No,No
+GBR137,Saba Bay North,-20.11,148.94,Open,GBR,,,,,No,No
+GBR138,Saba Bay Northeast,-20.11,148.96,Open,GBR,,,,,No,No
+GBR266,AIMS-21187S,-21.41,151.64,Open,GBR,,,,,No,No
+GBR267,AIMS-21139S1,-21.46,151.47,Open,GBR,,,,,No,No
+GBR268,AIMS-21139S3,-21.45,151.47,Open,GBR,,,,,No,No
+CS237,Occy Elbow,-20.94,154.4,Open,GBR,,,,,No,No
+CS238,North Kenn,-21.14,155.75,Open,GBR,,,,,No,No
+CS239,North Kenn Maze,-21.13,155.74,Open,GBR,,,,,No,No
+GBR141,Little Black Reef anchorage,-19.77,149.37,Open,GBR,,,,,No,No
+GBR269,Birdseye Reef,-21.07,150.46,Open,GBR,,,,,No,No
+GBR273,North Twin Cays,-21.21,151.98,Open,GBR,,,,,No,No
+GBR274,Swains Halfway Reef,-21.21,152.24,Open,GBR,,,,,No,No
+GBR275,Swains Halfway Reef Lagoon,-21.21,152.24,Open,GBR,,,,,No,No
+GBR276,Epaulette Reef,-21.18,152.54,Open,GBR,,,,,No,No
+GBR277,Elusive Reef Bommie,-21.12,152.77,Open,GBR,,,,,No,No
+GBR278,Elusive Reef South West,-21.13,152.76,Open,GBR,,,,,No,No
+GBR270,Dustys Haven,-21.43,151.58,Open,GBR,,,,,No,No
+GBR271,Swains Lagoon,-21.41,151.64,Open,GBR,,,,,No,No
+GBR272,Swains Gullet Bommie,-21.16,151.75,Open,GBR,,,,,No,No
+GBR279,Pine Island2,-20.38,148.89,Open,GBR,,,,,No,No
+CS240,Holmes South Bommie,-16.49,147.84,Open,GBR,,,,,No,No
+CS241,NE Herald Deep Bommie,-16.92,149.19,Open,GBR,,,,,No,No
+GBR280,Ella's Haven,-21.48,151.19,Open,GBR,,,,,No,No
+CS242,Ashmore South Anchorage bommie,-10.44,144.45,Open,GBR,,,,,No,No
+GBR281,Fitzroy Island Rubble Run,-16.93,145.99,Open,GBR,,,,,No,No
+NC1,Abore Bomie Inside,-22.37,166.27,Open,GBR,,,,,No,No
+NC7,Baie des Citrons,-22.3,166.44,Open,GBR,,,,,No,No
+NC8,Ilot Shark entrance,-21.61,165.34,Open,GBR,,,,,No,No
+NC3,Dumbea Passe Inner,-22.36,166.26,Open,GBR,,,,,No,No
+NC2,Petite U,-22.02,165.92,Open,GBR,,,,,No,No
+NC9,Fausse Passe Ile Vert,-21.69,165.46,Open,GBR,,,,,No,No
+NC6,Rose Bomie,-22.34,166.24,Open,GBR,,,,,No,No
+NC10,Aquarium Ile Vert,-21.69,165.46,Open,GBR,,,,,No,No
+NC5,Fausse Passe,-22.33,166.22,Open,GBR,,,,,No,No
+NC4,Dumbea Passe Inner Laberinth,-22.36,166.26,Open,GBR,,,,,No,No
+CS255,Mistaken Bonus Bommie,-21.2,155.77,Open,GBR,,,,,No,No
+CS247,Mellish mixed bag,-17.37,155.85,Open,GBR,,,,,No,No
+CS250,Mellish aquarium,-17.35,155.85,Open,GBR,,,,,No,No
+CS245,Coral Crunch,-17.14,151.94,Open,GBR,,,,,No,No
+GBR284,Turtlelicious,-21.47,151.19,Open,GBR,,,,,No,No
+CS244,Shark Face,-17.34,151.73,Open,GBR,,,,,No,No
+CS252,Mellish far east,-17.38,155.88,Open,GBR,,,,,No,No
+CS243,Lihou Paradise,-17.33,151.66,Open,GBR,,,,,No,No
+GBR283,Swains Eastern Garden,-21.54,152.39,Open,GBR,,,,,No,No
+CS246,East Diamond Big Bommie,-17.43,151.07,Open,GBR,,,,,No,No
+CS254,Mellish Acropora Patch,-17.37,155.86,Open,GBR,,,,,No,No
+CS253,Mellish Mellow Bommies,-17.38,155.87,Open,GBR,,,,,No,No
+CS248,Mellish lagoon loops,-17.37,155.85,Open,GBR,,,,,No,No
+CS249,Mellish Shark Junction,-17.35,155.84,Open,GBR,,,,,No,No
+GBR282,Lizzi's Fish Soup,-21.55,152.39,Open,GBR,,,,,No,No
+CS251,Mellish Coral Schoolies,-17.36,155.85,Open,GBR,,,,,No,No
+NC11,Petit U outer,-22.02,165.92,Open,GBR,,,,,No,No
+NC16,Fausse Passe de Uitoe,-22.29,166.18,Open,GBR,,,,,No,No
+NC13,Bomies Petit U,-22.02,165.93,Open,GBR,,,,,No,No
+NC12,Fausse Passe Tenia,-22.01,165.93,Open,GBR,,,,,No,No
+NC15,Yate Iya,-22.17,166.97,Open,GBR,,,,,No,No
+NC14,Recif Tabu,-22.49,166.45,Open,GBR,,,,,No,No
+CS257,Flora Reef Lagoon,-16.76,147.74,Open,GBR,,,,,No,No
+CS256,Flora Reef Dropoff,-16.75,147.71,Open,GBR,,,,,No,No
+GBR304,Milln Back Reef,-16.79,146.27,Open,GBR,,,,,No,No
+TS29,Half Way Island Boulders,-10.1,143.32,Open,GBR,,,,,No,No
+TS31,3/4 Reef,-10.07,143.69,Open,GBR,,,,,No,No
+TS32,Halfway Island 3,-10.1,143.31,Open,GBR,,,,,No,No
+TS30,Half Way Island Slope,-10.1,143.31,Open,GBR,,,,,No,No
+GBR307,Ribbon Reef #2,-15.58,145.79,Open,GBR,,,,,No,No
+GBR305,Agincourt Reef Slope,-15.96,145.81,Open,GBR,,,,,No,No
+GBR308,Ribbon Reef #2 Anchorage,-15.58,145.79,Open,GBR,,,,,No,No
+GBR309,Ribbon Reef #5 South Satellite,-15.39,145.76,Open,GBR,,,,,No,No
+GBR311,Ribbon Reef #5 North Satellite Anchorage,-15.33,145.75,Open,GBR,,,,,No,No
+GBR312,Ribbon Reef #7,-15.23,145.74,Open,GBR,,,,,No,No
+TS38,Sixth Reef Lagoon,-10.33,143.7,Open,GBR,,,,,No,No
+TS36,Eighth Reef flats,-10.42,143.68,Open,GBR,,,,,No,No
+GBR313,Eve Reef,-13.96,144.57,Open,GBR,,,,,No,No
+TS34,Eighth Reef Garden,-10.42,143.68,Open,GBR,,,,,No,No
+GBR310,Ribbon Reef #5 North Satellite,-15.34,145.75,Open,GBR,,,,,No,No
+TS35,Seven Reefs Dropoff,-10.29,143.71,Open,GBR,,,,,No,No
+TS33,Sixth Reef Bommie,-10.33,143.7,Open,GBR,,,,,No,No
+TS37,Eighth Reef East Inlet,-10.42,143.69,Open,GBR,,,,,No,No
+GBR331,South Pioneer Bay,-18.61,146.48,Open,GBR,,,,,No,No
+GBR329,Snapper Bay Reef,-18.66,146.51,Open,GBR,,,,,No,No
+GBR306,Agincourt Bommie,-15.97,145.82,Open,GBR,,,,,No,No
+GBR332,North East Point,-18.59,146.5,Open,GBR,,,,,No,No
+GBR330,Harriet Bay,-18.66,146.49,Open,GBR,,,,,No,No
+CS49,Saumarez olive seasnake,-21.9,153.54,Open,GBR,,,,,No,No
+NC19,Coral Garden Passe de Uitoe,-22.14,166.08,Open,GBR,,,,,No,No
+VAN30,Nagohune Point,-15.27,167.99,Open,GBR,,,,,No,No
+VAN19,Malapoa Point,-17.74,168.29,Open,GBR,,,,,No,No
+VAN7,Tanna Northwest,-19.07,169.25,Open,GBR,,,,,No,No
+VAN39,Aese South Point,-15.46,167.26,Open,GBR,,,,,No,No
+VAN34,Million Dollar Point,-15.53,167.24,Open,GBR,,,,,No,No
+VAN12,Aniwa Wall,-19.22,169.6,Open,GBR,,,,,No,No
+VAN16,Supmu Point,-18.83,169.01,Open,GBR,,,,,No,No
+VAN18,Pango Point,-17.74,168.29,Open,GBR,,,,,No,No
+VAN11,Aniwa Canyon,-19.22,169.6,Open,GBR,,,,,No,No
+VAN26,Teterigi Point Rocks,-15.38,168.12,Open,GBR,,,,,No,No
+VAN6,Tanna North Slabs,-19.33,169.27,Open,GBR,,,,,No,No
+VAN35,Aisari Bay Outer Reef,-15.57,167.21,Open,GBR,,,,,No,No
+VAN31,Vatuhi Vavine Rock,-15.27,167.98,Open,GBR,,,,,No,No
+VAN29,Uncle Tommy Bommie,-15.38,168.13,Open,GBR,,,,,No,No
+VAN38,Narurundo Point,-15.54,167.28,Open,GBR,,,,,No,No
+VAN9,Lenafa,-19.38,169.25,Open,GBR,,,,,No,No
+VAN21,Blue Bay,-17.7,168.24,Open,GBR,,,,,No,No
+VAN28,Anmari,-15.39,168.14,Open,GBR,,,,,No,No
+VAN5,Tanna North Boulders,-19.32,169.3,Open,GBR,,,,,No,No
+VAN33,Singo Loloaru Point,-15.27,167.97,Open,GBR,,,,,No,No
+VAN36,Aisari Bay Reef,-15.57,167.21,Open,GBR,,,,,No,No
+VAN8,Tanna Northwest Rocks,-19.38,169.25,Open,GBR,,,,,No,No
+VAN32,Vuinago Point,-15.28,167.98,Open,GBR,,,,,No,No
+VAN27,Teterigi Point,-15.38,168.12,Open,GBR,,,,,No,No
+VAN20,Mele Bay North Reef,-17.7,168.24,Open,GBR,,,,,No,No
+VAN24,Cook Reef East,-17.05,168.29,Open,GBR,,,,,No,No
+VAN14,Nipmi Lows Point,-18.77,168.98,Open,GBR,,,,,No,No
+VAN17,Umatuo Point,-18.84,168.99,Open,GBR,,,,,No,No
+VAN4,Tanna North,-19.32,169.31,Open,GBR,,,,,No,No
+VAN13,Aniwa Arcatus,-19.23,169.6,Open,GBR,,,,,No,No
+VAN15,Vetiel Point,-18.81,169.01,Open,GBR,,,,,No,No
+VAN3,Port Resolution Reef,-19.52,169.49,Open,GBR,,,,,No,No
+VAN10,Blacksand Slab,-19.39,169.25,Open,GBR,,,,,No,No
+VAN40,Naoreure Point,-15.47,167.25,Open,GBR,,,,,No,No
+VAN23,Eretoka Central,-17.64,168.15,Open,GBR,,,,,No,No
+VAN22,Eretoka North,-17.63,168.16,Open,GBR,,,,,No,No
+VAN37,Patumbuma Outer Reef,-15.54,167.29,Open,GBR,,,,,No,No
+VAN25,Cook Reef Northeast,-17.04,168.26,Open,GBR,,,,,No,No
+VAN2,Porumea Channel,-17.57,168.21,Open,GBR,,,,,No,No
+NT28,New Year Island light,-10.9,133.03,Open,GOC,,,,,No,No
+NT29,New Year Island South West,-10.91,133.03,Open,GOC,,,,,No,No
+NT33,Paxie Shoal North West,-11.433,134.133,Open,GOC,Outer-shoals,Offshore,Submerged,Shoal,No,No
+NT34,Paxie Shoal West,-11.45,134.133,Open,GOC,Outer-shoals,Offshore,Submerged,Shoal,No,No

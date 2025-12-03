@@ -1,0 +1,37 @@
+region,site_code,reef_name,lat,long,report_site
+Mornington,GC1,Lamatha Reef,-16.48,139.27,Yes
+Southern,GC10,Foggy Bottom,-16.07,138.91,Yes
+Southern,GC11,Chinamans Reef,-15.89,139.03,Yes
+Southern,GC12,Carpentaria Reef SW,-15.52,140.12,Yes
+Southern,GC13,Carpentaria Reef,-15.45,140.18,Yes
+Mornington,GC2,Bowengun,-16.42,139.47,Yes
+Mornington,GC3,Mandalbi-Bellaleea,-16.41,139.63,Yes
+Mornington,GC4,Mandalbi-outer,-16.39,139.63,Yes
+Mornington,GC5,Thabugan Reef South,-16.38,139.6,Yes
+Mornington,GC6,Thabugan Reef,-16.38,139.6,Yes
+Southern,GC7,Steves Bommie,-16.29,139.42,Yes
+Southern,GC8,Glasseye Reef,-16.24,139.6,Yes
+Southern,GC9,Manowar Island,-16.23,139.25,Yes
+Southern,NT60,Groper Shoal,-15.47,137.92,Yes
+Northeast,GC14,Carpentaria Shoal,-10.74,141.06,Yes
+Northeast,GC15,Proudfoot Shoal,-10.53,141.47,Yes
+Northeast,GC17,Merkara Shoal N,-10.5,141.23,Yes
+Wessel,NT103,Norruum Islet,-11.23,136.69,Yes
+Wessel,NT35,Warrnga Reef,-11.94,135.6,Yes
+Wessel,NT36,Guluwuru Island NE,-11.55,136.42,Yes
+Wessel,NT38,Truant Island N,-11.66,136.83,Yes
+Wessel,NT39,Truant Island S,-11.68,136.82,Yes
+Wessel,NT40,Truant Bank SW,-11.65,136.91,Yes
+Wessel,NT41,Truant Bank SE,-11.63,136.93,Yes
+Northwest,NT44,East Bremer Islet bay,-12.09,136.87,Yes
+Northwest,NT45,Porlsche Rock,-12.07,136.87,Yes
+Northwest,NT46,East Bremer Islet SW,-12.09,136.87,Yes
+Northwest,NT48,Bremer Island East,-12.09,136.83,Yes
+Northwest,NT49,Bonner Rocks NE,-12.06,136.61,Yes
+Western,NT52,Dudley Island SE,-12.89,136.73,Yes
+Western,NT55,Brady Rock,-13.68,136.45,Yes
+Western,NT56,Cape Beatrice SW,-14.31,136.89,Yes
+Western,NT59,Cape Beatrice Islet West,-14.35,136.94,Yes
+Outer-shoals,NT61,Jones Shoal,-10.96,132.22,Yes
+Outer-shoals,NT63,Arafura Shoal,-11.23,134.75,Yes
+Northeast,TS2,Booby Island SW,-10.61,141.91,Yes

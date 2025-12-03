@@ -1,0 +1,929 @@
+year,site_code,survey_date,depth,block,list,transect_1,transect_2,reef_name,lat,long,zone,region,situation,depth_morph,geomorph,Harris_site,report_site,depth_m
+2010,GC1,2010-07-03,3.8,1,Reef_fish,1,1,Lamatha Reef,-16.48,139.27,Open,Mornington,Nearshore,Emergent,Fringing,No,Yes,3.8
+2010,GC1,2010-07-03,3.8,2,Reef_fish,1,2,Lamatha Reef,-16.48,139.27,Open,Mornington,Nearshore,Emergent,Fringing,No,Yes,3.8
+2010,GC1,2010-07-03,4,1,Reef_fish,2,3,Lamatha Reef,-16.48,139.27,Open,Mornington,Nearshore,Emergent,Fringing,No,Yes,4
+2010,GC1,2010-07-03,4,2,Reef_fish,2,4,Lamatha Reef,-16.48,139.27,Open,Mornington,Nearshore,Emergent,Fringing,No,Yes,4
+2010,GC2,2010-07-03,7,1,Reef_fish,1,1,Bowengun,-16.42,139.47,Open,Mornington,Nearshore,Emergent,Fringing,No,Yes,7
+2010,GC2,2010-07-03,7,2,Reef_fish,1,2,Bowengun,-16.42,139.47,Open,Mornington,Nearshore,Emergent,Fringing,No,Yes,7
+2010,GC2,2010-07-03,8,1,Reef_fish,2,3,Bowengun,-16.42,139.47,Open,Mornington,Nearshore,Emergent,Fringing,No,Yes,8
+2010,GC3,2010-07-04,4.4,1,Reef_fish,1,1,Mandalbi-Bellaleea,-16.41,139.63,Open,Mornington,Nearshore,Emergent,Fringing,No,Yes,4.4
+2010,GC3,2010-07-04,4.4,2,Reef_fish,1,2,Mandalbi-Bellaleea,-16.41,139.63,Open,Mornington,Nearshore,Emergent,Fringing,No,Yes,4.4
+2010,GC3,2010-07-04,5,1,Reef_fish,2,3,Mandalbi-Bellaleea,-16.41,139.63,Open,Mornington,Nearshore,Emergent,Fringing,No,Yes,5
+2010,GC3,2010-07-04,5,2,Reef_fish,2,4,Mandalbi-Bellaleea,-16.41,139.63,Open,Mornington,Nearshore,Emergent,Fringing,No,Yes,5
+2010,GC4,2010-07-04,6.4,1,Reef_fish,1,1,Mandalbi-outer,-16.39,139.63,Open,Mornington,Nearshore,Emergent,Fringing,No,Yes,6.4
+2010,GC4,2010-07-04,6.4,2,Reef_fish,1,2,Mandalbi-outer,-16.39,139.63,Open,Mornington,Nearshore,Emergent,Fringing,No,Yes,6.4
+2010,GC4,2010-07-04,6.8,1,Reef_fish,2,3,Mandalbi-outer,-16.39,139.63,Open,Mornington,Nearshore,Emergent,Fringing,No,Yes,6.8
+2010,GC4,2010-07-04,6.8,2,Reef_fish,2,4,Mandalbi-outer,-16.39,139.63,Open,Mornington,Nearshore,Emergent,Fringing,No,Yes,6.8
+2010,GC6,2010-07-04,3.2,1,Reef_fish,1,1,Thabugan Reef,-16.38,139.6,Open,Mornington,Nearshore,Emergent,Fringing,No,Yes,3.2
+2010,GC6,2010-07-04,3.2,2,Reef_fish,1,2,Thabugan Reef,-16.38,139.6,Open,Mornington,Nearshore,Emergent,Fringing,No,Yes,3.2
+2010,GC6,2010-07-04,5.2,1,Reef_fish,2,3,Thabugan Reef,-16.38,139.6,Open,Mornington,Nearshore,Emergent,Fringing,No,Yes,5.2
+2010,GC6,2010-07-04,5.2,2,Reef_fish,2,4,Thabugan Reef,-16.38,139.6,Open,Mornington,Nearshore,Emergent,Fringing,No,Yes,5.2
+2010,GC5,2010-07-05,2,1,Reef_fish,1,1,Thabugan Reef South,-16.38,139.6,Open,Mornington,Nearshore,Emergent,Fringing,No,Yes,2
+2010,GC5,2010-07-05,2,2,Reef_fish,1,2,Thabugan Reef South,-16.38,139.6,Open,Mornington,Nearshore,Emergent,Fringing,No,Yes,2
+2010,GC5,2010-07-05,2.5,1,Reef_fish,2,3,Thabugan Reef South,-16.38,139.6,Open,Mornington,Nearshore,Emergent,Fringing,No,Yes,2.5
+2010,GC5,2010-07-05,2.5,2,Reef_fish,2,4,Thabugan Reef South,-16.38,139.6,Open,Mornington,Nearshore,Emergent,Fringing,No,Yes,2.5
+2010,GC7,2010-07-05,9,1,Reef_fish,1,1,Steves Bommie,-16.29,139.42,Open,Southern,Offshore,Submerged,Pinnacle,No,Yes,9
+2010,GC2,2010-07-03,8,2,Reef_fish,2,4,Bowengun,-16.42,139.47,Open,Mornington,Nearshore,Emergent,Fringing,No,Yes,8
+2010,GC7,2010-07-05,9,2,Reef_fish,1,2,Steves Bommie,-16.29,139.42,Open,Southern,Offshore,Submerged,Pinnacle,No,Yes,9
+2010,GC7,2010-07-05,10.2,1,Reef_fish,2,3,Steves Bommie,-16.29,139.42,Open,Southern,Offshore,Submerged,Pinnacle,No,Yes,10.2
+2010,GC7,2010-07-05,10.2,2,Reef_fish,2,4,Steves Bommie,-16.29,139.42,Open,Southern,Offshore,Submerged,Pinnacle,No,Yes,10.2
+2010,GC9,2010-07-05,5.5,1,Reef_fish,1,1,Manowar Island,-16.23,139.25,Open,Southern,Offshore,Emergent,Fringing,No,Yes,5.5
+2010,GC9,2010-07-05,5.5,2,Reef_fish,1,2,Manowar Island,-16.23,139.25,Open,Southern,Offshore,Emergent,Fringing,No,Yes,5.5
+2010,GC9,2010-07-05,6,1,Reef_fish,2,3,Manowar Island,-16.23,139.25,Open,Southern,Offshore,Emergent,Fringing,No,Yes,6
+2010,GC9,2010-07-05,6,2,Reef_fish,2,4,Manowar Island,-16.23,139.25,Open,Southern,Offshore,Emergent,Fringing,No,Yes,6
+2013,NT100,2013-08-09,3,1,Reef_fish,2,1,Truant Island NE,-11.669,136.827,Open,Wessel,Nearshore,Emergent,Fringing,No,No,3
+2013,TS1,2013-08-05,2.3,1,Reef_fish,1,1,Booby Island,-10.606,141.916,Open,Northeast,Offshore,Emergent,Fringing,No,No,2.3
+2013,TS1,2013-08-05,2.3,2,Reef_fish,1,2,Booby Island,-10.606,141.916,Open,Northeast,Offshore,Emergent,Fringing,No,No,2.3
+2013,NT37,2013-08-09,3,1,Reef_fish,1,1,Truant Island SW,-11.674,136.823,Open,Wessel,Nearshore,Emergent,Fringing,No,No,3
+2013,NT37,2013-08-09,3,2,Reef_fish,1,2,Truant Island SW,-11.674,136.823,Open,Wessel,Nearshore,Emergent,Fringing,No,No,3
+2013,NT102,2013-08-10,4.3,1,Reef_fish,3,1,Burston Bay,-11.222,136.685,Open,Wessel,Nearshore,Emergent,Fringing,No,No,4.3
+2013,NT102,2013-08-10,4.3,2,Reef_fish,3,2,Burston Bay,-11.222,136.685,Open,Wessel,Nearshore,Emergent,Fringing,No,No,4.3
+2013,NT103,2013-08-10,6,1,Reef_fish,3,1,Norruum Islet,-11.23,136.69,Open,Wessel,Nearshore,Emergent,Fringing,No,Yes,6
+2013,NT103,2013-08-10,6,2,Reef_fish,3,2,Norruum Islet,-11.23,136.69,Open,Wessel,Nearshore,Emergent,Fringing,No,Yes,6
+2013,TS1,2013-08-05,4,1,Reef_fish,3,3,Booby Island,-10.606,141.916,Open,Northeast,Offshore,Emergent,Fringing,No,No,4
+2013,TS1,2013-08-05,4,2,Reef_fish,3,4,Booby Island,-10.606,141.916,Open,Northeast,Offshore,Emergent,Fringing,No,No,4
+2013,NT100,2013-08-09,2.5,1,Reef_fish,1,2,Truant Island NE,-11.669,136.827,Open,Wessel,Nearshore,Emergent,Fringing,No,No,2.5
+2013,NT100,2013-08-09,2.5,2,Reef_fish,1,3,Truant Island NE,-11.669,136.827,Open,Wessel,Nearshore,Emergent,Fringing,No,No,2.5
+2013,NT102,2013-08-10,3.5,1,Reef_fish,2,3,Burston Bay,-11.222,136.685,Open,Wessel,Nearshore,Emergent,Fringing,No,No,3.5
+2013,NT102,2013-08-10,3.5,2,Reef_fish,2,4,Burston Bay,-11.222,136.685,Open,Wessel,Nearshore,Emergent,Fringing,No,No,3.5
+2013,NT103,2013-08-10,4,1,Reef_fish,2,3,Norruum Islet,-11.23,136.69,Open,Wessel,Nearshore,Emergent,Fringing,No,Yes,4
+2013,NT103,2013-08-10,4,2,Reef_fish,2,4,Norruum Islet,-11.23,136.69,Open,Wessel,Nearshore,Emergent,Fringing,No,Yes,4
+2013,TS1,2013-08-05,2.5,1,Reef_fish,2,5,Booby Island,-10.606,141.916,Open,Northeast,Offshore,Emergent,Fringing,No,No,2.5
+2013,TS1,2013-08-05,2.5,2,Reef_fish,2,6,Booby Island,-10.606,141.916,Open,Northeast,Offshore,Emergent,Fringing,No,No,2.5
+2013,NT100,2013-08-09,3,2,Reef_fish,2,4,Truant Island NE,-11.669,136.827,Open,Wessel,Nearshore,Emergent,Fringing,No,No,3
+2013,NT102,2013-08-10,3,1,Reef_fish,1,5,Burston Bay,-11.222,136.685,Open,Wessel,Nearshore,Emergent,Fringing,No,No,3
+2013,NT102,2013-08-10,3,2,Reef_fish,1,6,Burston Bay,-11.222,136.685,Open,Wessel,Nearshore,Emergent,Fringing,No,No,3
+2013,NT103,2013-08-10,3.5,1,Reef_fish,1,5,Norruum Islet,-11.23,136.69,Open,Wessel,Nearshore,Emergent,Fringing,No,Yes,3.5
+2013,NT103,2013-08-10,3.5,2,Reef_fish,1,6,Norruum Islet,-11.23,136.69,Open,Wessel,Nearshore,Emergent,Fringing,No,Yes,3.5
+2015,NT30,2015-10-25,9.5,1,Reef_fish,2,1,Arnhem CMR Gadgets Reef North West,-11.283,133.8,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,9.5
+2015,NT30,2015-10-25,9.5,2,Reef_fish,2,2,Arnhem CMR Gadgets Reef North West,-11.283,133.8,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,9.5
+2015,NT30,2015-10-25,9,1,Reef_fish,1,3,Arnhem CMR Gadgets Reef North West,-11.283,133.8,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,9
+2015,NT30,2015-10-25,9,2,Reef_fish,1,4,Arnhem CMR Gadgets Reef North West,-11.283,133.8,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,9
+2015,NT31,2015-10-25,12.5,1,Reef_fish,1,1,Arnhem CMR Gadgets Reef West,-11.3,133.8,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,12.5
+2015,NT31,2015-10-25,12.5,2,Reef_fish,1,2,Arnhem CMR Gadgets Reef West,-11.3,133.8,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,12.5
+2015,NT31,2015-10-25,13,1,Reef_fish,2,3,Arnhem CMR Gadgets Reef West,-11.3,133.8,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,13
+2015,NT31,2015-10-25,13,2,Reef_fish,2,4,Arnhem CMR Gadgets Reef West,-11.3,133.8,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,13
+2015,NT32,2015-10-25,13,1,Reef_fish,2,1,Arnham Shoal,-11.45,133.717,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,13
+2015,NT32,2015-10-25,13,2,Reef_fish,2,2,Arnham Shoal,-11.45,133.717,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,13
+2015,NT32,2015-10-25,12.5,1,Reef_fish,1,3,Arnham Shoal,-11.45,133.717,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,12.5
+2015,NT32,2015-10-25,12.5,2,Reef_fish,1,4,Arnham Shoal,-11.45,133.717,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,12.5
+2015,NT33,2015-10-26,16,1,Reef_fish,2,1,Paxie Shoal North West,-11.433,134.133,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,16
+2015,NT33,2015-10-26,16,2,Reef_fish,2,2,Paxie Shoal North West,-11.433,134.133,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,16
+2015,NT33,2015-10-26,15,1,Reef_fish,1,3,Paxie Shoal North West,-11.433,134.133,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,15
+2015,NT33,2015-10-26,15,2,Reef_fish,1,4,Paxie Shoal North West,-11.433,134.133,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,15
+2015,NT34,2015-10-26,12,1,Reef_fish,1,1,Paxie Shoal West,-11.45,134.133,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,12
+2015,NT34,2015-10-26,12,2,Reef_fish,1,2,Paxie Shoal West,-11.45,134.133,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,12
+2015,NT34,2015-10-26,13,1,Reef_fish,2,3,Paxie Shoal West,-11.45,134.133,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,13
+2015,NT34,2015-10-26,13,2,Reef_fish,2,4,Paxie Shoal West,-11.45,134.133,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,13
+2015,NT35,2015-10-29,3.5,1,Reef_fish,2,1,Warrnga Reef,-11.94,135.6,Open,Wessel,Nearshore,Emergent,Fringing,No,Yes,3.5
+2015,NT35,2015-10-29,3.5,2,Reef_fish,2,2,Warrnga Reef,-11.94,135.6,Open,Wessel,Nearshore,Emergent,Fringing,No,Yes,3.5
+2015,NT35,2015-10-29,3,1,Reef_fish,1,3,Warrnga Reef,-11.94,135.6,Open,Wessel,Nearshore,Emergent,Fringing,No,Yes,3
+2015,NT35,2015-10-29,3,2,Reef_fish,1,4,Warrnga Reef,-11.94,135.6,Open,Wessel,Nearshore,Emergent,Fringing,No,Yes,3
+2015,NT36,2015-10-31,5,1,Reef_fish,1,1,Guluwuru Island NE,-11.55,136.42,Open,Wessel,Nearshore,Emergent,Fringing,No,Yes,5
+2015,NT36,2015-10-31,5,2,Reef_fish,1,2,Guluwuru Island NE,-11.55,136.42,Open,Wessel,Nearshore,Emergent,Fringing,No,Yes,5
+2015,NT36,2015-10-31,6,1,Reef_fish,2,3,Guluwuru Island NE,-11.55,136.42,Open,Wessel,Nearshore,Emergent,Fringing,No,Yes,6
+2015,NT36,2015-10-31,6,2,Reef_fish,2,4,Guluwuru Island NE,-11.55,136.42,Open,Wessel,Nearshore,Emergent,Fringing,No,Yes,6
+2015,NT37,2015-11-01,6,1,Reef_fish,1,1,Truant Island SW,-11.674,136.823,Open,Wessel,Nearshore,Emergent,Fringing,No,No,6
+2015,NT37,2015-11-01,6,2,Reef_fish,1,2,Truant Island SW,-11.674,136.823,Open,Wessel,Nearshore,Emergent,Fringing,No,No,6
+2015,NT37,2015-11-01,7,1,Reef_fish,2,3,Truant Island SW,-11.674,136.823,Open,Wessel,Nearshore,Emergent,Fringing,No,No,7
+2015,NT37,2015-11-01,7,2,Reef_fish,2,4,Truant Island SW,-11.674,136.823,Open,Wessel,Nearshore,Emergent,Fringing,No,No,7
+2015,NT38,2015-11-01,5,1,Reef_fish,2,1,Truant Island N,-11.66,136.83,Open,Wessel,Offshore,Emergent,Fringing,No,Yes,5
+2015,NT38,2015-11-01,5,2,Reef_fish,2,2,Truant Island N,-11.66,136.83,Open,Wessel,Offshore,Emergent,Fringing,No,Yes,5
+2015,NT38,2015-11-01,4,1,Reef_fish,1,3,Truant Island N,-11.66,136.83,Open,Wessel,Offshore,Emergent,Fringing,No,Yes,4
+2015,NT38,2015-11-01,4,2,Reef_fish,1,4,Truant Island N,-11.66,136.83,Open,Wessel,Offshore,Emergent,Fringing,No,Yes,4
+2015,NT39,2015-11-01,4.5,1,Reef_fish,1,1,Truant Island S,-11.68,136.82,Open,Wessel,Offshore,Emergent,Fringing,No,Yes,4.5
+2015,NT39,2015-11-01,4.5,2,Reef_fish,1,2,Truant Island S,-11.68,136.82,Open,Wessel,Offshore,Emergent,Fringing,No,Yes,4.5
+2015,NT39,2015-11-01,5,1,Reef_fish,2,3,Truant Island S,-11.68,136.82,Open,Wessel,Offshore,Emergent,Fringing,No,Yes,5
+2015,NT39,2015-11-01,5,2,Reef_fish,2,4,Truant Island S,-11.68,136.82,Open,Wessel,Offshore,Emergent,Fringing,No,Yes,5
+2015,NT40,2015-11-02,14,1,Reef_fish,2,1,Truant Bank SW,-11.65,136.91,Open,Wessel,Offshore,Submerged,Shoal,No,Yes,14
+2015,NT40,2015-11-02,14,2,Reef_fish,2,2,Truant Bank SW,-11.65,136.91,Open,Wessel,Offshore,Submerged,Shoal,No,Yes,14
+2015,NT40,2015-11-02,13,1,Reef_fish,1,3,Truant Bank SW,-11.65,136.91,Open,Wessel,Offshore,Submerged,Shoal,No,Yes,13
+2015,NT40,2015-11-02,13,2,Reef_fish,1,4,Truant Bank SW,-11.65,136.91,Open,Wessel,Offshore,Submerged,Shoal,No,Yes,13
+2015,NT41,2015-11-02,13,1,Reef_fish,2,1,Truant Bank SE,-11.63,136.93,Open,Wessel,Offshore,Submerged,Shoal,No,Yes,13
+2015,NT41,2015-11-02,13,2,Reef_fish,2,2,Truant Bank SE,-11.63,136.93,Open,Wessel,Offshore,Submerged,Shoal,No,Yes,13
+2015,NT41,2015-11-02,11,1,Reef_fish,1,3,Truant Bank SE,-11.63,136.93,Open,Wessel,Offshore,Submerged,Shoal,No,Yes,11
+2015,NT41,2015-11-02,11,2,Reef_fish,1,4,Truant Bank SE,-11.63,136.93,Open,Wessel,Offshore,Submerged,Shoal,No,Yes,11
+2015,NT42,2015-11-03,10,1,Reef_fish,1,1,Pugh Shoal,-11.613,136.89,Open,Wessel,Offshore,Submerged,Shoal,No,No,10
+2015,NT42,2015-11-03,10,2,Reef_fish,1,2,Pugh Shoal,-11.613,136.89,Open,Wessel,Offshore,Submerged,Shoal,No,No,10
+2015,NT42,2015-11-03,11,1,Reef_fish,2,3,Pugh Shoal,-11.613,136.89,Open,Wessel,Offshore,Submerged,Shoal,No,No,11
+2015,NT42,2015-11-03,11,2,Reef_fish,2,4,Pugh Shoal,-11.613,136.89,Open,Wessel,Offshore,Submerged,Shoal,No,No,11
+2015,NT43,2015-11-03,14,1,Reef_fish,2,1,Buccaneer Shoal,-11.618,136.878,Open,Wessel,Offshore,Submerged,Shoal,No,No,14
+2015,NT43,2015-11-03,14,2,Reef_fish,2,2,Buccaneer Shoal,-11.618,136.878,Open,Wessel,Offshore,Submerged,Shoal,No,No,14
+2015,NT43,2015-11-03,13,1,Reef_fish,1,3,Buccaneer Shoal,-11.618,136.878,Open,Wessel,Offshore,Submerged,Shoal,No,No,13
+2015,NT43,2015-11-03,13,2,Reef_fish,1,4,Buccaneer Shoal,-11.618,136.878,Open,Wessel,Offshore,Submerged,Shoal,No,No,13
+2015,NT44,2015-11-03,1.4,1,Reef_fish,1,1,East Bremer Islet bay,-12.09,136.87,Open,Northwest,Nearshore,Emergent,Fringing,No,Yes,1.4
+2015,NT44,2015-11-03,1.4,2,Reef_fish,1,2,East Bremer Islet bay,-12.09,136.87,Open,Northwest,Nearshore,Emergent,Fringing,No,Yes,1.4
+2015,NT44,2015-11-03,1.8,1,Reef_fish,2,3,East Bremer Islet bay,-12.09,136.87,Open,Northwest,Nearshore,Emergent,Fringing,No,Yes,1.8
+2015,NT44,2015-11-03,1.8,2,Reef_fish,2,4,East Bremer Islet bay,-12.09,136.87,Open,Northwest,Nearshore,Emergent,Fringing,No,Yes,1.8
+2015,NT45,2015-11-04,2,1,Reef_fish,1,1,Porlsche Rock,-12.07,136.87,Open,Northwest,Offshore,Submerged,Pinnacle,No,Yes,2
+2015,NT45,2015-11-04,2,2,Reef_fish,1,2,Porlsche Rock,-12.07,136.87,Open,Northwest,Offshore,Submerged,Pinnacle,No,Yes,2
+2015,NT45,2015-11-04,4,1,Reef_fish,2,3,Porlsche Rock,-12.07,136.87,Open,Northwest,Offshore,Submerged,Pinnacle,No,Yes,4
+2015,NT45,2015-11-04,4,2,Reef_fish,2,4,Porlsche Rock,-12.07,136.87,Open,Northwest,Offshore,Submerged,Pinnacle,No,Yes,4
+2015,NT46,2015-11-04,3,1,Reef_fish,2,1,East Bremer Islet SW,-12.09,136.87,Open,Northwest,Nearshore,Emergent,Fringing,No,Yes,3
+2015,NT46,2015-11-04,3,2,Reef_fish,2,2,East Bremer Islet SW,-12.09,136.87,Open,Northwest,Nearshore,Emergent,Fringing,No,Yes,3
+2015,NT46,2015-11-04,2,1,Reef_fish,1,3,East Bremer Islet SW,-12.09,136.87,Open,Northwest,Nearshore,Emergent,Fringing,No,Yes,2
+2015,NT46,2015-11-04,2,2,Reef_fish,1,4,East Bremer Islet SW,-12.09,136.87,Open,Northwest,Nearshore,Emergent,Fringing,No,Yes,2
+2015,NT48,2015-11-04,6,1,Reef_fish,1,1,Bremer Island East,-12.09,136.83,Open,Northwest,Nearshore,Emergent,Fringing,No,Yes,6
+2015,NT47,2015-11-04,4,1,Reef_fish,1,1,Bremer Islet anchorage,-12.087,136.865,Open,Northwest,Nearshore,Emergent,Fringing,No,No,4
+2015,NT47,2015-11-04,4,2,Reef_fish,1,2,Bremer Islet anchorage,-12.087,136.865,Open,Northwest,Nearshore,Emergent,Fringing,No,No,4
+2015,NT53,2015-11-07,5.5,1,Reef_fish,2,1,Dudley Island,-12.881,136.726,Open,Western,Nearshore,Emergent,Fringing,No,No,5.5
+2015,NT53,2015-11-07,5.5,2,Reef_fish,2,2,Dudley Island,-12.881,136.726,Open,Western,Nearshore,Emergent,Fringing,No,No,5.5
+2015,NT53,2015-11-07,5,1,Reef_fish,1,3,Dudley Island,-12.881,136.726,Open,Western,Nearshore,Emergent,Fringing,No,No,5
+2015,NT53,2015-11-07,5,2,Reef_fish,1,4,Dudley Island,-12.881,136.726,Open,Western,Nearshore,Emergent,Fringing,No,No,5
+2015,NT54,2015-11-07,5,1,Reef_fish,2,1,Dudley Rock,-12.884,136.712,Open,Western,Offshore,Emergent,Shoal,No,No,5
+2015,NT54,2015-11-07,5,2,Reef_fish,2,2,Dudley Rock,-12.884,136.712,Open,Western,Offshore,Emergent,Shoal,No,No,5
+2015,NT54,2015-11-07,4,1,Reef_fish,1,3,Dudley Rock,-12.884,136.712,Open,Western,Offshore,Emergent,Shoal,No,No,4
+2015,NT54,2015-11-07,4,2,Reef_fish,1,4,Dudley Rock,-12.884,136.712,Open,Western,Offshore,Emergent,Shoal,No,No,4
+2015,NT55,2015-11-08,8,1,Reef_fish,1,1,Brady Rock,-13.68,136.45,Open,Western,Nearshore,Emergent,Shoal,No,Yes,8
+2015,NT55,2015-11-08,8,2,Reef_fish,1,2,Brady Rock,-13.68,136.45,Open,Western,Nearshore,Emergent,Shoal,No,Yes,8
+2015,NT55,2015-11-08,10,1,Reef_fish,2,3,Brady Rock,-13.68,136.45,Open,Western,Nearshore,Emergent,Shoal,No,Yes,10
+2015,NT55,2015-11-08,10,2,Reef_fish,2,4,Brady Rock,-13.68,136.45,Open,Western,Nearshore,Emergent,Shoal,No,Yes,10
+2015,NT56,2015-11-11,4.5,1,Reef_fish,1,1,Cape Beatrice SW,-14.31,136.89,Open,Western,Nearshore,Emergent,Fringing,No,Yes,4.5
+2015,NT56,2015-11-11,4.5,2,Reef_fish,1,2,Cape Beatrice SW,-14.31,136.89,Open,Western,Nearshore,Emergent,Fringing,No,Yes,4.5
+2015,NT56,2015-11-11,4.6,1,Reef_fish,2,3,Cape Beatrice SW,-14.31,136.89,Open,Western,Nearshore,Emergent,Fringing,No,Yes,4.6
+2015,NT56,2015-11-11,4.6,2,Reef_fish,2,4,Cape Beatrice SW,-14.31,136.89,Open,Western,Nearshore,Emergent,Fringing,No,Yes,4.6
+2015,NT57,2015-11-11,3,1,Reef_fish,1,1,Cape Beatrice South,-14.309,136.889,Open,Western,Nearshore,Emergent,Fringing,No,No,3
+2015,NT48,2015-11-04,6,2,Reef_fish,1,2,Bremer Island East,-12.09,136.83,Open,Northwest,Nearshore,Emergent,Fringing,No,Yes,6
+2015,NT48,2015-11-04,7,1,Reef_fish,2,3,Bremer Island East,-12.09,136.83,Open,Northwest,Nearshore,Emergent,Fringing,No,Yes,7
+2015,NT48,2015-11-04,7,2,Reef_fish,2,4,Bremer Island East,-12.09,136.83,Open,Northwest,Nearshore,Emergent,Fringing,No,Yes,7
+2015,NT49,2015-11-05,10,1,Reef_fish,2,1,Bonner Rocks NE,-12.06,136.61,Open,Northwest,Nearshore,Emergent,Shoal,No,Yes,10
+2015,NT49,2015-11-05,10,2,Reef_fish,2,2,Bonner Rocks NE,-12.06,136.61,Open,Northwest,Nearshore,Emergent,Shoal,No,Yes,10
+2015,NT57,2015-11-11,3,2,Reef_fish,1,2,Cape Beatrice South,-14.309,136.889,Open,Western,Nearshore,Emergent,Fringing,No,No,3
+2015,NT57,2015-11-11,6,1,Reef_fish,2,3,Cape Beatrice South,-14.309,136.889,Open,Western,Nearshore,Emergent,Fringing,No,No,6
+2015,NT57,2015-11-11,6,2,Reef_fish,2,4,Cape Beatrice South,-14.309,136.889,Open,Western,Nearshore,Emergent,Fringing,No,No,6
+2015,NT58,2015-11-11,3.5,1,Reef_fish,1,1,Turtle Cave,-14.355,136.95,Open,Western,Nearshore,Emergent,Fringing,No,No,3.5
+2015,NT58,2015-11-11,3.5,2,Reef_fish,1,2,Turtle Cave,-14.355,136.95,Open,Western,Nearshore,Emergent,Fringing,No,No,3.5
+2015,NT58,2015-11-11,3.6,1,Reef_fish,2,3,Turtle Cave,-14.355,136.95,Open,Western,Nearshore,Emergent,Fringing,No,No,3.6
+2015,NT58,2015-11-11,3.6,2,Reef_fish,2,4,Turtle Cave,-14.355,136.95,Open,Western,Nearshore,Emergent,Fringing,No,No,3.6
+2015,NT59,2015-11-11,7,1,Reef_fish,2,1,Cape Beatrice Islet West,-14.35,136.94,Open,Western,Nearshore,Emergent,Fringing,No,Yes,7
+2015,NT59,2015-11-11,7,2,Reef_fish,2,2,Cape Beatrice Islet West,-14.35,136.94,Open,Western,Nearshore,Emergent,Fringing,No,Yes,7
+2015,NT59,2015-11-11,3,1,Reef_fish,1,3,Cape Beatrice Islet West,-14.35,136.94,Open,Western,Nearshore,Emergent,Fringing,No,Yes,3
+2015,NT59,2015-11-11,3,2,Reef_fish,1,4,Cape Beatrice Islet West,-14.35,136.94,Open,Western,Nearshore,Emergent,Fringing,No,Yes,3
+2015,NT60,2015-11-12,19,2,Reef_fish,2,1,Groper Shoal,-15.47,137.92,Open,Southern,Offshore,Submerged,Pinnacle,R7,Yes,19
+2015,NT60,2015-11-12,19,1,Reef_fish,2,2,Groper Shoal,-15.47,137.92,Open,Southern,Offshore,Submerged,Pinnacle,R7,Yes,19
+2015,NT49,2015-11-05,8,1,Reef_fish,1,3,Bonner Rocks NE,-12.06,136.61,Open,Northwest,Nearshore,Emergent,Shoal,No,Yes,8
+2015,NT49,2015-11-05,8,2,Reef_fish,1,4,Bonner Rocks NE,-12.06,136.61,Open,Northwest,Nearshore,Emergent,Shoal,No,Yes,8
+2015,NT50,2015-11-05,5,1,Reef_fish,1,1,Bonner Rocks NW,-12.06,136.611,Open,Northwest,Nearshore,Emergent,Shoal,No,No,5
+2015,NT60,2015-11-12,18.5,1,Reef_fish,1,3,Groper Shoal,-15.47,137.92,Open,Southern,Offshore,Submerged,Pinnacle,R7,Yes,18.5
+2015,NT60,2015-11-12,18.5,2,Reef_fish,1,4,Groper Shoal,-15.47,137.92,Open,Southern,Offshore,Submerged,Pinnacle,R7,Yes,18.5
+2015,GC11,2015-11-13,19.5,1,Reef_fish,2,1,Chinamans Reef,-15.89,139.03,Blue,Southern,Offshore,Submerged,Pinnacle,No,Yes,19.5
+2015,GC11,2015-11-13,19.5,2,Reef_fish,2,2,Chinamans Reef,-15.89,139.03,Blue,Southern,Offshore,Submerged,Pinnacle,No,Yes,19.5
+2015,GC11,2015-11-13,19,1,Reef_fish,1,3,Chinamans Reef,-15.89,139.03,Blue,Southern,Offshore,Submerged,Pinnacle,No,Yes,19
+2015,GC11,2015-11-13,19,2,Reef_fish,1,4,Chinamans Reef,-15.89,139.03,Blue,Southern,Offshore,Submerged,Pinnacle,No,Yes,19
+2015,GC10,2015-11-13,17,1,Reef_fish,1,1,Foggy Bottom,-16.07,138.91,Blue,Southern,Offshore,Submerged,Pinnacle,R4,Yes,17
+2015,GC10,2015-11-13,17,2,Reef_fish,1,2,Foggy Bottom,-16.07,138.91,Blue,Southern,Offshore,Submerged,Pinnacle,R4,Yes,17
+2015,GC7,2015-11-14,10,1,Reef_fish,2,1,Steves Bommie,-16.29,139.42,Open,Southern,Offshore,Submerged,Pinnacle,No,Yes,10
+2015,GC7,2015-11-14,10,2,Reef_fish,2,2,Steves Bommie,-16.29,139.42,Open,Southern,Offshore,Submerged,Pinnacle,No,Yes,10
+2015,GC7,2015-11-14,9.5,1,Reef_fish,1,3,Steves Bommie,-16.29,139.42,Open,Southern,Offshore,Submerged,Pinnacle,No,Yes,9.5
+2015,GC7,2015-11-14,9.5,2,Reef_fish,1,4,Steves Bommie,-16.29,139.42,Open,Southern,Offshore,Submerged,Pinnacle,No,Yes,9.5
+2015,GC9,2015-11-14,5,1,Reef_fish,2,1,Manowar Island,-16.23,139.25,Open,Southern,Offshore,Emergent,Fringing,No,Yes,5
+2015,GC9,2015-11-14,5,2,Reef_fish,2,2,Manowar Island,-16.23,139.25,Open,Southern,Offshore,Emergent,Fringing,No,Yes,5
+2015,GC9,2015-11-14,4.5,1,Reef_fish,1,3,Manowar Island,-16.23,139.25,Open,Southern,Offshore,Emergent,Fringing,No,Yes,4.5
+2015,GC9,2015-11-14,4.5,2,Reef_fish,1,4,Manowar Island,-16.23,139.25,Open,Southern,Offshore,Emergent,Fringing,No,Yes,4.5
+2015,GC8,2015-11-15,14,1,Reef_fish,2,1,Glasseye Reef,-16.24,139.6,Blue,Southern,Offshore,Submerged,Pinnacle,No,Yes,14
+2015,GC8,2015-11-15,14,2,Reef_fish,2,2,Glasseye Reef,-16.24,139.6,Blue,Southern,Offshore,Submerged,Pinnacle,No,Yes,14
+2015,GC8,2015-11-15,12.5,1,Reef_fish,1,3,Glasseye Reef,-16.24,139.6,Blue,Southern,Offshore,Submerged,Pinnacle,No,Yes,12.5
+2015,GC8,2015-11-15,12.5,2,Reef_fish,1,4,Glasseye Reef,-16.24,139.6,Blue,Southern,Offshore,Submerged,Pinnacle,No,Yes,12.5
+2015,GC12,2015-11-16,20,1,Reef_fish,1,1,Carpentaria Reef SW,-15.52,140.12,Blue,Southern,Offshore,Submerged,Pinnacle,R3,Yes,20
+2015,GC12,2015-11-16,20,2,Reef_fish,1,2,Carpentaria Reef SW,-15.52,140.12,Blue,Southern,Offshore,Submerged,Pinnacle,R3,Yes,20
+2015,GC12,2015-11-16,21,1,Reef_fish,2,3,Carpentaria Reef SW,-15.52,140.12,Blue,Southern,Offshore,Submerged,Pinnacle,R3,Yes,21
+2015,GC12,2015-11-16,21,2,Reef_fish,2,4,Carpentaria Reef SW,-15.52,140.12,Blue,Southern,Offshore,Submerged,Pinnacle,R3,Yes,21
+2015,GC13,2015-11-16,19,1,Reef_fish,1,1,Carpentaria Reef,-15.45,140.18,Blue,Southern,Offshore,Submerged,Pinnacle,R2,Yes,19
+2015,GC13,2015-11-16,19,2,Reef_fish,1,2,Carpentaria Reef,-15.45,140.18,Blue,Southern,Offshore,Submerged,Pinnacle,R2,Yes,19
+2015,GC13,2015-11-16,20,1,Reef_fish,2,3,Carpentaria Reef,-15.45,140.18,Blue,Southern,Offshore,Submerged,Pinnacle,R2,Yes,20
+2015,GC13,2015-11-16,20,2,Reef_fish,2,4,Carpentaria Reef,-15.45,140.18,Blue,Southern,Offshore,Submerged,Pinnacle,R2,Yes,20
+2015,TS2,2015-11-20,5,1,Reef_fish,1,1,Booby Island SW,-10.61,141.91,Open,Northeast,Offshore,Emergent,Fringing,No,Yes,5
+2015,TS2,2015-11-20,5,2,Reef_fish,1,2,Booby Island SW,-10.61,141.91,Open,Northeast,Offshore,Emergent,Fringing,No,Yes,5
+2015,TS2,2015-11-20,5.5,1,Reef_fish,2,3,Booby Island SW,-10.61,141.91,Open,Northeast,Offshore,Emergent,Fringing,No,Yes,5.5
+2015,TS2,2015-11-20,5.5,2,Reef_fish,2,4,Booby Island SW,-10.61,141.91,Open,Northeast,Offshore,Emergent,Fringing,No,Yes,5.5
+2015,GC15,2015-11-22,7,1,Reef_fish,2,1,Proudfoot Shoal,-10.53,141.47,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,7
+2015,GC15,2015-11-22,7,2,Reef_fish,2,2,Proudfoot Shoal,-10.53,141.47,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,7
+2015,GC15,2015-11-22,6,1,Reef_fish,1,3,Proudfoot Shoal,-10.53,141.47,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,6
+2015,GC15,2015-11-22,6,2,Reef_fish,1,4,Proudfoot Shoal,-10.53,141.47,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,6
+2015,GC17,2015-11-22,13,1,Reef_fish,2,1,Merkara Shoal N,-10.5,141.23,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,13
+2015,GC17,2015-11-22,13,2,Reef_fish,2,2,Merkara Shoal N,-10.5,141.23,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,13
+2015,GC17,2015-11-22,12.5,1,Reef_fish,1,3,Merkara Shoal N,-10.5,141.23,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,12.5
+2015,GC17,2015-11-22,12.5,2,Reef_fish,1,4,Merkara Shoal N,-10.5,141.23,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,12.5
+2015,GC16,2015-11-22,12,1,Reef_fish,1,1,Merkara Shoal SW,-10.502,141.228,Open,Northeast,Offshore,Submerged,Shoal,No,No,12
+2015,GC16,2015-11-22,12,2,Reef_fish,1,2,Merkara Shoal SW,-10.502,141.228,Open,Northeast,Offshore,Submerged,Shoal,No,No,12
+2015,NT50,2015-11-05,5,2,Reef_fish,1,2,Bonner Rocks NW,-12.06,136.611,Open,Northwest,Nearshore,Emergent,Shoal,No,No,5
+2015,NT50,2015-11-05,6,1,Reef_fish,2,3,Bonner Rocks NW,-12.06,136.611,Open,Northwest,Nearshore,Emergent,Shoal,No,No,6
+2015,NT50,2015-11-05,6,2,Reef_fish,2,4,Bonner Rocks NW,-12.06,136.611,Open,Northwest,Nearshore,Emergent,Shoal,No,No,6
+2015,GC16,2015-11-22,13,1,Reef_fish,2,3,Merkara Shoal SW,-10.502,141.228,Open,Northeast,Offshore,Submerged,Shoal,No,No,13
+2015,GC16,2015-11-22,13,2,Reef_fish,2,4,Merkara Shoal SW,-10.502,141.228,Open,Northeast,Offshore,Submerged,Shoal,No,No,13
+2015,GC14,2015-11-23,17,1,Reef_fish,1,1,Carpentaria Shoal,-10.74,141.06,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,17
+2015,GC14,2015-11-23,17,2,Reef_fish,1,2,Carpentaria Shoal,-10.74,141.06,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,17
+2015,GC14,2015-11-23,17.5,1,Reef_fish,2,3,Carpentaria Shoal,-10.74,141.06,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,17.5
+2015,GC14,2015-11-23,17.5,2,Reef_fish,2,4,Carpentaria Shoal,-10.74,141.06,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,17.5
+2015,NT51,2015-11-06,2,1,Reef_fish,2,1,Bremer Island west,-12.108,136.79,Open,Northwest,Nearshore,Emergent,Fringing,No,No,2
+2015,NT51,2015-11-06,2,2,Reef_fish,2,2,Bremer Island west,-12.108,136.79,Open,Northwest,Nearshore,Emergent,Fringing,No,No,2
+2015,NT51,2015-11-06,1.5,1,Reef_fish,1,3,Bremer Island west,-12.108,136.79,Open,Northwest,Nearshore,Emergent,Fringing,No,No,1.5
+2015,NT51,2015-11-06,1.5,2,Reef_fish,1,4,Bremer Island west,-12.108,136.79,Open,Northwest,Nearshore,Emergent,Fringing,No,No,1.5
+2015,NT52,2015-11-07,5,1,Reef_fish,2,1,Dudley Island SE,-12.89,136.73,Open,Western,Nearshore,Emergent,Fringing,No,Yes,5
+2015,NT52,2015-11-07,5,2,Reef_fish,2,2,Dudley Island SE,-12.89,136.73,Open,Western,Nearshore,Emergent,Fringing,No,Yes,5
+2015,NT52,2015-11-07,4,1,Reef_fish,1,3,Dudley Island SE,-12.89,136.73,Open,Western,Nearshore,Emergent,Fringing,No,Yes,4
+2015,NT52,2015-11-07,4,2,Reef_fish,1,4,Dudley Island SE,-12.89,136.73,Open,Western,Nearshore,Emergent,Fringing,No,Yes,4
+2015,TS3,2015-12-20,4,1,Reef_fish,1,1,Booby Island NW,-10.603,141.909,Open,Northeast,Offshore,Emergent,Fringing,No,No,4
+2015,TS3,2015-12-20,4,2,Reef_fish,1,2,Booby Island NW,-10.603,141.909,Open,Northeast,Offshore,Emergent,Fringing,No,No,4
+2015,TS3,2015-12-20,5,1,Reef_fish,2,3,Booby Island NW,-10.603,141.909,Open,Northeast,Offshore,Emergent,Fringing,No,No,5
+2015,TS3,2015-12-20,5,2,Reef_fish,2,4,Booby Island NW,-10.603,141.909,Open,Northeast,Offshore,Emergent,Fringing,No,No,5
+2019,NT30,2019-01-20,9,1,Reef_fish,1,1,Arnhem CMR Gadgets Reef North West,-11.283,133.8,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,9
+2019,NT30,2019-01-20,9,2,Reef_fish,1,2,Arnhem CMR Gadgets Reef North West,-11.283,133.8,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,9
+2019,NT30,2019-01-20,9.5,1,Reef_fish,2,3,Arnhem CMR Gadgets Reef North West,-11.283,133.8,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,9.5
+2019,NT30,2019-01-20,9.5,2,Reef_fish,2,4,Arnhem CMR Gadgets Reef North West,-11.283,133.8,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,9.5
+2019,NT34,2019-01-22,13,1,Reef_fish,1,1,Paxie Shoal West,-11.45,134.133,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,13
+2019,NT34,2019-01-22,13,2,Reef_fish,1,2,Paxie Shoal West,-11.45,134.133,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,13
+2019,NT31,2019-01-21,13,1,Reef_fish,1,1,Arnhem CMR Gadgets Reef West,-11.3,133.8,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,13
+2019,NT31,2019-01-21,13,2,Reef_fish,1,2,Arnhem CMR Gadgets Reef West,-11.3,133.8,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,13
+2020,GC14,2020-11-01,17,1,Reef_fish,2,1,Carpentaria Shoal,-10.74,141.06,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,17
+2020,GC14,2020-11-01,17,2,Reef_fish,2,2,Carpentaria Shoal,-10.74,141.06,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,17
+2020,GC14,2020-11-01,16.5,1,Reef_fish,1,3,Carpentaria Shoal,-10.74,141.06,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,16.5
+2020,GC14,2020-11-01,16.5,2,Reef_fish,1,4,Carpentaria Shoal,-10.74,141.06,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,16.5
+2020,GC16,2020-11-01,11,1,Reef_fish,1,1,Merkara Shoal SW,-10.502,141.228,Open,Northeast,Offshore,Submerged,Shoal,No,No,11
+2020,GC16,2020-11-01,11,2,Reef_fish,1,2,Merkara Shoal SW,-10.502,141.228,Open,Northeast,Offshore,Submerged,Shoal,No,No,11
+2020,GC16,2020-11-01,11.5,1,Reef_fish,2,3,Merkara Shoal SW,-10.502,141.228,Open,Northeast,Offshore,Submerged,Shoal,No,No,11.5
+2020,GC16,2020-11-01,11.5,2,Reef_fish,2,4,Merkara Shoal SW,-10.502,141.228,Open,Northeast,Offshore,Submerged,Shoal,No,No,11.5
+2020,GC17,2020-11-01,13,1,Reef_fish,2,1,Merkara Shoal N,-10.5,141.23,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,13
+2020,GC17,2020-11-01,13,2,Reef_fish,2,2,Merkara Shoal N,-10.5,141.23,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,13
+2020,GC17,2020-11-01,12.5,1,Reef_fish,1,3,Merkara Shoal N,-10.5,141.23,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,12.5
+2020,GC17,2020-11-01,12.5,2,Reef_fish,1,4,Merkara Shoal N,-10.5,141.23,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,12.5
+2020,TS2,2020-10-31,5,1,Reef_fish,1,1,Booby Island SW,-10.61,141.91,Open,Northeast,Offshore,Emergent,Fringing,No,Yes,5
+2020,TS2,2020-10-31,5,2,Reef_fish,1,2,Booby Island SW,-10.61,141.91,Open,Northeast,Offshore,Emergent,Fringing,No,Yes,5
+2020,TS2,2020-10-31,5.5,1,Reef_fish,2,3,Booby Island SW,-10.61,141.91,Open,Northeast,Offshore,Emergent,Fringing,No,Yes,5.5
+2020,TS2,2020-10-31,5.5,2,Reef_fish,2,4,Booby Island SW,-10.61,141.91,Open,Northeast,Offshore,Emergent,Fringing,No,Yes,5.5
+2020,TS28,2020-10-31,4.5,1,Reef_fish,2,1,Booby Island Bommie,-10.603,141.907,Open,Northeast,Offshore,Emergent,Fringing,No,No,4.5
+2020,TS28,2020-10-31,4.5,2,Reef_fish,2,2,Booby Island Bommie,-10.603,141.907,Open,Northeast,Offshore,Emergent,Fringing,No,No,4.5
+2020,TS28,2020-10-31,4,1,Reef_fish,1,3,Booby Island Bommie,-10.603,141.907,Open,Northeast,Offshore,Emergent,Fringing,No,No,4
+2020,TS28,2020-10-31,4,2,Reef_fish,1,4,Booby Island Bommie,-10.603,141.907,Open,Northeast,Offshore,Emergent,Fringing,No,No,4
+2020,TS3,2020-10-31,6,1,Reef_fish,2,1,Booby Island NW,-10.603,141.909,Open,Northeast,Offshore,Emergent,Fringing,No,No,6
+2020,TS3,2020-10-31,6,2,Reef_fish,2,2,Booby Island NW,-10.603,141.909,Open,Northeast,Offshore,Emergent,Fringing,No,No,6
+2020,TS3,2020-10-31,5,1,Reef_fish,1,3,Booby Island NW,-10.603,141.909,Open,Northeast,Offshore,Emergent,Fringing,No,No,5
+2020,TS3,2020-10-31,5,2,Reef_fish,1,4,Booby Island NW,-10.603,141.909,Open,Northeast,Offshore,Emergent,Fringing,No,No,5
+2021,NT52,2021-11-05,5,1,Reef_fish,2,1,Dudley Island SE,-12.89,136.73,Open,Western,Nearshore,Emergent,Fringing,No,Yes,5
+2021,NT52,2021-11-05,5,2,Reef_fish,2,2,Dudley Island SE,-12.89,136.73,Open,Western,Nearshore,Emergent,Fringing,No,Yes,5
+2021,NT53,2021-11-05,4,1,Reef_fish,1,1,Dudley Island,-12.881,136.726,Open,Western,Nearshore,Emergent,Fringing,No,No,4
+2021,NT53,2021-11-05,4,2,Reef_fish,1,2,Dudley Island,-12.881,136.726,Open,Western,Nearshore,Emergent,Fringing,No,No,4
+2021,NT49,2021-11-04,8.5,1,Reef_fish,2,1,Bonner Rocks NE,-12.06,136.61,Open,Northwest,Nearshore,Emergent,Shoal,No,Yes,8.5
+2021,NT49,2021-11-04,8.5,2,Reef_fish,2,2,Bonner Rocks NE,-12.06,136.61,Open,Northwest,Nearshore,Emergent,Shoal,No,Yes,8.5
+2021,NT53,2021-11-05,4.5,1,Reef_fish,2,3,Dudley Island,-12.881,136.726,Open,Western,Nearshore,Emergent,Fringing,No,No,4.5
+2021,NT53,2021-11-05,4.5,2,Reef_fish,2,4,Dudley Island,-12.881,136.726,Open,Western,Nearshore,Emergent,Fringing,No,No,4.5
+2021,GC18,2021-11-09,17.5,1,Reef_fish,1,1,Carpentaria Shoal West,-10.744,141.05,Open,Northeast,Offshore,Submerged,Shoal,No,No,17.5
+2021,GC18,2021-11-09,17.5,2,Reef_fish,1,2,Carpentaria Shoal West,-10.744,141.05,Open,Northeast,Offshore,Submerged,Shoal,No,No,17.5
+2021,NT54,2021-11-05,5,1,Reef_fish,2,1,Dudley Rock,-12.884,136.712,Open,Western,Offshore,Emergent,Shoal,No,No,5
+2021,NT54,2021-11-05,5,2,Reef_fish,2,2,Dudley Rock,-12.884,136.712,Open,Western,Offshore,Emergent,Shoal,No,No,5
+2021,NT49,2021-11-04,6.5,1,Reef_fish,1,3,Bonner Rocks NE,-12.06,136.61,Open,Northwest,Nearshore,Emergent,Shoal,No,Yes,6.5
+2021,NT49,2021-11-04,6.5,2,Reef_fish,1,4,Bonner Rocks NE,-12.06,136.61,Open,Northwest,Nearshore,Emergent,Shoal,No,Yes,6.5
+2021,NT52,2021-11-05,4.5,1,Reef_fish,1,3,Dudley Island SE,-12.89,136.73,Open,Western,Nearshore,Emergent,Fringing,No,Yes,4.5
+2021,NT52,2021-11-05,4.5,2,Reef_fish,1,4,Dudley Island SE,-12.89,136.73,Open,Western,Nearshore,Emergent,Fringing,No,Yes,4.5
+2021,GC17,2021-11-09,17,1,Reef_fish,2,1,Merkara Shoal N,-10.5,141.23,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,17
+2021,GC17,2021-11-09,17,2,Reef_fish,2,2,Merkara Shoal N,-10.5,141.23,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,17
+2021,GC17,2021-11-09,14,1,Reef_fish,1,3,Merkara Shoal N,-10.5,141.23,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,14
+2021,GC17,2021-11-09,14,2,Reef_fish,1,4,Merkara Shoal N,-10.5,141.23,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,14
+2021,TS2,2021-11-10,6,1,Reef_fish,2,1,Booby Island SW,-10.61,141.91,Open,Northeast,Offshore,Emergent,Fringing,No,Yes,6
+2021,TS2,2021-11-10,6,2,Reef_fish,2,2,Booby Island SW,-10.61,141.91,Open,Northeast,Offshore,Emergent,Fringing,No,Yes,6
+2021,TS3,2021-11-10,5,1,Reef_fish,2,1,Booby Island NW,-10.603,141.909,Open,Northeast,Offshore,Emergent,Fringing,No,No,5
+2021,TS3,2021-11-10,5,2,Reef_fish,2,2,Booby Island NW,-10.603,141.909,Open,Northeast,Offshore,Emergent,Fringing,No,No,5
+2021,TS2,2021-11-10,5,1,Reef_fish,1,3,Booby Island SW,-10.61,141.91,Open,Northeast,Offshore,Emergent,Fringing,No,Yes,5
+2021,TS2,2021-11-10,5,2,Reef_fish,1,4,Booby Island SW,-10.61,141.91,Open,Northeast,Offshore,Emergent,Fringing,No,Yes,5
+2021,GC14,2021-11-09,17,1,Reef_fish,1,1,Carpentaria Shoal,-10.74,141.06,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,17
+2021,GC14,2021-11-09,17.5,1,Reef_fish,2,2,Carpentaria Shoal,-10.74,141.06,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,17.5
+2021,GC14,2021-11-09,17.5,2,Reef_fish,2,3,Carpentaria Shoal,-10.74,141.06,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,17.5
+2021,NT30,2021-10-31,9,1,Reef_fish,2,1,Arnhem CMR Gadgets Reef North West,-11.283,133.8,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,9
+2021,NT30,2021-10-31,9,2,Reef_fish,2,2,Arnhem CMR Gadgets Reef North West,-11.283,133.8,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,9
+2021,NT50,2021-11-04,5,1,Reef_fish,2,1,Bonner Rocks NW,-12.06,136.611,Open,Northwest,Nearshore,Emergent,Shoal,No,No,5
+2021,NT50,2021-11-04,5,2,Reef_fish,2,2,Bonner Rocks NW,-12.06,136.611,Open,Northwest,Nearshore,Emergent,Shoal,No,No,5
+2021,NT54,2021-11-05,4.5,1,Reef_fish,1,3,Dudley Rock,-12.884,136.712,Open,Western,Offshore,Emergent,Shoal,No,No,4.5
+2021,NT54,2021-11-05,4.5,2,Reef_fish,1,4,Dudley Rock,-12.884,136.712,Open,Western,Offshore,Emergent,Shoal,No,No,4.5
+2021,GC14,2021-11-09,17,2,Reef_fish,1,4,Carpentaria Shoal,-10.74,141.06,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,17
+2021,NT30,2021-10-31,8.5,1,Reef_fish,1,3,Arnhem CMR Gadgets Reef North West,-11.283,133.8,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,8.5
+2021,NT30,2021-10-31,8.5,2,Reef_fish,1,4,Arnhem CMR Gadgets Reef North West,-11.283,133.8,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,8.5
+2021,NT63,2021-11-01,9.5,1,Reef_fish,1,1,Arafura Shoal,-11.23,134.75,Open,Outer-shoals,Offshore,Submerged,Shoal,R8,Yes,9.5
+2021,NT63,2021-11-01,9.5,2,Reef_fish,1,2,Arafura Shoal,-11.23,134.75,Open,Outer-shoals,Offshore,Submerged,Shoal,R8,Yes,9.5
+2021,NT50,2021-11-04,4.5,1,Reef_fish,1,3,Bonner Rocks NW,-12.06,136.611,Open,Northwest,Nearshore,Emergent,Shoal,No,No,4.5
+2021,NT50,2021-11-04,4.5,2,Reef_fish,1,4,Bonner Rocks NW,-12.06,136.611,Open,Northwest,Nearshore,Emergent,Shoal,No,No,4.5
+2021,TS3,2021-11-10,4.5,1,Reef_fish,1,3,Booby Island NW,-10.603,141.909,Open,Northeast,Offshore,Emergent,Fringing,No,No,4.5
+2021,TS3,2021-11-10,4.5,2,Reef_fish,1,4,Booby Island NW,-10.603,141.909,Open,Northeast,Offshore,Emergent,Fringing,No,No,4.5
+2021,NT35,2021-09-04,2.5,1,Reef_fish,1,1,Warrnga Reef,-11.94,135.6,Open,Wessel,Nearshore,Emergent,Fringing,No,Yes,2.5
+2021,NT35,2021-09-04,2.5,2,Reef_fish,1,2,Warrnga Reef,-11.94,135.6,Open,Wessel,Nearshore,Emergent,Fringing,No,Yes,2.5
+2021,NT40,2021-09-02,17,1,Reef_fish,1,1,Truant Bank SW,-11.65,136.91,Open,Wessel,Offshore,Submerged,Shoal,No,Yes,17
+2021,NT40,2021-09-02,17,2,Reef_fish,1,2,Truant Bank SW,-11.65,136.91,Open,Wessel,Offshore,Submerged,Shoal,No,Yes,17
+2021,NT38,2021-09-03,4,1,Reef_fish,1,1,Truant Island N,-11.66,136.83,Open,Wessel,Offshore,Emergent,Fringing,No,Yes,4
+2021,NT38,2021-09-03,4,2,Reef_fish,1,2,Truant Island N,-11.66,136.83,Open,Wessel,Offshore,Emergent,Fringing,No,Yes,4
+2021,NT38,2021-09-03,5,1,Reef_fish,2,3,Truant Island N,-11.66,136.83,Open,Wessel,Offshore,Emergent,Fringing,No,Yes,5
+2021,NT38,2021-09-03,5,2,Reef_fish,2,4,Truant Island N,-11.66,136.83,Open,Wessel,Offshore,Emergent,Fringing,No,Yes,5
+2021,NT33,2021-09-05,13,1,Reef_fish,1,1,Paxie Shoal North West,-11.433,134.133,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,13
+2021,NT33,2021-09-05,13,2,Reef_fish,1,2,Paxie Shoal North West,-11.433,134.133,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,13
+2021,NT34,2021-09-05,16,1,Reef_fish,1,1,Paxie Shoal West,-11.45,134.133,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,16
+2021,NT34,2021-09-05,16,2,Reef_fish,1,2,Paxie Shoal West,-11.45,134.133,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,16
+2021,NT31,2021-09-05,13,1,Reef_fish,1,1,Arnhem CMR Gadgets Reef West,-11.3,133.8,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,13
+2021,NT31,2021-09-05,13,2,Reef_fish,1,2,Arnhem CMR Gadgets Reef West,-11.3,133.8,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,13
+2021,NT41,2021-09-02,13,1,Reef_fish,1,1,Truant Bank SE,-11.63,136.93,Open,Wessel,Offshore,Submerged,Shoal,No,Yes,13
+2021,NT41,2021-09-02,13,2,Reef_fish,1,2,Truant Bank SE,-11.63,136.93,Open,Wessel,Offshore,Submerged,Shoal,No,Yes,13
+2021,NT35,2021-09-04,3,1,Reef_fish,2,3,Warrnga Reef,-11.94,135.6,Open,Wessel,Nearshore,Emergent,Fringing,No,Yes,3
+2021,NT35,2021-09-04,3,2,Reef_fish,2,4,Warrnga Reef,-11.94,135.6,Open,Wessel,Nearshore,Emergent,Fringing,No,Yes,3
+2013,NT37,2013-08-09,3,1,Crypto_fish,1,1,Truant Island SW,-11.674,136.823,Open,Wessel,Nearshore,Emergent,Fringing,No,No,3
+2013,NT37,2013-08-09,3,2,Crypto_fish,1,2,Truant Island SW,-11.674,136.823,Open,Wessel,Nearshore,Emergent,Fringing,No,No,3
+2013,NT102,2013-08-10,4.3,1,Crypto_fish,3,1,Burston Bay,-11.222,136.685,Open,Wessel,Nearshore,Emergent,Fringing,No,No,4.3
+2013,NT102,2013-08-10,4.3,2,Crypto_fish,3,2,Burston Bay,-11.222,136.685,Open,Wessel,Nearshore,Emergent,Fringing,No,No,4.3
+2013,NT103,2013-08-10,6,1,Crypto_fish,3,1,Norruum Islet,-11.23,136.69,Open,Wessel,Nearshore,Emergent,Fringing,No,Yes,6
+2013,NT103,2013-08-10,6,2,Crypto_fish,3,2,Norruum Islet,-11.23,136.69,Open,Wessel,Nearshore,Emergent,Fringing,No,Yes,6
+2013,NT100,2013-08-09,2.5,2,Crypto_fish,1,1,Truant Island NE,-11.669,136.827,Open,Wessel,Nearshore,Emergent,Fringing,No,No,2.5
+2013,NT102,2013-08-10,3.5,1,Crypto_fish,2,3,Burston Bay,-11.222,136.685,Open,Wessel,Nearshore,Emergent,Fringing,No,No,3.5
+2013,NT102,2013-08-10,3.5,2,Crypto_fish,2,4,Burston Bay,-11.222,136.685,Open,Wessel,Nearshore,Emergent,Fringing,No,No,3.5
+2013,NT103,2013-08-10,4,2,Crypto_fish,2,3,Norruum Islet,-11.23,136.69,Open,Wessel,Nearshore,Emergent,Fringing,No,Yes,4
+2013,TS1,2013-08-05,2.5,1,Crypto_fish,1,1,Booby Island,-10.606,141.916,Open,Northeast,Offshore,Emergent,Fringing,No,No,2.5
+2013,TS1,2013-08-05,2.5,2,Crypto_fish,1,2,Booby Island,-10.606,141.916,Open,Northeast,Offshore,Emergent,Fringing,No,No,2.5
+2013,NT100,2013-08-09,3,1,Crypto_fish,2,2,Truant Island NE,-11.669,136.827,Open,Wessel,Nearshore,Emergent,Fringing,No,No,3
+2013,NT100,2013-08-09,3,2,Crypto_fish,2,3,Truant Island NE,-11.669,136.827,Open,Wessel,Nearshore,Emergent,Fringing,No,No,3
+2013,NT102,2013-08-10,3,1,Crypto_fish,1,5,Burston Bay,-11.222,136.685,Open,Wessel,Nearshore,Emergent,Fringing,No,No,3
+2013,NT102,2013-08-10,3,2,Crypto_fish,1,6,Burston Bay,-11.222,136.685,Open,Wessel,Nearshore,Emergent,Fringing,No,No,3
+2013,NT103,2013-08-10,3.5,1,Crypto_fish,1,4,Norruum Islet,-11.23,136.69,Open,Wessel,Nearshore,Emergent,Fringing,No,Yes,3.5
+2013,NT103,2013-08-10,3.5,2,Crypto_fish,1,5,Norruum Islet,-11.23,136.69,Open,Wessel,Nearshore,Emergent,Fringing,No,Yes,3.5
+2015,NT30,2015-10-25,9.5,1,Crypto_fish,2,1,Arnhem CMR Gadgets Reef North West,-11.283,133.8,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,9.5
+2015,NT30,2015-10-25,9.5,2,Crypto_fish,2,2,Arnhem CMR Gadgets Reef North West,-11.283,133.8,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,9.5
+2015,NT30,2015-10-25,9,1,Crypto_fish,1,3,Arnhem CMR Gadgets Reef North West,-11.283,133.8,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,9
+2015,NT30,2015-10-25,9,2,Crypto_fish,1,4,Arnhem CMR Gadgets Reef North West,-11.283,133.8,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,9
+2015,NT31,2015-10-25,12.5,1,Crypto_fish,1,1,Arnhem CMR Gadgets Reef West,-11.3,133.8,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,12.5
+2015,NT31,2015-10-25,12.5,2,Crypto_fish,1,2,Arnhem CMR Gadgets Reef West,-11.3,133.8,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,12.5
+2015,NT31,2015-10-25,13,1,Crypto_fish,2,3,Arnhem CMR Gadgets Reef West,-11.3,133.8,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,13
+2015,NT31,2015-10-25,13,2,Crypto_fish,2,4,Arnhem CMR Gadgets Reef West,-11.3,133.8,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,13
+2015,NT32,2015-10-25,13,1,Crypto_fish,2,1,Arnham Shoal,-11.45,133.717,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,13
+2015,NT32,2015-10-25,13,2,Crypto_fish,2,2,Arnham Shoal,-11.45,133.717,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,13
+2015,NT32,2015-10-25,12.5,1,Crypto_fish,1,3,Arnham Shoal,-11.45,133.717,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,12.5
+2015,NT32,2015-10-25,12.5,2,Crypto_fish,1,4,Arnham Shoal,-11.45,133.717,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,12.5
+2015,NT33,2015-10-26,16,1,Crypto_fish,2,1,Paxie Shoal North West,-11.433,134.133,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,16
+2015,NT33,2015-10-26,16,2,Crypto_fish,2,2,Paxie Shoal North West,-11.433,134.133,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,16
+2015,NT33,2015-10-26,15,1,Crypto_fish,1,3,Paxie Shoal North West,-11.433,134.133,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,15
+2015,NT33,2015-10-26,15,2,Crypto_fish,1,4,Paxie Shoal North West,-11.433,134.133,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,15
+2015,NT34,2015-10-26,12,1,Crypto_fish,1,1,Paxie Shoal West,-11.45,134.133,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,12
+2015,NT34,2015-10-26,12,2,Crypto_fish,1,2,Paxie Shoal West,-11.45,134.133,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,12
+2015,NT34,2015-10-26,13,1,Crypto_fish,2,3,Paxie Shoal West,-11.45,134.133,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,13
+2015,NT34,2015-10-26,13,2,Crypto_fish,2,4,Paxie Shoal West,-11.45,134.133,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,13
+2015,NT35,2015-10-29,3.5,1,Crypto_fish,2,1,Warrnga Reef,-11.94,135.6,Open,Wessel,Nearshore,Emergent,Fringing,No,Yes,3.5
+2015,NT35,2015-10-29,3.5,2,Crypto_fish,2,2,Warrnga Reef,-11.94,135.6,Open,Wessel,Nearshore,Emergent,Fringing,No,Yes,3.5
+2015,NT35,2015-10-29,3,1,Crypto_fish,1,3,Warrnga Reef,-11.94,135.6,Open,Wessel,Nearshore,Emergent,Fringing,No,Yes,3
+2015,NT35,2015-10-29,3,2,Crypto_fish,1,4,Warrnga Reef,-11.94,135.6,Open,Wessel,Nearshore,Emergent,Fringing,No,Yes,3
+2015,NT36,2015-10-31,5,1,Crypto_fish,1,1,Guluwuru Island NE,-11.55,136.42,Open,Wessel,Nearshore,Emergent,Fringing,No,Yes,5
+2015,NT36,2015-10-31,5,2,Crypto_fish,1,2,Guluwuru Island NE,-11.55,136.42,Open,Wessel,Nearshore,Emergent,Fringing,No,Yes,5
+2015,NT36,2015-10-31,6,1,Crypto_fish,2,3,Guluwuru Island NE,-11.55,136.42,Open,Wessel,Nearshore,Emergent,Fringing,No,Yes,6
+2015,NT36,2015-10-31,6,2,Crypto_fish,2,4,Guluwuru Island NE,-11.55,136.42,Open,Wessel,Nearshore,Emergent,Fringing,No,Yes,6
+2015,NT37,2015-11-01,6,1,Crypto_fish,1,1,Truant Island SW,-11.674,136.823,Open,Wessel,Nearshore,Emergent,Fringing,No,No,6
+2015,NT37,2015-11-01,6,2,Crypto_fish,1,2,Truant Island SW,-11.674,136.823,Open,Wessel,Nearshore,Emergent,Fringing,No,No,6
+2015,NT37,2015-11-01,7,1,Crypto_fish,2,3,Truant Island SW,-11.674,136.823,Open,Wessel,Nearshore,Emergent,Fringing,No,No,7
+2015,NT37,2015-11-01,7,2,Crypto_fish,2,4,Truant Island SW,-11.674,136.823,Open,Wessel,Nearshore,Emergent,Fringing,No,No,7
+2015,NT38,2015-11-01,5,1,Crypto_fish,2,1,Truant Island N,-11.66,136.83,Open,Wessel,Offshore,Emergent,Fringing,No,Yes,5
+2015,NT38,2015-11-01,5,2,Crypto_fish,2,2,Truant Island N,-11.66,136.83,Open,Wessel,Offshore,Emergent,Fringing,No,Yes,5
+2015,NT38,2015-11-01,4,1,Crypto_fish,1,3,Truant Island N,-11.66,136.83,Open,Wessel,Offshore,Emergent,Fringing,No,Yes,4
+2015,NT38,2015-11-01,4,2,Crypto_fish,1,4,Truant Island N,-11.66,136.83,Open,Wessel,Offshore,Emergent,Fringing,No,Yes,4
+2015,NT39,2015-11-01,4.5,1,Crypto_fish,1,1,Truant Island S,-11.68,136.82,Open,Wessel,Offshore,Emergent,Fringing,No,Yes,4.5
+2015,NT39,2015-11-01,4.5,2,Crypto_fish,1,2,Truant Island S,-11.68,136.82,Open,Wessel,Offshore,Emergent,Fringing,No,Yes,4.5
+2015,NT39,2015-11-01,5,1,Crypto_fish,2,3,Truant Island S,-11.68,136.82,Open,Wessel,Offshore,Emergent,Fringing,No,Yes,5
+2015,NT39,2015-11-01,5,2,Crypto_fish,2,4,Truant Island S,-11.68,136.82,Open,Wessel,Offshore,Emergent,Fringing,No,Yes,5
+2015,NT40,2015-11-02,14,1,Crypto_fish,2,1,Truant Bank SW,-11.65,136.91,Open,Wessel,Offshore,Submerged,Shoal,No,Yes,14
+2015,NT40,2015-11-02,14,2,Crypto_fish,2,2,Truant Bank SW,-11.65,136.91,Open,Wessel,Offshore,Submerged,Shoal,No,Yes,14
+2015,NT40,2015-11-02,13,1,Crypto_fish,1,3,Truant Bank SW,-11.65,136.91,Open,Wessel,Offshore,Submerged,Shoal,No,Yes,13
+2015,NT40,2015-11-02,13,2,Crypto_fish,1,4,Truant Bank SW,-11.65,136.91,Open,Wessel,Offshore,Submerged,Shoal,No,Yes,13
+2015,NT41,2015-11-02,13,1,Crypto_fish,2,1,Truant Bank SE,-11.63,136.93,Open,Wessel,Offshore,Submerged,Shoal,No,Yes,13
+2015,NT41,2015-11-02,13,2,Crypto_fish,2,2,Truant Bank SE,-11.63,136.93,Open,Wessel,Offshore,Submerged,Shoal,No,Yes,13
+2015,NT41,2015-11-02,11,1,Crypto_fish,1,3,Truant Bank SE,-11.63,136.93,Open,Wessel,Offshore,Submerged,Shoal,No,Yes,11
+2015,NT41,2015-11-02,11,2,Crypto_fish,1,4,Truant Bank SE,-11.63,136.93,Open,Wessel,Offshore,Submerged,Shoal,No,Yes,11
+2015,NT42,2015-11-03,10,1,Crypto_fish,1,1,Pugh Shoal,-11.613,136.89,Open,Wessel,Offshore,Submerged,Shoal,No,No,10
+2015,NT42,2015-11-03,10,2,Crypto_fish,1,2,Pugh Shoal,-11.613,136.89,Open,Wessel,Offshore,Submerged,Shoal,No,No,10
+2015,NT42,2015-11-03,11,1,Crypto_fish,2,3,Pugh Shoal,-11.613,136.89,Open,Wessel,Offshore,Submerged,Shoal,No,No,11
+2015,NT42,2015-11-03,11,2,Crypto_fish,2,4,Pugh Shoal,-11.613,136.89,Open,Wessel,Offshore,Submerged,Shoal,No,No,11
+2015,NT43,2015-11-03,14,1,Crypto_fish,2,1,Buccaneer Shoal,-11.618,136.878,Open,Wessel,Offshore,Submerged,Shoal,No,No,14
+2015,NT43,2015-11-03,14,2,Crypto_fish,2,2,Buccaneer Shoal,-11.618,136.878,Open,Wessel,Offshore,Submerged,Shoal,No,No,14
+2015,NT43,2015-11-03,13,1,Crypto_fish,1,3,Buccaneer Shoal,-11.618,136.878,Open,Wessel,Offshore,Submerged,Shoal,No,No,13
+2015,NT43,2015-11-03,13,2,Crypto_fish,1,4,Buccaneer Shoal,-11.618,136.878,Open,Wessel,Offshore,Submerged,Shoal,No,No,13
+2015,NT44,2015-11-03,1.4,1,Crypto_fish,1,1,East Bremer Islet bay,-12.09,136.87,Open,Northwest,Nearshore,Emergent,Fringing,No,Yes,1.4
+2015,NT44,2015-11-03,1.4,2,Crypto_fish,1,2,East Bremer Islet bay,-12.09,136.87,Open,Northwest,Nearshore,Emergent,Fringing,No,Yes,1.4
+2015,NT44,2015-11-03,1.8,1,Crypto_fish,2,3,East Bremer Islet bay,-12.09,136.87,Open,Northwest,Nearshore,Emergent,Fringing,No,Yes,1.8
+2015,NT44,2015-11-03,1.8,2,Crypto_fish,2,4,East Bremer Islet bay,-12.09,136.87,Open,Northwest,Nearshore,Emergent,Fringing,No,Yes,1.8
+2015,NT45,2015-11-04,2,1,Crypto_fish,1,1,Porlsche Rock,-12.07,136.87,Open,Northwest,Offshore,Submerged,Pinnacle,No,Yes,2
+2015,NT45,2015-11-04,2,2,Crypto_fish,1,2,Porlsche Rock,-12.07,136.87,Open,Northwest,Offshore,Submerged,Pinnacle,No,Yes,2
+2015,NT45,2015-11-04,4,1,Crypto_fish,2,3,Porlsche Rock,-12.07,136.87,Open,Northwest,Offshore,Submerged,Pinnacle,No,Yes,4
+2015,NT45,2015-11-04,4,2,Crypto_fish,2,4,Porlsche Rock,-12.07,136.87,Open,Northwest,Offshore,Submerged,Pinnacle,No,Yes,4
+2015,NT46,2015-11-04,3,1,Crypto_fish,2,1,East Bremer Islet SW,-12.09,136.87,Open,Northwest,Nearshore,Emergent,Fringing,No,Yes,3
+2015,NT46,2015-11-04,3,2,Crypto_fish,2,2,East Bremer Islet SW,-12.09,136.87,Open,Northwest,Nearshore,Emergent,Fringing,No,Yes,3
+2015,NT46,2015-11-04,2,1,Crypto_fish,1,3,East Bremer Islet SW,-12.09,136.87,Open,Northwest,Nearshore,Emergent,Fringing,No,Yes,2
+2015,NT46,2015-11-04,2,2,Crypto_fish,1,4,East Bremer Islet SW,-12.09,136.87,Open,Northwest,Nearshore,Emergent,Fringing,No,Yes,2
+2015,NT47,2015-11-04,4,1,Crypto_fish,1,1,Bremer Islet anchorage,-12.087,136.865,Open,Northwest,Nearshore,Emergent,Fringing,No,No,4
+2015,NT47,2015-11-04,4,2,Crypto_fish,1,2,Bremer Islet anchorage,-12.087,136.865,Open,Northwest,Nearshore,Emergent,Fringing,No,No,4
+2015,NT48,2015-11-04,6,1,Crypto_fish,1,1,Bremer Island East,-12.09,136.83,Open,Northwest,Nearshore,Emergent,Fringing,No,Yes,6
+2015,NT48,2015-11-04,6,2,Crypto_fish,1,2,Bremer Island East,-12.09,136.83,Open,Northwest,Nearshore,Emergent,Fringing,No,Yes,6
+2015,NT48,2015-11-04,7,1,Crypto_fish,2,3,Bremer Island East,-12.09,136.83,Open,Northwest,Nearshore,Emergent,Fringing,No,Yes,7
+2015,NT48,2015-11-04,7,2,Crypto_fish,2,4,Bremer Island East,-12.09,136.83,Open,Northwest,Nearshore,Emergent,Fringing,No,Yes,7
+2015,NT49,2015-11-05,10,1,Crypto_fish,2,1,Bonner Rocks NE,-12.06,136.61,Open,Northwest,Nearshore,Emergent,Shoal,No,Yes,10
+2015,NT49,2015-11-05,10,2,Crypto_fish,2,2,Bonner Rocks NE,-12.06,136.61,Open,Northwest,Nearshore,Emergent,Shoal,No,Yes,10
+2015,NT49,2015-11-05,8,1,Crypto_fish,1,3,Bonner Rocks NE,-12.06,136.61,Open,Northwest,Nearshore,Emergent,Shoal,No,Yes,8
+2015,NT49,2015-11-05,8,2,Crypto_fish,1,4,Bonner Rocks NE,-12.06,136.61,Open,Northwest,Nearshore,Emergent,Shoal,No,Yes,8
+2015,NT50,2015-11-05,5,1,Crypto_fish,1,1,Bonner Rocks NW,-12.06,136.611,Open,Northwest,Nearshore,Emergent,Shoal,No,No,5
+2015,NT50,2015-11-05,5,2,Crypto_fish,1,2,Bonner Rocks NW,-12.06,136.611,Open,Northwest,Nearshore,Emergent,Shoal,No,No,5
+2015,NT50,2015-11-05,6,1,Crypto_fish,2,3,Bonner Rocks NW,-12.06,136.611,Open,Northwest,Nearshore,Emergent,Shoal,No,No,6
+2015,NT50,2015-11-05,6,2,Crypto_fish,2,4,Bonner Rocks NW,-12.06,136.611,Open,Northwest,Nearshore,Emergent,Shoal,No,No,6
+2015,NT51,2015-11-06,2,1,Crypto_fish,2,1,Bremer Island west,-12.108,136.79,Open,Northwest,Nearshore,Emergent,Fringing,No,No,2
+2015,NT51,2015-11-06,2,2,Crypto_fish,2,2,Bremer Island west,-12.108,136.79,Open,Northwest,Nearshore,Emergent,Fringing,No,No,2
+2015,NT51,2015-11-06,1.5,1,Crypto_fish,1,3,Bremer Island west,-12.108,136.79,Open,Northwest,Nearshore,Emergent,Fringing,No,No,1.5
+2015,NT51,2015-11-06,1.5,2,Crypto_fish,1,4,Bremer Island west,-12.108,136.79,Open,Northwest,Nearshore,Emergent,Fringing,No,No,1.5
+2015,NT52,2015-11-07,5,1,Crypto_fish,2,1,Dudley Island SE,-12.89,136.73,Open,Western,Nearshore,Emergent,Fringing,No,Yes,5
+2015,NT52,2015-11-07,5,2,Crypto_fish,2,2,Dudley Island SE,-12.89,136.73,Open,Western,Nearshore,Emergent,Fringing,No,Yes,5
+2015,NT52,2015-11-07,4,1,Crypto_fish,1,3,Dudley Island SE,-12.89,136.73,Open,Western,Nearshore,Emergent,Fringing,No,Yes,4
+2015,NT52,2015-11-07,4,2,Crypto_fish,1,4,Dudley Island SE,-12.89,136.73,Open,Western,Nearshore,Emergent,Fringing,No,Yes,4
+2015,NT53,2015-11-07,5.5,1,Crypto_fish,2,1,Dudley Island,-12.881,136.726,Open,Western,Nearshore,Emergent,Fringing,No,No,5.5
+2015,NT53,2015-11-07,5.5,2,Crypto_fish,2,2,Dudley Island,-12.881,136.726,Open,Western,Nearshore,Emergent,Fringing,No,No,5.5
+2015,NT53,2015-11-07,5,1,Crypto_fish,1,3,Dudley Island,-12.881,136.726,Open,Western,Nearshore,Emergent,Fringing,No,No,5
+2015,NT53,2015-11-07,5,2,Crypto_fish,1,4,Dudley Island,-12.881,136.726,Open,Western,Nearshore,Emergent,Fringing,No,No,5
+2015,NT54,2015-11-07,5,1,Crypto_fish,2,1,Dudley Rock,-12.884,136.712,Open,Western,Offshore,Emergent,Shoal,No,No,5
+2015,NT54,2015-11-07,5,2,Crypto_fish,2,2,Dudley Rock,-12.884,136.712,Open,Western,Offshore,Emergent,Shoal,No,No,5
+2015,NT54,2015-11-07,4,1,Crypto_fish,1,3,Dudley Rock,-12.884,136.712,Open,Western,Offshore,Emergent,Shoal,No,No,4
+2015,NT54,2015-11-07,4,2,Crypto_fish,1,4,Dudley Rock,-12.884,136.712,Open,Western,Offshore,Emergent,Shoal,No,No,4
+2015,NT55,2015-11-08,8,1,Crypto_fish,1,1,Brady Rock,-13.68,136.45,Open,Western,Nearshore,Emergent,Shoal,No,Yes,8
+2015,NT55,2015-11-08,8,2,Crypto_fish,1,2,Brady Rock,-13.68,136.45,Open,Western,Nearshore,Emergent,Shoal,No,Yes,8
+2015,NT55,2015-11-08,10,1,Crypto_fish,2,3,Brady Rock,-13.68,136.45,Open,Western,Nearshore,Emergent,Shoal,No,Yes,10
+2015,NT55,2015-11-08,10,2,Crypto_fish,2,4,Brady Rock,-13.68,136.45,Open,Western,Nearshore,Emergent,Shoal,No,Yes,10
+2015,NT56,2015-11-11,4.5,1,Crypto_fish,1,1,Cape Beatrice SW,-14.31,136.89,Open,Western,Nearshore,Emergent,Fringing,No,Yes,4.5
+2015,NT56,2015-11-11,4.5,2,Crypto_fish,1,2,Cape Beatrice SW,-14.31,136.89,Open,Western,Nearshore,Emergent,Fringing,No,Yes,4.5
+2015,NT56,2015-11-11,4.6,1,Crypto_fish,2,3,Cape Beatrice SW,-14.31,136.89,Open,Western,Nearshore,Emergent,Fringing,No,Yes,4.6
+2015,NT56,2015-11-11,4.6,2,Crypto_fish,2,4,Cape Beatrice SW,-14.31,136.89,Open,Western,Nearshore,Emergent,Fringing,No,Yes,4.6
+2015,NT57,2015-11-11,3,1,Crypto_fish,1,1,Cape Beatrice South,-14.309,136.889,Open,Western,Nearshore,Emergent,Fringing,No,No,3
+2015,NT57,2015-11-11,3,2,Crypto_fish,1,2,Cape Beatrice South,-14.309,136.889,Open,Western,Nearshore,Emergent,Fringing,No,No,3
+2015,NT57,2015-11-11,6,1,Crypto_fish,2,3,Cape Beatrice South,-14.309,136.889,Open,Western,Nearshore,Emergent,Fringing,No,No,6
+2015,NT57,2015-11-11,6,2,Crypto_fish,2,4,Cape Beatrice South,-14.309,136.889,Open,Western,Nearshore,Emergent,Fringing,No,No,6
+2015,NT58,2015-11-11,3.5,1,Crypto_fish,1,1,Turtle Cave,-14.355,136.95,Open,Western,Nearshore,Emergent,Fringing,No,No,3.5
+2015,NT58,2015-11-11,3.5,2,Crypto_fish,1,2,Turtle Cave,-14.355,136.95,Open,Western,Nearshore,Emergent,Fringing,No,No,3.5
+2015,NT58,2015-11-11,3.6,1,Crypto_fish,2,3,Turtle Cave,-14.355,136.95,Open,Western,Nearshore,Emergent,Fringing,No,No,3.6
+2015,NT58,2015-11-11,3.6,2,Crypto_fish,2,4,Turtle Cave,-14.355,136.95,Open,Western,Nearshore,Emergent,Fringing,No,No,3.6
+2015,NT59,2015-11-11,7,1,Crypto_fish,2,1,Cape Beatrice Islet West,-14.35,136.94,Open,Western,Nearshore,Emergent,Fringing,No,Yes,7
+2015,NT59,2015-11-11,7,2,Crypto_fish,2,2,Cape Beatrice Islet West,-14.35,136.94,Open,Western,Nearshore,Emergent,Fringing,No,Yes,7
+2015,NT59,2015-11-11,3,1,Crypto_fish,1,3,Cape Beatrice Islet West,-14.35,136.94,Open,Western,Nearshore,Emergent,Fringing,No,Yes,3
+2015,NT59,2015-11-11,3,2,Crypto_fish,1,4,Cape Beatrice Islet West,-14.35,136.94,Open,Western,Nearshore,Emergent,Fringing,No,Yes,3
+2015,NT60,2015-11-12,19,1,Crypto_fish,2,1,Groper Shoal,-15.47,137.92,Open,Southern,Offshore,Submerged,Pinnacle,R7,Yes,19
+2015,NT60,2015-11-12,19,2,Crypto_fish,2,2,Groper Shoal,-15.47,137.92,Open,Southern,Offshore,Submerged,Pinnacle,R7,Yes,19
+2015,NT60,2015-11-12,18.5,1,Crypto_fish,1,3,Groper Shoal,-15.47,137.92,Open,Southern,Offshore,Submerged,Pinnacle,R7,Yes,18.5
+2015,NT60,2015-11-12,18.5,2,Crypto_fish,1,4,Groper Shoal,-15.47,137.92,Open,Southern,Offshore,Submerged,Pinnacle,R7,Yes,18.5
+2015,GC11,2015-11-13,19.5,1,Crypto_fish,2,1,Chinamans Reef,-15.89,139.03,Blue,Southern,Offshore,Submerged,Pinnacle,No,Yes,19.5
+2015,GC11,2015-11-13,19.5,2,Crypto_fish,2,2,Chinamans Reef,-15.89,139.03,Blue,Southern,Offshore,Submerged,Pinnacle,No,Yes,19.5
+2015,GC11,2015-11-13,19,1,Crypto_fish,1,3,Chinamans Reef,-15.89,139.03,Blue,Southern,Offshore,Submerged,Pinnacle,No,Yes,19
+2015,GC11,2015-11-13,19,2,Crypto_fish,1,4,Chinamans Reef,-15.89,139.03,Blue,Southern,Offshore,Submerged,Pinnacle,No,Yes,19
+2015,GC10,2015-11-13,17,1,Crypto_fish,1,1,Foggy Bottom,-16.07,138.91,Blue,Southern,Offshore,Submerged,Pinnacle,R4,Yes,17
+2015,GC10,2015-11-13,17,2,Crypto_fish,1,2,Foggy Bottom,-16.07,138.91,Blue,Southern,Offshore,Submerged,Pinnacle,R4,Yes,17
+2015,GC7,2015-11-14,10,1,Crypto_fish,2,1,Steves Bommie,-16.29,139.42,Open,Southern,Offshore,Submerged,Pinnacle,No,Yes,10
+2015,GC7,2015-11-14,10,2,Crypto_fish,2,2,Steves Bommie,-16.29,139.42,Open,Southern,Offshore,Submerged,Pinnacle,No,Yes,10
+2015,GC7,2015-11-14,9.5,1,Crypto_fish,1,3,Steves Bommie,-16.29,139.42,Open,Southern,Offshore,Submerged,Pinnacle,No,Yes,9.5
+2015,GC7,2015-11-14,9.5,2,Crypto_fish,1,4,Steves Bommie,-16.29,139.42,Open,Southern,Offshore,Submerged,Pinnacle,No,Yes,9.5
+2015,GC9,2015-11-14,5,1,Crypto_fish,2,1,Manowar Island,-16.23,139.25,Open,Southern,Offshore,Emergent,Fringing,No,Yes,5
+2015,GC9,2015-11-14,5,2,Crypto_fish,2,2,Manowar Island,-16.23,139.25,Open,Southern,Offshore,Emergent,Fringing,No,Yes,5
+2015,GC9,2015-11-14,4.5,1,Crypto_fish,1,3,Manowar Island,-16.23,139.25,Open,Southern,Offshore,Emergent,Fringing,No,Yes,4.5
+2015,GC9,2015-11-14,4.5,2,Crypto_fish,1,4,Manowar Island,-16.23,139.25,Open,Southern,Offshore,Emergent,Fringing,No,Yes,4.5
+2015,GC8,2015-11-15,14,1,Crypto_fish,2,1,Glasseye Reef,-16.24,139.6,Blue,Southern,Offshore,Submerged,Pinnacle,No,Yes,14
+2015,GC8,2015-11-15,14,2,Crypto_fish,2,2,Glasseye Reef,-16.24,139.6,Blue,Southern,Offshore,Submerged,Pinnacle,No,Yes,14
+2015,GC8,2015-11-15,12.5,1,Crypto_fish,1,3,Glasseye Reef,-16.24,139.6,Blue,Southern,Offshore,Submerged,Pinnacle,No,Yes,12.5
+2015,GC8,2015-11-15,12.5,2,Crypto_fish,1,4,Glasseye Reef,-16.24,139.6,Blue,Southern,Offshore,Submerged,Pinnacle,No,Yes,12.5
+2015,GC12,2015-11-16,20,2,Crypto_fish,1,1,Carpentaria Reef SW,-15.52,140.12,Blue,Southern,Offshore,Submerged,Pinnacle,R3,Yes,20
+2015,GC12,2015-11-16,20,1,Crypto_fish,1,2,Carpentaria Reef SW,-15.52,140.12,Blue,Southern,Offshore,Submerged,Pinnacle,R3,Yes,20
+2015,GC12,2015-11-16,21,1,Crypto_fish,2,3,Carpentaria Reef SW,-15.52,140.12,Blue,Southern,Offshore,Submerged,Pinnacle,R3,Yes,21
+2015,GC12,2015-11-16,21,2,Crypto_fish,2,4,Carpentaria Reef SW,-15.52,140.12,Blue,Southern,Offshore,Submerged,Pinnacle,R3,Yes,21
+2015,GC13,2015-11-16,19,2,Crypto_fish,1,1,Carpentaria Reef,-15.45,140.18,Blue,Southern,Offshore,Submerged,Pinnacle,R2,Yes,19
+2015,GC13,2015-11-16,19,1,Crypto_fish,1,2,Carpentaria Reef,-15.45,140.18,Blue,Southern,Offshore,Submerged,Pinnacle,R2,Yes,19
+2015,GC13,2015-11-16,20,1,Crypto_fish,2,3,Carpentaria Reef,-15.45,140.18,Blue,Southern,Offshore,Submerged,Pinnacle,R2,Yes,20
+2015,GC13,2015-11-16,20,2,Crypto_fish,2,4,Carpentaria Reef,-15.45,140.18,Blue,Southern,Offshore,Submerged,Pinnacle,R2,Yes,20
+2015,TS2,2015-11-20,5,1,Crypto_fish,1,1,Booby Island SW,-10.61,141.91,Open,Northeast,Offshore,Emergent,Fringing,No,Yes,5
+2015,TS2,2015-11-20,5,2,Crypto_fish,1,2,Booby Island SW,-10.61,141.91,Open,Northeast,Offshore,Emergent,Fringing,No,Yes,5
+2015,TS2,2015-11-20,5.5,1,Crypto_fish,2,3,Booby Island SW,-10.61,141.91,Open,Northeast,Offshore,Emergent,Fringing,No,Yes,5.5
+2015,GC15,2015-11-22,7,1,Crypto_fish,2,1,Proudfoot Shoal,-10.53,141.47,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,7
+2015,GC15,2015-11-22,7,2,Crypto_fish,2,2,Proudfoot Shoal,-10.53,141.47,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,7
+2015,GC15,2015-11-22,6,1,Crypto_fish,1,3,Proudfoot Shoal,-10.53,141.47,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,6
+2015,GC15,2015-11-22,6,2,Crypto_fish,1,4,Proudfoot Shoal,-10.53,141.47,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,6
+2015,GC17,2015-11-22,13,1,Crypto_fish,2,1,Merkara Shoal N,-10.5,141.23,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,13
+2015,GC17,2015-11-22,13,2,Crypto_fish,2,2,Merkara Shoal N,-10.5,141.23,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,13
+2015,GC17,2015-11-22,12.5,1,Crypto_fish,1,3,Merkara Shoal N,-10.5,141.23,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,12.5
+2015,GC17,2015-11-22,12.5,2,Crypto_fish,1,4,Merkara Shoal N,-10.5,141.23,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,12.5
+2015,GC16,2015-11-22,12,1,Crypto_fish,1,1,Merkara Shoal SW,-10.502,141.228,Open,Northeast,Offshore,Submerged,Shoal,No,No,12
+2015,GC16,2015-11-22,12,2,Crypto_fish,1,2,Merkara Shoal SW,-10.502,141.228,Open,Northeast,Offshore,Submerged,Shoal,No,No,12
+2015,GC16,2015-11-22,13,1,Crypto_fish,2,3,Merkara Shoal SW,-10.502,141.228,Open,Northeast,Offshore,Submerged,Shoal,No,No,13
+2015,GC16,2015-11-22,13,2,Crypto_fish,2,4,Merkara Shoal SW,-10.502,141.228,Open,Northeast,Offshore,Submerged,Shoal,No,No,13
+2015,GC14,2015-11-23,17,1,Crypto_fish,1,1,Carpentaria Shoal,-10.74,141.06,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,17
+2015,GC14,2015-11-23,17,2,Crypto_fish,1,2,Carpentaria Shoal,-10.74,141.06,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,17
+2015,GC14,2015-11-23,17.5,1,Crypto_fish,2,3,Carpentaria Shoal,-10.74,141.06,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,17.5
+2015,GC14,2015-11-23,17.5,2,Crypto_fish,2,4,Carpentaria Shoal,-10.74,141.06,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,17.5
+2015,TS3,2015-12-20,4,2,Crypto_fish,1,1,Booby Island NW,-10.603,141.909,Open,Northeast,Offshore,Emergent,Fringing,No,No,4
+2015,TS3,2015-12-20,4,1,Crypto_fish,1,2,Booby Island NW,-10.603,141.909,Open,Northeast,Offshore,Emergent,Fringing,No,No,4
+2015,TS3,2015-12-20,5,1,Crypto_fish,2,3,Booby Island NW,-10.603,141.909,Open,Northeast,Offshore,Emergent,Fringing,No,No,5
+2015,TS3,2015-12-20,5,2,Crypto_fish,2,4,Booby Island NW,-10.603,141.909,Open,Northeast,Offshore,Emergent,Fringing,No,No,5
+2010,GC1,2010-07-03,3.8,1,Crypto_fish,1,1,Lamatha Reef,-16.48,139.27,Open,Mornington,Nearshore,Emergent,Fringing,No,Yes,3.8
+2010,GC1,2010-07-03,3.8,2,Crypto_fish,1,2,Lamatha Reef,-16.48,139.27,Open,Mornington,Nearshore,Emergent,Fringing,No,Yes,3.8
+2010,GC1,2010-07-03,4,1,Crypto_fish,2,3,Lamatha Reef,-16.48,139.27,Open,Mornington,Nearshore,Emergent,Fringing,No,Yes,4
+2010,GC1,2010-07-03,4,2,Crypto_fish,2,4,Lamatha Reef,-16.48,139.27,Open,Mornington,Nearshore,Emergent,Fringing,No,Yes,4
+2010,GC2,2010-07-03,8,1,Crypto_fish,1,1,Bowengun,-16.42,139.47,Open,Mornington,Nearshore,Emergent,Fringing,No,Yes,8
+2010,GC3,2010-07-04,4.4,1,Crypto_fish,1,1,Mandalbi-Bellaleea,-16.41,139.63,Open,Mornington,Nearshore,Emergent,Fringing,No,Yes,4.4
+2010,GC3,2010-07-04,4.4,2,Crypto_fish,1,2,Mandalbi-Bellaleea,-16.41,139.63,Open,Mornington,Nearshore,Emergent,Fringing,No,Yes,4.4
+2010,GC3,2010-07-04,5,1,Crypto_fish,2,3,Mandalbi-Bellaleea,-16.41,139.63,Open,Mornington,Nearshore,Emergent,Fringing,No,Yes,5
+2010,GC3,2010-07-04,5,2,Crypto_fish,2,4,Mandalbi-Bellaleea,-16.41,139.63,Open,Mornington,Nearshore,Emergent,Fringing,No,Yes,5
+2010,GC4,2010-07-04,6.4,1,Crypto_fish,1,1,Mandalbi-outer,-16.39,139.63,Open,Mornington,Nearshore,Emergent,Fringing,No,Yes,6.4
+2010,GC4,2010-07-04,6.4,2,Crypto_fish,1,2,Mandalbi-outer,-16.39,139.63,Open,Mornington,Nearshore,Emergent,Fringing,No,Yes,6.4
+2010,GC4,2010-07-04,6.8,1,Crypto_fish,2,3,Mandalbi-outer,-16.39,139.63,Open,Mornington,Nearshore,Emergent,Fringing,No,Yes,6.8
+2010,GC4,2010-07-04,6.8,2,Crypto_fish,2,4,Mandalbi-outer,-16.39,139.63,Open,Mornington,Nearshore,Emergent,Fringing,No,Yes,6.8
+2010,GC6,2010-07-04,3.2,1,Crypto_fish,1,1,Thabugan Reef,-16.38,139.6,Open,Mornington,Nearshore,Emergent,Fringing,No,Yes,3.2
+2010,GC6,2010-07-04,3.2,2,Crypto_fish,1,2,Thabugan Reef,-16.38,139.6,Open,Mornington,Nearshore,Emergent,Fringing,No,Yes,3.2
+2010,GC6,2010-07-04,5.2,1,Crypto_fish,2,3,Thabugan Reef,-16.38,139.6,Open,Mornington,Nearshore,Emergent,Fringing,No,Yes,5.2
+2010,GC6,2010-07-04,5.2,2,Crypto_fish,2,4,Thabugan Reef,-16.38,139.6,Open,Mornington,Nearshore,Emergent,Fringing,No,Yes,5.2
+2010,GC5,2010-07-05,2,1,Crypto_fish,1,1,Thabugan Reef South,-16.38,139.6,Open,Mornington,Nearshore,Emergent,Fringing,No,Yes,2
+2010,GC5,2010-07-05,2,2,Crypto_fish,1,2,Thabugan Reef South,-16.38,139.6,Open,Mornington,Nearshore,Emergent,Fringing,No,Yes,2
+2010,GC5,2010-07-05,2.5,1,Crypto_fish,2,3,Thabugan Reef South,-16.38,139.6,Open,Mornington,Nearshore,Emergent,Fringing,No,Yes,2.5
+2010,GC5,2010-07-05,2.5,2,Crypto_fish,2,4,Thabugan Reef South,-16.38,139.6,Open,Mornington,Nearshore,Emergent,Fringing,No,Yes,2.5
+2010,GC7,2010-07-05,9,1,Crypto_fish,1,1,Steves Bommie,-16.29,139.42,Open,Southern,Offshore,Submerged,Pinnacle,No,Yes,9
+2010,GC7,2010-07-05,9,2,Crypto_fish,1,2,Steves Bommie,-16.29,139.42,Open,Southern,Offshore,Submerged,Pinnacle,No,Yes,9
+2010,GC7,2010-07-05,10.2,2,Crypto_fish,2,3,Steves Bommie,-16.29,139.42,Open,Southern,Offshore,Submerged,Pinnacle,No,Yes,10.2
+2010,GC9,2010-07-05,5.5,1,Crypto_fish,1,1,Manowar Island,-16.23,139.25,Open,Southern,Offshore,Emergent,Fringing,No,Yes,5.5
+2010,GC9,2010-07-05,5.5,2,Crypto_fish,1,2,Manowar Island,-16.23,139.25,Open,Southern,Offshore,Emergent,Fringing,No,Yes,5.5
+2010,GC9,2010-07-05,6,1,Crypto_fish,2,3,Manowar Island,-16.23,139.25,Open,Southern,Offshore,Emergent,Fringing,No,Yes,6
+2010,GC9,2010-07-05,6,2,Crypto_fish,2,4,Manowar Island,-16.23,139.25,Open,Southern,Offshore,Emergent,Fringing,No,Yes,6
+2019,NT30,2019-01-20,9,1,Crypto_fish,1,1,Arnhem CMR Gadgets Reef North West,-11.283,133.8,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,9
+2019,NT30,2019-01-20,9,2,Crypto_fish,1,2,Arnhem CMR Gadgets Reef North West,-11.283,133.8,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,9
+2019,NT30,2019-01-20,9.5,1,Crypto_fish,2,3,Arnhem CMR Gadgets Reef North West,-11.283,133.8,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,9.5
+2019,NT30,2019-01-20,9.5,2,Crypto_fish,2,4,Arnhem CMR Gadgets Reef North West,-11.283,133.8,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,9.5
+2019,NT34,2019-01-22,13,1,Crypto_fish,1,1,Paxie Shoal West,-11.45,134.133,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,13
+2019,NT34,2019-01-22,13,2,Crypto_fish,1,2,Paxie Shoal West,-11.45,134.133,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,13
+2019,NT31,2019-01-21,13,1,Crypto_fish,1,1,Arnhem CMR Gadgets Reef West,-11.3,133.8,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,13
+2019,NT31,2019-01-21,13,2,Crypto_fish,1,2,Arnhem CMR Gadgets Reef West,-11.3,133.8,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,13
+2020,GC14,2020-11-01,17,1,Crypto_fish,2,1,Carpentaria Shoal,-10.74,141.06,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,17
+2020,GC14,2020-11-01,17,2,Crypto_fish,2,2,Carpentaria Shoal,-10.74,141.06,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,17
+2020,GC14,2020-11-01,16.5,1,Crypto_fish,1,3,Carpentaria Shoal,-10.74,141.06,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,16.5
+2020,GC14,2020-11-01,16.5,2,Crypto_fish,1,4,Carpentaria Shoal,-10.74,141.06,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,16.5
+2020,GC16,2020-11-01,11,1,Crypto_fish,1,1,Merkara Shoal SW,-10.502,141.228,Open,Northeast,Offshore,Submerged,Shoal,No,No,11
+2020,GC16,2020-11-01,11,2,Crypto_fish,1,2,Merkara Shoal SW,-10.502,141.228,Open,Northeast,Offshore,Submerged,Shoal,No,No,11
+2020,GC16,2020-11-01,11.5,1,Crypto_fish,2,3,Merkara Shoal SW,-10.502,141.228,Open,Northeast,Offshore,Submerged,Shoal,No,No,11.5
+2020,GC16,2020-11-01,11.5,2,Crypto_fish,2,4,Merkara Shoal SW,-10.502,141.228,Open,Northeast,Offshore,Submerged,Shoal,No,No,11.5
+2020,GC17,2020-11-01,13,1,Crypto_fish,2,1,Merkara Shoal N,-10.5,141.23,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,13
+2020,GC17,2020-11-01,13,2,Crypto_fish,2,2,Merkara Shoal N,-10.5,141.23,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,13
+2020,GC17,2020-11-01,12.5,1,Crypto_fish,1,3,Merkara Shoal N,-10.5,141.23,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,12.5
+2020,GC17,2020-11-01,12.5,2,Crypto_fish,1,4,Merkara Shoal N,-10.5,141.23,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,12.5
+2020,TS2,2020-10-31,5,1,Crypto_fish,1,1,Booby Island SW,-10.61,141.91,Open,Northeast,Offshore,Emergent,Fringing,No,Yes,5
+2020,TS2,2020-10-31,5,2,Crypto_fish,1,2,Booby Island SW,-10.61,141.91,Open,Northeast,Offshore,Emergent,Fringing,No,Yes,5
+2020,TS2,2020-10-31,5.5,1,Crypto_fish,2,3,Booby Island SW,-10.61,141.91,Open,Northeast,Offshore,Emergent,Fringing,No,Yes,5.5
+2020,TS2,2020-10-31,5.5,2,Crypto_fish,2,4,Booby Island SW,-10.61,141.91,Open,Northeast,Offshore,Emergent,Fringing,No,Yes,5.5
+2020,TS28,2020-10-31,4.5,1,Crypto_fish,2,1,Booby Island Bommie,-10.603,141.907,Open,Northeast,Offshore,Emergent,Fringing,No,No,4.5
+2020,TS28,2020-10-31,4.5,2,Crypto_fish,2,2,Booby Island Bommie,-10.603,141.907,Open,Northeast,Offshore,Emergent,Fringing,No,No,4.5
+2020,TS28,2020-10-31,4,1,Crypto_fish,1,3,Booby Island Bommie,-10.603,141.907,Open,Northeast,Offshore,Emergent,Fringing,No,No,4
+2020,TS3,2020-10-31,6,1,Crypto_fish,2,1,Booby Island NW,-10.603,141.909,Open,Northeast,Offshore,Emergent,Fringing,No,No,6
+2020,TS3,2020-10-31,6,2,Crypto_fish,2,2,Booby Island NW,-10.603,141.909,Open,Northeast,Offshore,Emergent,Fringing,No,No,6
+2020,TS3,2020-10-31,5,1,Crypto_fish,1,3,Booby Island NW,-10.603,141.909,Open,Northeast,Offshore,Emergent,Fringing,No,No,5
+2020,TS3,2020-10-31,5,2,Crypto_fish,1,4,Booby Island NW,-10.603,141.909,Open,Northeast,Offshore,Emergent,Fringing,No,No,5
+2021,NT53,2021-11-05,4,1,Crypto_fish,1,1,Dudley Island,-12.881,136.726,Open,Western,Nearshore,Emergent,Fringing,No,No,4
+2021,NT53,2021-11-05,4,2,Crypto_fish,1,2,Dudley Island,-12.881,136.726,Open,Western,Nearshore,Emergent,Fringing,No,No,4
+2021,NT52,2021-11-05,5,1,Crypto_fish,2,1,Dudley Island SE,-12.89,136.73,Open,Western,Nearshore,Emergent,Fringing,No,Yes,5
+2021,NT52,2021-11-05,5,2,Crypto_fish,2,2,Dudley Island SE,-12.89,136.73,Open,Western,Nearshore,Emergent,Fringing,No,Yes,5
+2021,NT53,2021-11-05,4.5,1,Crypto_fish,2,3,Dudley Island,-12.881,136.726,Open,Western,Nearshore,Emergent,Fringing,No,No,4.5
+2021,NT53,2021-11-05,4.5,2,Crypto_fish,2,4,Dudley Island,-12.881,136.726,Open,Western,Nearshore,Emergent,Fringing,No,No,4.5
+2021,GC14,2021-11-09,17,1,Crypto_fish,1,1,Carpentaria Shoal,-10.74,141.06,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,17
+2021,GC14,2021-11-09,17,2,Crypto_fish,1,2,Carpentaria Shoal,-10.74,141.06,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,17
+2021,NT49,2021-11-04,8.5,1,Crypto_fish,2,1,Bonner Rocks NE,-12.06,136.61,Open,Northwest,Nearshore,Emergent,Shoal,No,Yes,8.5
+2021,NT49,2021-11-04,8.5,2,Crypto_fish,2,2,Bonner Rocks NE,-12.06,136.61,Open,Northwest,Nearshore,Emergent,Shoal,No,Yes,8.5
+2021,GC18,2021-11-09,17.5,1,Crypto_fish,1,1,Carpentaria Shoal West,-10.744,141.05,Open,Northeast,Offshore,Submerged,Shoal,No,No,17.5
+2021,GC18,2021-11-09,17.5,2,Crypto_fish,1,2,Carpentaria Shoal West,-10.744,141.05,Open,Northeast,Offshore,Submerged,Shoal,No,No,17.5
+2021,NT54,2021-11-05,5,1,Crypto_fish,2,1,Dudley Rock,-12.884,136.712,Open,Western,Offshore,Emergent,Shoal,No,No,5
+2021,NT54,2021-11-05,5,2,Crypto_fish,2,2,Dudley Rock,-12.884,136.712,Open,Western,Offshore,Emergent,Shoal,No,No,5
+2021,NT49,2021-11-04,6.5,1,Crypto_fish,1,3,Bonner Rocks NE,-12.06,136.61,Open,Northwest,Nearshore,Emergent,Shoal,No,Yes,6.5
+2021,NT49,2021-11-04,6.5,2,Crypto_fish,1,4,Bonner Rocks NE,-12.06,136.61,Open,Northwest,Nearshore,Emergent,Shoal,No,Yes,6.5
+2021,NT52,2021-11-05,4.5,1,Crypto_fish,1,3,Dudley Island SE,-12.89,136.73,Open,Western,Nearshore,Emergent,Fringing,No,Yes,4.5
+2021,NT52,2021-11-05,4.5,2,Crypto_fish,1,4,Dudley Island SE,-12.89,136.73,Open,Western,Nearshore,Emergent,Fringing,No,Yes,4.5
+2021,GC17,2021-11-09,17,1,Crypto_fish,2,1,Merkara Shoal N,-10.5,141.23,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,17
+2021,GC17,2021-11-09,17,2,Crypto_fish,2,2,Merkara Shoal N,-10.5,141.23,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,17
+2021,GC17,2021-11-09,14,2,Crypto_fish,1,3,Merkara Shoal N,-10.5,141.23,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,14
+2021,TS2,2021-11-10,6,1,Crypto_fish,2,1,Booby Island SW,-10.61,141.91,Open,Northeast,Offshore,Emergent,Fringing,No,Yes,6
+2021,TS2,2021-11-10,6,2,Crypto_fish,2,2,Booby Island SW,-10.61,141.91,Open,Northeast,Offshore,Emergent,Fringing,No,Yes,6
+2021,TS2,2021-11-10,5,1,Crypto_fish,1,3,Booby Island SW,-10.61,141.91,Open,Northeast,Offshore,Emergent,Fringing,No,Yes,5
+2021,TS2,2021-11-10,5,2,Crypto_fish,1,4,Booby Island SW,-10.61,141.91,Open,Northeast,Offshore,Emergent,Fringing,No,Yes,5
+2021,GC14,2021-11-09,17.5,1,Crypto_fish,2,3,Carpentaria Shoal,-10.74,141.06,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,17.5
+2021,GC14,2021-11-09,17.5,2,Crypto_fish,2,4,Carpentaria Shoal,-10.74,141.06,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,17.5
+2021,NT30,2021-10-31,9,1,Crypto_fish,2,1,Arnhem CMR Gadgets Reef North West,-11.283,133.8,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,9
+2021,NT30,2021-10-31,9,2,Crypto_fish,2,2,Arnhem CMR Gadgets Reef North West,-11.283,133.8,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,9
+2021,NT50,2021-11-04,5,1,Crypto_fish,2,1,Bonner Rocks NW,-12.06,136.611,Open,Northwest,Nearshore,Emergent,Shoal,No,No,5
+2021,NT50,2021-11-04,5,2,Crypto_fish,2,2,Bonner Rocks NW,-12.06,136.611,Open,Northwest,Nearshore,Emergent,Shoal,No,No,5
+2021,NT54,2021-11-05,4.5,1,Crypto_fish,1,3,Dudley Rock,-12.884,136.712,Open,Western,Offshore,Emergent,Shoal,No,No,4.5
+2021,NT54,2021-11-05,4.5,2,Crypto_fish,1,4,Dudley Rock,-12.884,136.712,Open,Western,Offshore,Emergent,Shoal,No,No,4.5
+2021,NT30,2021-10-31,8.5,1,Crypto_fish,1,3,Arnhem CMR Gadgets Reef North West,-11.283,133.8,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,8.5
+2021,NT30,2021-10-31,8.5,2,Crypto_fish,1,4,Arnhem CMR Gadgets Reef North West,-11.283,133.8,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,8.5
+2021,NT63,2021-11-01,9.5,1,Crypto_fish,1,1,Arafura Shoal,-11.23,134.75,Open,Outer-shoals,Offshore,Submerged,Shoal,R8,Yes,9.5
+2021,NT63,2021-11-01,9.5,2,Crypto_fish,1,2,Arafura Shoal,-11.23,134.75,Open,Outer-shoals,Offshore,Submerged,Shoal,R8,Yes,9.5
+2021,NT50,2021-11-04,4.5,1,Crypto_fish,1,3,Bonner Rocks NW,-12.06,136.611,Open,Northwest,Nearshore,Emergent,Shoal,No,No,4.5
+2021,NT50,2021-11-04,4.5,2,Crypto_fish,1,4,Bonner Rocks NW,-12.06,136.611,Open,Northwest,Nearshore,Emergent,Shoal,No,No,4.5
+2021,TS3,2021-11-10,4.5,1,Crypto_fish,1,1,Booby Island NW,-10.603,141.909,Open,Northeast,Offshore,Emergent,Fringing,No,No,4.5
+2021,NT35,2021-09-04,2.5,1,Crypto_fish,1,1,Warrnga Reef,-11.94,135.6,Open,Wessel,Nearshore,Emergent,Fringing,No,Yes,2.5
+2021,NT35,2021-09-04,2.5,2,Crypto_fish,1,2,Warrnga Reef,-11.94,135.6,Open,Wessel,Nearshore,Emergent,Fringing,No,Yes,2.5
+2021,NT40,2021-09-02,17,1,Crypto_fish,1,1,Truant Bank SW,-11.65,136.91,Open,Wessel,Offshore,Submerged,Shoal,No,Yes,17
+2021,NT40,2021-09-02,17,2,Crypto_fish,1,2,Truant Bank SW,-11.65,136.91,Open,Wessel,Offshore,Submerged,Shoal,No,Yes,17
+2021,NT38,2021-09-03,4,1,Crypto_fish,1,1,Truant Island N,-11.66,136.83,Open,Wessel,Offshore,Emergent,Fringing,No,Yes,4
+2021,NT38,2021-09-03,4,2,Crypto_fish,1,2,Truant Island N,-11.66,136.83,Open,Wessel,Offshore,Emergent,Fringing,No,Yes,4
+2021,NT38,2021-09-03,5,1,Crypto_fish,2,3,Truant Island N,-11.66,136.83,Open,Wessel,Offshore,Emergent,Fringing,No,Yes,5
+2021,NT38,2021-09-03,5,2,Crypto_fish,2,4,Truant Island N,-11.66,136.83,Open,Wessel,Offshore,Emergent,Fringing,No,Yes,5
+2021,NT33,2021-09-05,13,1,Crypto_fish,1,1,Paxie Shoal North West,-11.433,134.133,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,13
+2021,NT33,2021-09-05,13,2,Crypto_fish,1,2,Paxie Shoal North West,-11.433,134.133,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,13
+2021,NT34,2021-09-05,16,1,Crypto_fish,1,1,Paxie Shoal West,-11.45,134.133,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,16
+2021,NT34,2021-09-05,16,2,Crypto_fish,1,2,Paxie Shoal West,-11.45,134.133,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,16
+2021,NT31,2021-09-05,13,1,Crypto_fish,1,1,Arnhem CMR Gadgets Reef West,-11.3,133.8,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,13
+2021,NT31,2021-09-05,13,2,Crypto_fish,1,2,Arnhem CMR Gadgets Reef West,-11.3,133.8,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,13
+2021,NT41,2021-09-02,13,1,Crypto_fish,1,1,Truant Bank SE,-11.63,136.93,Open,Wessel,Offshore,Submerged,Shoal,No,Yes,13
+2021,NT41,2021-09-02,13,2,Crypto_fish,1,2,Truant Bank SE,-11.63,136.93,Open,Wessel,Offshore,Submerged,Shoal,No,Yes,13
+2021,NT35,2021-09-04,3,1,Crypto_fish,2,3,Warrnga Reef,-11.94,135.6,Open,Wessel,Nearshore,Emergent,Fringing,No,Yes,3
+2021,NT35,2021-09-04,3,2,Crypto_fish,2,4,Warrnga Reef,-11.94,135.6,Open,Wessel,Nearshore,Emergent,Fringing,No,Yes,3
+2015,GC15,2015-11-22,7,2,Inverts,2,1,Proudfoot Shoal,-10.53,141.47,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,7
+2015,GC15,2015-11-22,6,2,Inverts,1,2,Proudfoot Shoal,-10.53,141.47,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,6
+2013,NT102,2013-08-10,4.3,1,Inverts,3,1,Burston Bay,-11.222,136.685,Open,Wessel,Nearshore,Emergent,Fringing,No,No,4.3
+2013,NT102,2013-08-10,4.3,2,Inverts,3,2,Burston Bay,-11.222,136.685,Open,Wessel,Nearshore,Emergent,Fringing,No,No,4.3
+2013,NT102,2013-08-10,3.5,1,Inverts,2,3,Burston Bay,-11.222,136.685,Open,Wessel,Nearshore,Emergent,Fringing,No,No,3.5
+2013,NT102,2013-08-10,3.5,2,Inverts,2,4,Burston Bay,-11.222,136.685,Open,Wessel,Nearshore,Emergent,Fringing,No,No,3.5
+2013,NT102,2013-08-10,3,1,Inverts,1,5,Burston Bay,-11.222,136.685,Open,Wessel,Nearshore,Emergent,Fringing,No,No,3
+2013,NT102,2013-08-10,3,2,Inverts,1,6,Burston Bay,-11.222,136.685,Open,Wessel,Nearshore,Emergent,Fringing,No,No,3
+2013,NT103,2013-08-10,6,1,Inverts,3,1,Norruum Islet,-11.23,136.69,Open,Wessel,Nearshore,Emergent,Fringing,No,Yes,6
+2013,NT103,2013-08-10,6,2,Inverts,3,2,Norruum Islet,-11.23,136.69,Open,Wessel,Nearshore,Emergent,Fringing,No,Yes,6
+2013,NT103,2013-08-10,4,1,Inverts,2,3,Norruum Islet,-11.23,136.69,Open,Wessel,Nearshore,Emergent,Fringing,No,Yes,4
+2013,NT103,2013-08-10,4,2,Inverts,2,4,Norruum Islet,-11.23,136.69,Open,Wessel,Nearshore,Emergent,Fringing,No,Yes,4
+2013,NT103,2013-08-10,3.5,1,Inverts,1,5,Norruum Islet,-11.23,136.69,Open,Wessel,Nearshore,Emergent,Fringing,No,Yes,3.5
+2013,NT103,2013-08-10,3.5,2,Inverts,1,6,Norruum Islet,-11.23,136.69,Open,Wessel,Nearshore,Emergent,Fringing,No,Yes,3.5
+2021,NT63,2021-11-01,9.5,1,Inverts,1,1,Arafura Shoal,-11.23,134.75,Open,Outer-shoals,Offshore,Submerged,Shoal,R8,Yes,9.5
+2021,NT63,2021-11-01,9.5,2,Inverts,1,2,Arafura Shoal,-11.23,134.75,Open,Outer-shoals,Offshore,Submerged,Shoal,R8,Yes,9.5
+2015,GC14,2015-11-23,17,1,Inverts,1,1,Carpentaria Shoal,-10.74,141.06,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,17
+2015,GC14,2015-11-23,17,2,Inverts,1,2,Carpentaria Shoal,-10.74,141.06,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,17
+2015,GC14,2015-11-23,17.5,1,Inverts,2,3,Carpentaria Shoal,-10.74,141.06,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,17.5
+2015,GC14,2015-11-23,17.5,2,Inverts,2,4,Carpentaria Shoal,-10.74,141.06,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,17.5
+2020,GC14,2020-11-01,17,1,Inverts,2,1,Carpentaria Shoal,-10.74,141.06,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,17
+2020,GC14,2020-11-01,17,2,Inverts,2,2,Carpentaria Shoal,-10.74,141.06,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,17
+2020,GC14,2020-11-01,16.5,1,Inverts,1,3,Carpentaria Shoal,-10.74,141.06,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,16.5
+2021,GC14,2021-11-09,17,1,Inverts,1,1,Carpentaria Shoal,-10.74,141.06,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,17
+2021,GC18,2021-11-09,17.5,1,Inverts,1,1,Carpentaria Shoal West,-10.744,141.05,Open,Northeast,Offshore,Submerged,Shoal,No,No,17.5
+2021,GC14,2021-11-09,17.5,1,Inverts,2,2,Carpentaria Shoal,-10.74,141.06,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,17.5
+2021,GC14,2021-11-09,17.5,2,Inverts,2,3,Carpentaria Shoal,-10.74,141.06,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,17.5
+2013,TS1,2013-08-05,2.3,1,Inverts,1,1,Booby Island,-10.606,141.916,Open,Northeast,Offshore,Emergent,Fringing,No,No,2.3
+2013,TS1,2013-08-05,2.3,2,Inverts,1,2,Booby Island,-10.606,141.916,Open,Northeast,Offshore,Emergent,Fringing,No,No,2.3
+2013,TS1,2013-08-05,4,1,Inverts,3,3,Booby Island,-10.606,141.916,Open,Northeast,Offshore,Emergent,Fringing,No,No,4
+2013,TS1,2013-08-05,4,2,Inverts,3,4,Booby Island,-10.606,141.916,Open,Northeast,Offshore,Emergent,Fringing,No,No,4
+2013,TS1,2013-08-05,2.5,1,Inverts,2,5,Booby Island,-10.606,141.916,Open,Northeast,Offshore,Emergent,Fringing,No,No,2.5
+2013,TS1,2013-08-05,2.5,2,Inverts,2,6,Booby Island,-10.606,141.916,Open,Northeast,Offshore,Emergent,Fringing,No,No,2.5
+2015,TS2,2015-11-20,5,1,Inverts,1,1,Booby Island SW,-10.61,141.91,Open,Northeast,Offshore,Emergent,Fringing,No,Yes,5
+2015,TS3,2015-12-20,4,2,Inverts,1,1,Booby Island NW,-10.603,141.909,Open,Northeast,Offshore,Emergent,Fringing,No,No,4
+2015,TS3,2015-12-20,4,1,Inverts,1,2,Booby Island NW,-10.603,141.909,Open,Northeast,Offshore,Emergent,Fringing,No,No,4
+2015,TS3,2015-12-20,5,2,Inverts,2,3,Booby Island NW,-10.603,141.909,Open,Northeast,Offshore,Emergent,Fringing,No,No,5
+2020,TS2,2020-10-31,5,1,Inverts,1,1,Booby Island SW,-10.61,141.91,Open,Northeast,Offshore,Emergent,Fringing,No,Yes,5
+2020,TS28,2020-10-31,4.5,1,Inverts,2,1,Booby Island Bommie,-10.603,141.907,Open,Northeast,Offshore,Emergent,Fringing,No,No,4.5
+2020,TS28,2020-10-31,4,2,Inverts,1,2,Booby Island Bommie,-10.603,141.907,Open,Northeast,Offshore,Emergent,Fringing,No,No,4
+2020,TS3,2020-10-31,6,1,Inverts,2,1,Booby Island NW,-10.603,141.909,Open,Northeast,Offshore,Emergent,Fringing,No,No,6
+2020,TS3,2020-10-31,6,2,Inverts,2,2,Booby Island NW,-10.603,141.909,Open,Northeast,Offshore,Emergent,Fringing,No,No,6
+2020,TS3,2020-10-31,5,1,Inverts,1,3,Booby Island NW,-10.603,141.909,Open,Northeast,Offshore,Emergent,Fringing,No,No,5
+2020,TS3,2020-10-31,5,2,Inverts,1,4,Booby Island NW,-10.603,141.909,Open,Northeast,Offshore,Emergent,Fringing,No,No,5
+2021,TS2,2021-11-10,6,2,Inverts,2,1,Booby Island SW,-10.61,141.91,Open,Northeast,Offshore,Emergent,Fringing,No,Yes,6
+2021,TS3,2021-11-10,5,1,Inverts,2,1,Booby Island NW,-10.603,141.909,Open,Northeast,Offshore,Emergent,Fringing,No,No,5
+2021,TS3,2021-11-10,5,2,Inverts,2,2,Booby Island NW,-10.603,141.909,Open,Northeast,Offshore,Emergent,Fringing,No,No,5
+2021,TS2,2021-11-10,5,1,Inverts,1,2,Booby Island SW,-10.61,141.91,Open,Northeast,Offshore,Emergent,Fringing,No,Yes,5
+2021,TS2,2021-11-10,5,2,Inverts,1,3,Booby Island SW,-10.61,141.91,Open,Northeast,Offshore,Emergent,Fringing,No,Yes,5
+2021,TS3,2021-11-10,4.5,1,Inverts,1,3,Booby Island NW,-10.603,141.909,Open,Northeast,Offshore,Emergent,Fringing,No,No,4.5
+2021,TS3,2021-11-10,4.5,2,Inverts,1,4,Booby Island NW,-10.603,141.909,Open,Northeast,Offshore,Emergent,Fringing,No,No,4.5
+2015,GC17,2015-11-22,13,1,Inverts,2,1,Merkara Shoal N,-10.5,141.23,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,13
+2015,GC17,2015-11-22,13,2,Inverts,2,2,Merkara Shoal N,-10.5,141.23,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,13
+2015,GC17,2015-11-22,12.5,1,Inverts,1,3,Merkara Shoal N,-10.5,141.23,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,12.5
+2015,GC17,2015-11-22,12.5,2,Inverts,1,4,Merkara Shoal N,-10.5,141.23,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,12.5
+2015,GC16,2015-11-22,12,1,Inverts,1,1,Merkara Shoal SW,-10.502,141.228,Open,Northeast,Offshore,Submerged,Shoal,No,No,12
+2015,GC16,2015-11-22,12,2,Inverts,1,2,Merkara Shoal SW,-10.502,141.228,Open,Northeast,Offshore,Submerged,Shoal,No,No,12
+2015,GC16,2015-11-22,13,1,Inverts,2,3,Merkara Shoal SW,-10.502,141.228,Open,Northeast,Offshore,Submerged,Shoal,No,No,13
+2015,GC16,2015-11-22,13,2,Inverts,2,4,Merkara Shoal SW,-10.502,141.228,Open,Northeast,Offshore,Submerged,Shoal,No,No,13
+2020,GC16,2020-11-01,11,1,Inverts,1,1,Merkara Shoal SW,-10.502,141.228,Open,Northeast,Offshore,Submerged,Shoal,No,No,11
+2020,GC16,2020-11-01,11,2,Inverts,1,2,Merkara Shoal SW,-10.502,141.228,Open,Northeast,Offshore,Submerged,Shoal,No,No,11
+2020,GC16,2020-11-01,11.5,1,Inverts,2,3,Merkara Shoal SW,-10.502,141.228,Open,Northeast,Offshore,Submerged,Shoal,No,No,11.5
+2020,GC16,2020-11-01,11.5,2,Inverts,2,4,Merkara Shoal SW,-10.502,141.228,Open,Northeast,Offshore,Submerged,Shoal,No,No,11.5
+2020,GC17,2020-11-01,13,1,Inverts,2,1,Merkara Shoal N,-10.5,141.23,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,13
+2020,GC17,2020-11-01,13,2,Inverts,2,2,Merkara Shoal N,-10.5,141.23,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,13
+2020,GC17,2020-11-01,12.5,1,Inverts,1,3,Merkara Shoal N,-10.5,141.23,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,12.5
+2020,GC17,2020-11-01,12.5,2,Inverts,1,4,Merkara Shoal N,-10.5,141.23,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,12.5
+2021,GC17,2021-11-09,17,1,Inverts,2,1,Merkara Shoal N,-10.5,141.23,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,17
+2021,GC17,2021-11-09,17,2,Inverts,2,2,Merkara Shoal N,-10.5,141.23,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,17
+2021,GC17,2021-11-09,14,1,Inverts,1,3,Merkara Shoal N,-10.5,141.23,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,14
+2021,GC17,2021-11-09,14,2,Inverts,1,4,Merkara Shoal N,-10.5,141.23,Open,Northeast,Offshore,Submerged,Shoal,No,Yes,14
+2015,NT58,2015-11-11,3.5,1,Inverts,1,1,Turtle Cave,-14.355,136.95,Open,Western,Nearshore,Emergent,Fringing,No,No,3.5
+2015,NT58,2015-11-11,3.5,2,Inverts,1,2,Turtle Cave,-14.355,136.95,Open,Western,Nearshore,Emergent,Fringing,No,No,3.5
+2015,NT58,2015-11-11,3.6,1,Inverts,2,3,Turtle Cave,-14.355,136.95,Open,Western,Nearshore,Emergent,Fringing,No,No,3.6
+2015,NT58,2015-11-11,3.6,2,Inverts,2,4,Turtle Cave,-14.355,136.95,Open,Western,Nearshore,Emergent,Fringing,No,No,3.6
+2015,NT59,2015-11-11,7,1,Inverts,2,1,Cape Beatrice Islet West,-14.35,136.94,Open,Western,Nearshore,Emergent,Fringing,No,Yes,7
+2015,NT59,2015-11-11,7,2,Inverts,2,2,Cape Beatrice Islet West,-14.35,136.94,Open,Western,Nearshore,Emergent,Fringing,No,Yes,7
+2015,NT59,2015-11-11,3,1,Inverts,1,3,Cape Beatrice Islet West,-14.35,136.94,Open,Western,Nearshore,Emergent,Fringing,No,Yes,3
+2015,NT59,2015-11-11,3,2,Inverts,1,4,Cape Beatrice Islet West,-14.35,136.94,Open,Western,Nearshore,Emergent,Fringing,No,Yes,3
+2015,NT56,2015-11-11,4.5,1,Inverts,1,1,Cape Beatrice SW,-14.31,136.89,Open,Western,Nearshore,Emergent,Fringing,No,Yes,4.5
+2015,NT56,2015-11-11,4.5,2,Inverts,1,2,Cape Beatrice SW,-14.31,136.89,Open,Western,Nearshore,Emergent,Fringing,No,Yes,4.5
+2015,NT56,2015-11-11,4.6,1,Inverts,2,3,Cape Beatrice SW,-14.31,136.89,Open,Western,Nearshore,Emergent,Fringing,No,Yes,4.6
+2015,NT56,2015-11-11,4.6,2,Inverts,2,4,Cape Beatrice SW,-14.31,136.89,Open,Western,Nearshore,Emergent,Fringing,No,Yes,4.6
+2015,NT57,2015-11-11,3,1,Inverts,1,1,Cape Beatrice South,-14.309,136.889,Open,Western,Nearshore,Emergent,Fringing,No,No,3
+2015,NT57,2015-11-11,3,2,Inverts,1,2,Cape Beatrice South,-14.309,136.889,Open,Western,Nearshore,Emergent,Fringing,No,No,3
+2015,NT57,2015-11-11,6,1,Inverts,2,3,Cape Beatrice South,-14.309,136.889,Open,Western,Nearshore,Emergent,Fringing,No,No,6
+2015,NT57,2015-11-11,6,2,Inverts,2,4,Cape Beatrice South,-14.309,136.889,Open,Western,Nearshore,Emergent,Fringing,No,No,6
+2010,GC9,2010-07-05,5.5,1,Inverts,1,1,Manowar Island,-16.23,139.25,Open,Southern,Offshore,Emergent,Fringing,No,Yes,5.5
+2010,GC9,2010-07-05,5.5,2,Inverts,1,2,Manowar Island,-16.23,139.25,Open,Southern,Offshore,Emergent,Fringing,No,Yes,5.5
+2010,GC9,2010-07-05,6,1,Inverts,2,3,Manowar Island,-16.23,139.25,Open,Southern,Offshore,Emergent,Fringing,No,Yes,6
+2010,GC9,2010-07-05,6,2,Inverts,2,4,Manowar Island,-16.23,139.25,Open,Southern,Offshore,Emergent,Fringing,No,Yes,6
+2015,GC9,2015-11-14,5,1,Inverts,2,1,Manowar Island,-16.23,139.25,Open,Southern,Offshore,Emergent,Fringing,No,Yes,5
+2015,GC9,2015-11-14,5,2,Inverts,2,2,Manowar Island,-16.23,139.25,Open,Southern,Offshore,Emergent,Fringing,No,Yes,5
+2015,GC9,2015-11-14,4.5,1,Inverts,1,3,Manowar Island,-16.23,139.25,Open,Southern,Offshore,Emergent,Fringing,No,Yes,4.5
+2015,GC9,2015-11-14,4.5,2,Inverts,1,4,Manowar Island,-16.23,139.25,Open,Southern,Offshore,Emergent,Fringing,No,Yes,4.5
+2013,NT100,2013-08-09,2.5,1,Inverts,1,1,Truant Island NE,-11.669,136.827,Open,Wessel,Nearshore,Emergent,Fringing,No,No,2.5
+2013,NT100,2013-08-09,2.5,2,Inverts,1,2,Truant Island NE,-11.669,136.827,Open,Wessel,Nearshore,Emergent,Fringing,No,No,2.5
+2013,NT100,2013-08-09,3,1,Inverts,2,3,Truant Island NE,-11.669,136.827,Open,Wessel,Nearshore,Emergent,Fringing,No,No,3
+2013,NT100,2013-08-09,3,2,Inverts,2,4,Truant Island NE,-11.669,136.827,Open,Wessel,Nearshore,Emergent,Fringing,No,No,3
+2015,NT38,2015-11-01,5,1,Inverts,2,1,Truant Island N,-11.66,136.83,Open,Wessel,Offshore,Emergent,Fringing,No,Yes,5
+2015,NT38,2015-11-01,5,2,Inverts,2,2,Truant Island N,-11.66,136.83,Open,Wessel,Offshore,Emergent,Fringing,No,Yes,5
+2015,NT38,2015-11-01,4,1,Inverts,1,3,Truant Island N,-11.66,136.83,Open,Wessel,Offshore,Emergent,Fringing,No,Yes,4
+2015,NT38,2015-11-01,4,2,Inverts,1,4,Truant Island N,-11.66,136.83,Open,Wessel,Offshore,Emergent,Fringing,No,Yes,4
+2021,NT38,2021-09-03,4,1,Inverts,1,1,Truant Island N,-11.66,136.83,Open,Wessel,Offshore,Emergent,Fringing,No,Yes,4
+2021,NT38,2021-09-03,4,2,Inverts,1,2,Truant Island N,-11.66,136.83,Open,Wessel,Offshore,Emergent,Fringing,No,Yes,4
+2021,NT38,2021-09-03,5,1,Inverts,2,3,Truant Island N,-11.66,136.83,Open,Wessel,Offshore,Emergent,Fringing,No,Yes,5
+2021,NT38,2021-09-03,5,2,Inverts,2,4,Truant Island N,-11.66,136.83,Open,Wessel,Offshore,Emergent,Fringing,No,Yes,5
+2015,NT30,2015-10-25,9.5,1,Inverts,2,1,Arnhem CMR Gadgets Reef North West,-11.283,133.8,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,9.5
+2015,NT30,2015-10-25,9.5,2,Inverts,2,2,Arnhem CMR Gadgets Reef North West,-11.283,133.8,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,9.5
+2015,NT30,2015-10-25,9,1,Inverts,1,3,Arnhem CMR Gadgets Reef North West,-11.283,133.8,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,9
+2015,NT30,2015-10-25,9,2,Inverts,1,4,Arnhem CMR Gadgets Reef North West,-11.283,133.8,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,9
+2019,NT30,2019-01-20,9,1,Inverts,1,1,Arnhem CMR Gadgets Reef North West,-11.283,133.8,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,9
+2019,NT30,2019-01-20,9,2,Inverts,1,2,Arnhem CMR Gadgets Reef North West,-11.283,133.8,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,9
+2019,NT30,2019-01-20,9.5,1,Inverts,2,3,Arnhem CMR Gadgets Reef North West,-11.283,133.8,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,9.5
+2019,NT30,2019-01-20,9.5,2,Inverts,2,4,Arnhem CMR Gadgets Reef North West,-11.283,133.8,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,9.5
+2021,NT30,2021-10-31,9,1,Inverts,2,1,Arnhem CMR Gadgets Reef North West,-11.283,133.8,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,9
+2021,NT30,2021-10-31,9,2,Inverts,2,2,Arnhem CMR Gadgets Reef North West,-11.283,133.8,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,9
+2021,NT30,2021-10-31,8.5,1,Inverts,1,3,Arnhem CMR Gadgets Reef North West,-11.283,133.8,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,8.5
+2021,NT30,2021-10-31,8.5,2,Inverts,1,4,Arnhem CMR Gadgets Reef North West,-11.283,133.8,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,8.5
+2015,NT45,2015-11-04,2,1,Inverts,1,1,Porlsche Rock,-12.07,136.87,Open,Northwest,Offshore,Submerged,Pinnacle,No,Yes,2
+2015,NT45,2015-11-04,2,2,Inverts,1,2,Porlsche Rock,-12.07,136.87,Open,Northwest,Offshore,Submerged,Pinnacle,No,Yes,2
+2015,NT45,2015-11-04,4,1,Inverts,2,3,Porlsche Rock,-12.07,136.87,Open,Northwest,Offshore,Submerged,Pinnacle,No,Yes,4
+2015,NT45,2015-11-04,4,2,Inverts,2,4,Porlsche Rock,-12.07,136.87,Open,Northwest,Offshore,Submerged,Pinnacle,No,Yes,4
+2015,NT44,2015-11-03,1.4,1,Inverts,1,1,East Bremer Islet bay,-12.09,136.87,Open,Northwest,Nearshore,Emergent,Fringing,No,Yes,1.4
+2015,NT44,2015-11-03,1.4,2,Inverts,1,2,East Bremer Islet bay,-12.09,136.87,Open,Northwest,Nearshore,Emergent,Fringing,No,Yes,1.4
+2015,NT44,2015-11-03,1.8,1,Inverts,2,3,East Bremer Islet bay,-12.09,136.87,Open,Northwest,Nearshore,Emergent,Fringing,No,Yes,1.8
+2015,NT44,2015-11-03,1.8,2,Inverts,2,4,East Bremer Islet bay,-12.09,136.87,Open,Northwest,Nearshore,Emergent,Fringing,No,Yes,1.8
+2015,NT46,2015-11-04,3,1,Inverts,2,1,East Bremer Islet SW,-12.09,136.87,Open,Northwest,Nearshore,Emergent,Fringing,No,Yes,3
+2015,NT46,2015-11-04,3,2,Inverts,2,2,East Bremer Islet SW,-12.09,136.87,Open,Northwest,Nearshore,Emergent,Fringing,No,Yes,3
+2015,NT46,2015-11-04,2,1,Inverts,1,3,East Bremer Islet SW,-12.09,136.87,Open,Northwest,Nearshore,Emergent,Fringing,No,Yes,2
+2015,NT46,2015-11-04,2,2,Inverts,1,4,East Bremer Islet SW,-12.09,136.87,Open,Northwest,Nearshore,Emergent,Fringing,No,Yes,2
+2015,NT39,2015-11-01,4.5,1,Inverts,1,1,Truant Island S,-11.68,136.82,Open,Wessel,Offshore,Emergent,Fringing,No,Yes,4.5
+2015,NT39,2015-11-01,4.5,2,Inverts,1,2,Truant Island S,-11.68,136.82,Open,Wessel,Offshore,Emergent,Fringing,No,Yes,4.5
+2015,NT39,2015-11-01,5,1,Inverts,2,3,Truant Island S,-11.68,136.82,Open,Wessel,Offshore,Emergent,Fringing,No,Yes,5
+2015,NT39,2015-11-01,5,2,Inverts,2,4,Truant Island S,-11.68,136.82,Open,Wessel,Offshore,Emergent,Fringing,No,Yes,5
+2015,NT48,2015-11-04,6,1,Inverts,1,1,Bremer Island East,-12.09,136.83,Open,Northwest,Nearshore,Emergent,Fringing,No,Yes,6
+2015,NT48,2015-11-04,6,2,Inverts,1,2,Bremer Island East,-12.09,136.83,Open,Northwest,Nearshore,Emergent,Fringing,No,Yes,6
+2015,NT48,2015-11-04,7,1,Inverts,2,3,Bremer Island East,-12.09,136.83,Open,Northwest,Nearshore,Emergent,Fringing,No,Yes,7
+2015,NT48,2015-11-04,7,2,Inverts,2,4,Bremer Island East,-12.09,136.83,Open,Northwest,Nearshore,Emergent,Fringing,No,Yes,7
+2015,NT31,2015-10-25,12.5,1,Inverts,1,1,Arnhem CMR Gadgets Reef West,-11.3,133.8,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,12.5
+2015,NT31,2015-10-25,12.5,2,Inverts,1,2,Arnhem CMR Gadgets Reef West,-11.3,133.8,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,12.5
+2015,NT31,2015-10-25,13,1,Inverts,2,3,Arnhem CMR Gadgets Reef West,-11.3,133.8,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,13
+2015,NT31,2015-10-25,13,2,Inverts,2,4,Arnhem CMR Gadgets Reef West,-11.3,133.8,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,13
+2015,NT32,2015-10-25,12.5,1,Inverts,1,1,Arnham Shoal,-11.45,133.717,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,12.5
+2015,NT32,2015-10-25,12.5,2,Inverts,1,2,Arnham Shoal,-11.45,133.717,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,12.5
+2019,NT31,2019-01-21,13,1,Inverts,1,1,Arnhem CMR Gadgets Reef West,-11.3,133.8,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,13
+2019,NT31,2019-01-21,13,2,Inverts,1,2,Arnhem CMR Gadgets Reef West,-11.3,133.8,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,13
+2021,NT31,2021-09-05,13,1,Inverts,1,1,Arnhem CMR Gadgets Reef West,-11.3,133.8,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,13
+2021,NT31,2021-09-05,13,2,Inverts,1,2,Arnhem CMR Gadgets Reef West,-11.3,133.8,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,13
+2015,NT41,2015-11-02,13,1,Inverts,2,1,Truant Bank SE,-11.63,136.93,Open,Wessel,Offshore,Submerged,Shoal,No,Yes,13
+2015,NT41,2015-11-02,13,2,Inverts,2,2,Truant Bank SE,-11.63,136.93,Open,Wessel,Offshore,Submerged,Shoal,No,Yes,13
+2015,NT41,2015-11-02,11,1,Inverts,1,3,Truant Bank SE,-11.63,136.93,Open,Wessel,Offshore,Submerged,Shoal,No,Yes,11
+2015,NT41,2015-11-02,11,2,Inverts,1,4,Truant Bank SE,-11.63,136.93,Open,Wessel,Offshore,Submerged,Shoal,No,Yes,11
+2021,NT41,2021-09-02,13,1,Inverts,1,1,Truant Bank SE,-11.63,136.93,Open,Wessel,Offshore,Submerged,Shoal,No,Yes,13
+2021,NT41,2021-09-02,13,2,Inverts,1,2,Truant Bank SE,-11.63,136.93,Open,Wessel,Offshore,Submerged,Shoal,No,Yes,13
+2015,NT40,2015-11-02,14,1,Inverts,2,1,Truant Bank SW,-11.65,136.91,Open,Wessel,Offshore,Submerged,Shoal,No,Yes,14
+2015,NT40,2015-11-02,14,2,Inverts,2,2,Truant Bank SW,-11.65,136.91,Open,Wessel,Offshore,Submerged,Shoal,No,Yes,14
+2015,NT40,2015-11-02,13,1,Inverts,1,3,Truant Bank SW,-11.65,136.91,Open,Wessel,Offshore,Submerged,Shoal,No,Yes,13
+2015,NT40,2015-11-02,13,2,Inverts,1,4,Truant Bank SW,-11.65,136.91,Open,Wessel,Offshore,Submerged,Shoal,No,Yes,13
+2021,NT40,2021-09-02,17,1,Inverts,1,1,Truant Bank SW,-11.65,136.91,Open,Wessel,Offshore,Submerged,Shoal,No,Yes,17
+2021,NT40,2021-09-02,17,2,Inverts,1,2,Truant Bank SW,-11.65,136.91,Open,Wessel,Offshore,Submerged,Shoal,No,Yes,17
+2015,GC12,2015-11-16,20,2,Inverts,1,1,Carpentaria Reef SW,-15.52,140.12,Blue,Southern,Offshore,Submerged,Pinnacle,R3,Yes,20
+2015,GC12,2015-11-16,20,1,Inverts,1,2,Carpentaria Reef SW,-15.52,140.12,Blue,Southern,Offshore,Submerged,Pinnacle,R3,Yes,20
+2015,GC12,2015-11-16,21,1,Inverts,2,3,Carpentaria Reef SW,-15.52,140.12,Blue,Southern,Offshore,Submerged,Pinnacle,R3,Yes,21
+2015,GC12,2015-11-16,21,2,Inverts,2,4,Carpentaria Reef SW,-15.52,140.12,Blue,Southern,Offshore,Submerged,Pinnacle,R3,Yes,21
+2015,GC13,2015-11-16,19,2,Inverts,1,1,Carpentaria Reef,-15.45,140.18,Blue,Southern,Offshore,Submerged,Pinnacle,R2,Yes,19
+2015,GC13,2015-11-16,19,1,Inverts,1,2,Carpentaria Reef,-15.45,140.18,Blue,Southern,Offshore,Submerged,Pinnacle,R2,Yes,19
+2015,GC13,2015-11-16,20,1,Inverts,2,3,Carpentaria Reef,-15.45,140.18,Blue,Southern,Offshore,Submerged,Pinnacle,R2,Yes,20
+2015,GC13,2015-11-16,20,2,Inverts,2,4,Carpentaria Reef,-15.45,140.18,Blue,Southern,Offshore,Submerged,Pinnacle,R2,Yes,20
+2015,NT42,2015-11-03,10,1,Inverts,1,1,Pugh Shoal,-11.613,136.89,Open,Wessel,Offshore,Submerged,Shoal,No,No,10
+2015,NT42,2015-11-03,10,2,Inverts,1,2,Pugh Shoal,-11.613,136.89,Open,Wessel,Offshore,Submerged,Shoal,No,No,10
+2015,NT42,2015-11-03,11,1,Inverts,2,3,Pugh Shoal,-11.613,136.89,Open,Wessel,Offshore,Submerged,Shoal,No,No,11
+2015,NT42,2015-11-03,11,2,Inverts,2,4,Pugh Shoal,-11.613,136.89,Open,Wessel,Offshore,Submerged,Shoal,No,No,11
+2015,NT43,2015-11-03,14,1,Inverts,2,1,Buccaneer Shoal,-11.618,136.878,Open,Wessel,Offshore,Submerged,Shoal,No,No,14
+2015,NT43,2015-11-03,14,2,Inverts,2,2,Buccaneer Shoal,-11.618,136.878,Open,Wessel,Offshore,Submerged,Shoal,No,No,14
+2015,NT43,2015-11-03,13,1,Inverts,1,3,Buccaneer Shoal,-11.618,136.878,Open,Wessel,Offshore,Submerged,Shoal,No,No,13
+2015,NT43,2015-11-03,13,2,Inverts,1,4,Buccaneer Shoal,-11.618,136.878,Open,Wessel,Offshore,Submerged,Shoal,No,No,13
+2015,NT35,2015-10-29,3.5,1,Inverts,2,1,Warrnga Reef,-11.94,135.6,Open,Wessel,Nearshore,Emergent,Fringing,No,Yes,3.5
+2015,NT35,2015-10-29,3.5,2,Inverts,2,2,Warrnga Reef,-11.94,135.6,Open,Wessel,Nearshore,Emergent,Fringing,No,Yes,3.5
+2015,NT35,2015-10-29,3,1,Inverts,1,3,Warrnga Reef,-11.94,135.6,Open,Wessel,Nearshore,Emergent,Fringing,No,Yes,3
+2015,NT35,2015-10-29,3,2,Inverts,1,4,Warrnga Reef,-11.94,135.6,Open,Wessel,Nearshore,Emergent,Fringing,No,Yes,3
+2015,NT36,2015-10-31,5,1,Inverts,1,1,Guluwuru Island NE,-11.55,136.42,Open,Wessel,Nearshore,Emergent,Fringing,No,Yes,5
+2015,NT36,2015-10-31,5,2,Inverts,1,2,Guluwuru Island NE,-11.55,136.42,Open,Wessel,Nearshore,Emergent,Fringing,No,Yes,5
+2015,NT36,2015-10-31,6,1,Inverts,2,3,Guluwuru Island NE,-11.55,136.42,Open,Wessel,Nearshore,Emergent,Fringing,No,Yes,6
+2015,NT36,2015-10-31,6,2,Inverts,2,4,Guluwuru Island NE,-11.55,136.42,Open,Wessel,Nearshore,Emergent,Fringing,No,Yes,6
+2015,NT47,2015-11-04,4,1,Inverts,1,1,Bremer Islet anchorage,-12.087,136.865,Open,Northwest,Nearshore,Emergent,Fringing,No,No,4
+2015,NT47,2015-11-04,4,2,Inverts,1,2,Bremer Islet anchorage,-12.087,136.865,Open,Northwest,Nearshore,Emergent,Fringing,No,No,4
+2021,NT35,2021-09-04,2.5,1,Inverts,1,1,Warrnga Reef,-11.94,135.6,Open,Wessel,Nearshore,Emergent,Fringing,No,Yes,2.5
+2021,NT35,2021-09-04,2.5,2,Inverts,1,2,Warrnga Reef,-11.94,135.6,Open,Wessel,Nearshore,Emergent,Fringing,No,Yes,2.5
+2021,NT35,2021-09-04,3,1,Inverts,2,3,Warrnga Reef,-11.94,135.6,Open,Wessel,Nearshore,Emergent,Fringing,No,Yes,3
+2015,NT51,2015-11-06,2,1,Inverts,2,1,Bremer Island west,-12.108,136.79,Open,Northwest,Nearshore,Emergent,Fringing,No,No,2
+2015,NT51,2015-11-06,2,2,Inverts,2,2,Bremer Island west,-12.108,136.79,Open,Northwest,Nearshore,Emergent,Fringing,No,No,2
+2015,NT51,2015-11-06,1.5,1,Inverts,1,3,Bremer Island west,-12.108,136.79,Open,Northwest,Nearshore,Emergent,Fringing,No,No,1.5
+2015,NT51,2015-11-06,1.5,2,Inverts,1,4,Bremer Island west,-12.108,136.79,Open,Northwest,Nearshore,Emergent,Fringing,No,No,1.5
+2015,NT33,2015-10-26,16,1,Inverts,2,1,Paxie Shoal North West,-11.433,134.133,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,16
+2015,NT33,2015-10-26,16,2,Inverts,2,2,Paxie Shoal North West,-11.433,134.133,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,16
+2015,NT33,2015-10-26,15,1,Inverts,1,3,Paxie Shoal North West,-11.433,134.133,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,15
+2015,NT33,2015-10-26,15,2,Inverts,1,4,Paxie Shoal North West,-11.433,134.133,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,15
+2015,NT34,2015-10-26,12,1,Inverts,1,1,Paxie Shoal West,-11.45,134.133,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,12
+2015,NT34,2015-10-26,12,2,Inverts,1,2,Paxie Shoal West,-11.45,134.133,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,12
+2015,NT34,2015-10-26,13,1,Inverts,2,3,Paxie Shoal West,-11.45,134.133,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,13
+2015,NT34,2015-10-26,13,2,Inverts,2,4,Paxie Shoal West,-11.45,134.133,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,13
+2019,NT34,2019-01-22,13,1,Inverts,1,1,Paxie Shoal West,-11.45,134.133,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,13
+2019,NT34,2019-01-22,13,2,Inverts,1,2,Paxie Shoal West,-11.45,134.133,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,13
+2021,NT33,2021-09-05,13,1,Inverts,1,1,Paxie Shoal North West,-11.433,134.133,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,13
+2021,NT33,2021-09-05,13,2,Inverts,1,2,Paxie Shoal North West,-11.433,134.133,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,13
+2021,NT34,2021-09-05,16,1,Inverts,1,1,Paxie Shoal West,-11.45,134.133,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,16
+2021,NT34,2021-09-05,16,2,Inverts,1,2,Paxie Shoal West,-11.45,134.133,Open,Outer-shoals,Offshore,Submerged,Shoal,No,No,16
+2015,NT49,2015-11-05,8,1,Inverts,1,1,Bonner Rocks NE,-12.06,136.61,Open,Northwest,Nearshore,Emergent,Shoal,No,Yes,8
+2015,NT49,2015-11-05,8,2,Inverts,1,2,Bonner Rocks NE,-12.06,136.61,Open,Northwest,Nearshore,Emergent,Shoal,No,Yes,8
+2015,NT50,2015-11-05,5,1,Inverts,1,1,Bonner Rocks NW,-12.06,136.611,Open,Northwest,Nearshore,Emergent,Shoal,No,No,5
+2015,NT50,2015-11-05,5,2,Inverts,1,2,Bonner Rocks NW,-12.06,136.611,Open,Northwest,Nearshore,Emergent,Shoal,No,No,5
+2015,NT50,2015-11-05,6,1,Inverts,2,3,Bonner Rocks NW,-12.06,136.611,Open,Northwest,Nearshore,Emergent,Shoal,No,No,6
+2015,NT50,2015-11-05,6,2,Inverts,2,4,Bonner Rocks NW,-12.06,136.611,Open,Northwest,Nearshore,Emergent,Shoal,No,No,6
+2021,NT49,2021-11-04,8.5,1,Inverts,2,1,Bonner Rocks NE,-12.06,136.61,Open,Northwest,Nearshore,Emergent,Shoal,No,Yes,8.5
+2021,NT49,2021-11-04,8.5,2,Inverts,2,2,Bonner Rocks NE,-12.06,136.61,Open,Northwest,Nearshore,Emergent,Shoal,No,Yes,8.5
+2021,NT49,2021-11-04,6.5,1,Inverts,1,3,Bonner Rocks NE,-12.06,136.61,Open,Northwest,Nearshore,Emergent,Shoal,No,Yes,6.5
+2021,NT49,2021-11-04,6.5,2,Inverts,1,4,Bonner Rocks NE,-12.06,136.61,Open,Northwest,Nearshore,Emergent,Shoal,No,Yes,6.5
+2021,NT50,2021-11-04,5,1,Inverts,2,1,Bonner Rocks NW,-12.06,136.611,Open,Northwest,Nearshore,Emergent,Shoal,No,No,5
+2021,NT50,2021-11-04,5,2,Inverts,2,2,Bonner Rocks NW,-12.06,136.611,Open,Northwest,Nearshore,Emergent,Shoal,No,No,5
+2021,NT50,2021-11-04,4.5,1,Inverts,1,3,Bonner Rocks NW,-12.06,136.611,Open,Northwest,Nearshore,Emergent,Shoal,No,No,4.5
+2021,NT50,2021-11-04,4.5,2,Inverts,1,4,Bonner Rocks NW,-12.06,136.611,Open,Northwest,Nearshore,Emergent,Shoal,No,No,4.5
+2015,GC8,2015-11-15,14,1,Inverts,2,1,Glasseye Reef,-16.24,139.6,Blue,Southern,Offshore,Submerged,Pinnacle,No,Yes,14
+2015,GC8,2015-11-15,14,2,Inverts,2,2,Glasseye Reef,-16.24,139.6,Blue,Southern,Offshore,Submerged,Pinnacle,No,Yes,14
+2015,GC8,2015-11-15,12.5,1,Inverts,1,3,Glasseye Reef,-16.24,139.6,Blue,Southern,Offshore,Submerged,Pinnacle,No,Yes,12.5
+2015,GC8,2015-11-15,12.5,2,Inverts,1,4,Glasseye Reef,-16.24,139.6,Blue,Southern,Offshore,Submerged,Pinnacle,No,Yes,12.5
+2010,GC2,2010-07-03,7,1,Inverts,1,1,Bowengun,-16.42,139.47,Open,Mornington,Nearshore,Emergent,Fringing,No,Yes,7
+2010,GC2,2010-07-03,7,2,Inverts,1,2,Bowengun,-16.42,139.47,Open,Mornington,Nearshore,Emergent,Fringing,No,Yes,7
+2010,GC2,2010-07-03,8,2,Inverts,2,3,Bowengun,-16.42,139.47,Open,Mornington,Nearshore,Emergent,Fringing,No,Yes,8
+2010,GC7,2010-07-05,9,1,Inverts,1,1,Steves Bommie,-16.29,139.42,Open,Southern,Offshore,Submerged,Pinnacle,No,Yes,9
+2010,GC7,2010-07-05,9,2,Inverts,1,2,Steves Bommie,-16.29,139.42,Open,Southern,Offshore,Submerged,Pinnacle,No,Yes,9
+2010,GC7,2010-07-05,10.2,1,Inverts,2,3,Steves Bommie,-16.29,139.42,Open,Southern,Offshore,Submerged,Pinnacle,No,Yes,10.2
+2010,GC7,2010-07-05,10.2,2,Inverts,2,4,Steves Bommie,-16.29,139.42,Open,Southern,Offshore,Submerged,Pinnacle,No,Yes,10.2
+2015,GC7,2015-11-14,10,1,Inverts,2,1,Steves Bommie,-16.29,139.42,Open,Southern,Offshore,Submerged,Pinnacle,No,Yes,10
+2015,GC7,2015-11-14,10,2,Inverts,2,2,Steves Bommie,-16.29,139.42,Open,Southern,Offshore,Submerged,Pinnacle,No,Yes,10
+2015,GC7,2015-11-14,9.5,1,Inverts,1,3,Steves Bommie,-16.29,139.42,Open,Southern,Offshore,Submerged,Pinnacle,No,Yes,9.5
+2015,GC7,2015-11-14,9.5,2,Inverts,1,4,Steves Bommie,-16.29,139.42,Open,Southern,Offshore,Submerged,Pinnacle,No,Yes,9.5
+2010,GC3,2010-07-04,4.4,1,Inverts,1,1,Mandalbi-Bellaleea,-16.41,139.63,Open,Mornington,Nearshore,Emergent,Fringing,No,Yes,4.4
+2010,GC3,2010-07-04,4.4,2,Inverts,1,2,Mandalbi-Bellaleea,-16.41,139.63,Open,Mornington,Nearshore,Emergent,Fringing,No,Yes,4.4
+2010,GC3,2010-07-04,5,1,Inverts,2,3,Mandalbi-Bellaleea,-16.41,139.63,Open,Mornington,Nearshore,Emergent,Fringing,No,Yes,5
+2010,GC3,2010-07-04,5,2,Inverts,2,4,Mandalbi-Bellaleea,-16.41,139.63,Open,Mornington,Nearshore,Emergent,Fringing,No,Yes,5
+2010,GC4,2010-07-04,6.4,2,Inverts,1,1,Mandalbi-outer,-16.39,139.63,Open,Mornington,Nearshore,Emergent,Fringing,No,Yes,6.4
+2010,GC4,2010-07-04,6.8,1,Inverts,2,2,Mandalbi-outer,-16.39,139.63,Open,Mornington,Nearshore,Emergent,Fringing,No,Yes,6.8
+2010,GC4,2010-07-04,6.8,2,Inverts,2,3,Mandalbi-outer,-16.39,139.63,Open,Mornington,Nearshore,Emergent,Fringing,No,Yes,6.8
+2010,GC6,2010-07-04,3.2,1,Inverts,1,1,Thabugan Reef,-16.38,139.6,Open,Mornington,Nearshore,Emergent,Fringing,No,Yes,3.2
+2010,GC6,2010-07-04,5.2,1,Inverts,2,2,Thabugan Reef,-16.38,139.6,Open,Mornington,Nearshore,Emergent,Fringing,No,Yes,5.2
+2010,GC6,2010-07-04,5.2,2,Inverts,2,3,Thabugan Reef,-16.38,139.6,Open,Mornington,Nearshore,Emergent,Fringing,No,Yes,5.2
+2010,GC5,2010-07-05,2,1,Inverts,1,1,Thabugan Reef South,-16.38,139.6,Open,Mornington,Nearshore,Emergent,Fringing,No,Yes,2
+2010,GC5,2010-07-05,2,2,Inverts,1,2,Thabugan Reef South,-16.38,139.6,Open,Mornington,Nearshore,Emergent,Fringing,No,Yes,2
+2010,GC5,2010-07-05,2.5,1,Inverts,2,3,Thabugan Reef South,-16.38,139.6,Open,Mornington,Nearshore,Emergent,Fringing,No,Yes,2.5
+2010,GC5,2010-07-05,2.5,2,Inverts,2,4,Thabugan Reef South,-16.38,139.6,Open,Mornington,Nearshore,Emergent,Fringing,No,Yes,2.5
+2015,NT53,2015-11-07,5.5,1,Inverts,2,1,Dudley Island,-12.881,136.726,Open,Western,Nearshore,Emergent,Fringing,No,No,5.5
+2015,NT53,2015-11-07,5.5,2,Inverts,2,2,Dudley Island,-12.881,136.726,Open,Western,Nearshore,Emergent,Fringing,No,No,5.5
+2015,NT53,2015-11-07,5,1,Inverts,1,3,Dudley Island,-12.881,136.726,Open,Western,Nearshore,Emergent,Fringing,No,No,5
+2015,NT53,2015-11-07,5,2,Inverts,1,4,Dudley Island,-12.881,136.726,Open,Western,Nearshore,Emergent,Fringing,No,No,5
+2021,NT53,2021-11-05,4,1,Inverts,1,1,Dudley Island,-12.881,136.726,Open,Western,Nearshore,Emergent,Fringing,No,No,4
+2021,NT53,2021-11-05,4,2,Inverts,1,2,Dudley Island,-12.881,136.726,Open,Western,Nearshore,Emergent,Fringing,No,No,4
+2021,NT53,2021-11-05,4.5,1,Inverts,2,3,Dudley Island,-12.881,136.726,Open,Western,Nearshore,Emergent,Fringing,No,No,4.5
+2021,NT53,2021-11-05,4.5,2,Inverts,2,4,Dudley Island,-12.881,136.726,Open,Western,Nearshore,Emergent,Fringing,No,No,4.5
+2015,NT54,2015-11-07,5,1,Inverts,2,1,Dudley Rock,-12.884,136.712,Open,Western,Offshore,Emergent,Shoal,No,No,5
+2015,NT54,2015-11-07,5,2,Inverts,2,2,Dudley Rock,-12.884,136.712,Open,Western,Offshore,Emergent,Shoal,No,No,5
+2015,NT54,2015-11-07,4,1,Inverts,1,3,Dudley Rock,-12.884,136.712,Open,Western,Offshore,Emergent,Shoal,No,No,4
+2015,NT54,2015-11-07,4,2,Inverts,1,4,Dudley Rock,-12.884,136.712,Open,Western,Offshore,Emergent,Shoal,No,No,4
+2021,NT54,2021-11-05,5,1,Inverts,2,1,Dudley Rock,-12.884,136.712,Open,Western,Offshore,Emergent,Shoal,No,No,5
+2021,NT54,2021-11-05,5,2,Inverts,2,2,Dudley Rock,-12.884,136.712,Open,Western,Offshore,Emergent,Shoal,No,No,5
+2021,NT54,2021-11-05,4.5,1,Inverts,1,3,Dudley Rock,-12.884,136.712,Open,Western,Offshore,Emergent,Shoal,No,No,4.5
+2021,NT54,2021-11-05,4.5,2,Inverts,1,4,Dudley Rock,-12.884,136.712,Open,Western,Offshore,Emergent,Shoal,No,No,4.5
+2015,NT52,2015-11-07,5,1,Inverts,2,1,Dudley Island SE,-12.89,136.73,Open,Western,Nearshore,Emergent,Fringing,No,Yes,5
+2015,NT52,2015-11-07,5,2,Inverts,2,2,Dudley Island SE,-12.89,136.73,Open,Western,Nearshore,Emergent,Fringing,No,Yes,5
+2015,NT52,2015-11-07,4,1,Inverts,1,3,Dudley Island SE,-12.89,136.73,Open,Western,Nearshore,Emergent,Fringing,No,Yes,4
+2015,NT52,2015-11-07,4,2,Inverts,1,4,Dudley Island SE,-12.89,136.73,Open,Western,Nearshore,Emergent,Fringing,No,Yes,4
+2021,NT52,2021-11-05,5,1,Inverts,2,1,Dudley Island SE,-12.89,136.73,Open,Western,Nearshore,Emergent,Fringing,No,Yes,5
+2021,NT52,2021-11-05,5,2,Inverts,2,2,Dudley Island SE,-12.89,136.73,Open,Western,Nearshore,Emergent,Fringing,No,Yes,5
+2021,NT52,2021-11-05,4.5,1,Inverts,1,3,Dudley Island SE,-12.89,136.73,Open,Western,Nearshore,Emergent,Fringing,No,Yes,4.5
+2021,NT52,2021-11-05,4.5,2,Inverts,1,4,Dudley Island SE,-12.89,136.73,Open,Western,Nearshore,Emergent,Fringing,No,Yes,4.5
+2010,GC2,2010-07-03,8,1,Inverts,2,4,Bowengun,-16.42,139.47,Open,Mornington,Nearshore,Emergent,Fringing,No,Yes,8
+2015,NT55,2015-11-08,8,1,Inverts,1,1,Brady Rock,-13.68,136.45,Open,Western,Nearshore,Emergent,Shoal,No,Yes,8
+2015,NT55,2015-11-08,8,2,Inverts,1,2,Brady Rock,-13.68,136.45,Open,Western,Nearshore,Emergent,Shoal,No,Yes,8
+2015,NT55,2015-11-08,10,1,Inverts,2,3,Brady Rock,-13.68,136.45,Open,Western,Nearshore,Emergent,Shoal,No,Yes,10
+2015,NT55,2015-11-08,10,2,Inverts,2,4,Brady Rock,-13.68,136.45,Open,Western,Nearshore,Emergent,Shoal,No,Yes,10
+2010,GC1,2010-07-03,3.8,1,Inverts,1,1,Lamatha Reef,-16.48,139.27,Open,Mornington,Nearshore,Emergent,Fringing,No,Yes,3.8
+2010,GC1,2010-07-03,3.8,2,Inverts,1,2,Lamatha Reef,-16.48,139.27,Open,Mornington,Nearshore,Emergent,Fringing,No,Yes,3.8
+2010,GC1,2010-07-03,4,1,Inverts,2,3,Lamatha Reef,-16.48,139.27,Open,Mornington,Nearshore,Emergent,Fringing,No,Yes,4
+2010,GC1,2010-07-03,4,2,Inverts,2,4,Lamatha Reef,-16.48,139.27,Open,Mornington,Nearshore,Emergent,Fringing,No,Yes,4
+2015,GC11,2015-11-13,19.5,1,Inverts,2,1,Chinamans Reef,-15.89,139.03,Blue,Southern,Offshore,Submerged,Pinnacle,No,Yes,19.5
+2015,GC11,2015-11-13,19.5,2,Inverts,2,2,Chinamans Reef,-15.89,139.03,Blue,Southern,Offshore,Submerged,Pinnacle,No,Yes,19.5
+2015,GC11,2015-11-13,19,1,Inverts,1,3,Chinamans Reef,-15.89,139.03,Blue,Southern,Offshore,Submerged,Pinnacle,No,Yes,19
+2015,GC11,2015-11-13,19,2,Inverts,1,4,Chinamans Reef,-15.89,139.03,Blue,Southern,Offshore,Submerged,Pinnacle,No,Yes,19
+2015,GC10,2015-11-13,17,1,Inverts,1,1,Foggy Bottom,-16.07,138.91,Blue,Southern,Offshore,Submerged,Pinnacle,R4,Yes,17
+2015,GC10,2015-11-13,17,2,Inverts,1,2,Foggy Bottom,-16.07,138.91,Blue,Southern,Offshore,Submerged,Pinnacle,R4,Yes,17
+2015,NT60,2015-11-12,19,1,Inverts,2,1,Groper Shoal,-15.47,137.92,Open,Southern,Offshore,Submerged,Pinnacle,R7,Yes,19
+2015,NT60,2015-11-12,19,2,Inverts,2,2,Groper Shoal,-15.47,137.92,Open,Southern,Offshore,Submerged,Pinnacle,R7,Yes,19
+2015,NT60,2015-11-12,18.5,1,Inverts,1,3,Groper Shoal,-15.47,137.92,Open,Southern,Offshore,Submerged,Pinnacle,R7,Yes,18.5
+2015,NT60,2015-11-12,18.5,2,Inverts,1,4,Groper Shoal,-15.47,137.92,Open,Southern,Offshore,Submerged,Pinnacle,R7,Yes,18.5
+2013,NT37,2013-08-09,3,1,Inverts,1,1,Truant Island SW,-11.674,136.823,Open,Wessel,Nearshore,Emergent,Fringing,No,No,3
+2013,NT37,2013-08-09,3,2,Inverts,1,2,Truant Island SW,-11.674,136.823,Open,Wessel,Nearshore,Emergent,Fringing,No,No,3
+2015,NT37,2015-11-01,6,1,Inverts,1,1,Truant Island SW,-11.674,136.823,Open,Wessel,Nearshore,Emergent,Fringing,No,No,6
+2015,NT37,2015-11-01,6,2,Inverts,1,2,Truant Island SW,-11.674,136.823,Open,Wessel,Nearshore,Emergent,Fringing,No,No,6
+2015,NT37,2015-11-01,7,1,Inverts,2,3,Truant Island SW,-11.674,136.823,Open,Wessel,Nearshore,Emergent,Fringing,No,No,7
+2015,NT37,2015-11-01,7,2,Inverts,2,4,Truant Island SW,-11.674,136.823,Open,Wessel,Nearshore,Emergent,Fringing,No,No,7

@@ -1,0 +1,35 @@
+﻿RLS_category,new_category,new_category_2,new_category_3,new_category_4,new_category_5
+Ascidians (unstalked),Ascidian,Other,Other,Other,Other
+Bare Rock,Rock,Substrate,Substrate,Substrate,Substrate
+Branching Acropora,HC_acropora_branching,Acropora,Hard_coral,Branching,Complex
+Branching corals,HC_branching,Hard_coral,Hard_coral,Branching,Complex
+"Colonial Anemones, Zoanthids and Corallimorphs",Benthic_colonials,Other,Other,Other,Other
+Columnar corals,HC_columnar,Hard_coral,Hard_coral,Columnar,Complex
+Corymbose Acropora corals,HC_acropora_corymbose,Acropora,Hard_coral,Corymbose,Complex
+Crustose coralline algae,CCA,CCA,CCA,CCA,CCA
+Dead coral,HC_dead,Hard_coral_dead,Hard_coral_dead,Dead,Dead
+Digitate corals,HC_digitate,Hard_coral,Hard_coral,Digitate,Complex
+Encrusting corals,HC_encrusting,Hard_coral,Hard_coral,Encrusting,Massive/encrusting
+Encrusting corals_Bleached,HC_encrusting_bleached,Hard_coral_bleched,Hard_coral_bleched,Bleached,Bleached
+Encrusting leathery algae,Algage_encrusting,Macroalgae,Macroalgae,Macroalgae,Macroalgae
+Filamentous algae_epiphyte,Algae_filamentous,Macroalgae,Macroalgae,Macroalgae,Macroalgae
+Foliose/Plate corals,HC_foliose,Hard_coral,Hard_coral,Foliose,Massive/encrusting
+Geniculate coralline algae,Macroalgae_other,Macroalgae,Macroalgae,Macroalgae,Macroalgae
+Hydroids,Hydroids,Other,Other,Other,Other
+Massive corals,HC_massive,Hard_coral,Hard_coral,Massive,Massive/encrusting
+Medium foliose brown algae,Macroalgae_brown,Macroalgae,Macroalgae,Macroalgae,Macroalgae
+Medium foliose green algae,Macroalgae_green,Macroalgae,Macroalgae,Macroalgae,Macroalgae
+Medium foliose red algae,Macroalgae_red,Macroalgae,Macroalgae,Macroalgae,Macroalgae
+Molluscs,Molluscs,Other,Other,Other,Other
+Other fucoids,Other,Other,Other,Other,Other
+Pebbles/gravel/shell,Gravel,Substrate,Substrate,Substrate,Substrate
+Polychaete,Polychaete,Other,Other,Other,Other
+Sand,Sand,Substrate,Substrate,Substrate,Substrate
+Slime (not trapping sediment),Slime,Substrate,Substrate,Substrate,Substrate
+Soft corals and gorgonians,Softcoral_gorgonians,Other,Other,Other,Other
+Sponges (encrusting),Sponge_encrusting,Sponge,Sponge,Encrusting,Massive/encrusting
+Sponges (erect),Sponge_columnar,Sponge,Sponge,Complex,Complex
+Sponges (massive),Sponge_massive,Sponge,Sponge,Massive,Massive/encrusting
+Sub-massive corals,HC_submassive,Hard_coral,Hard_coral,Submassive,Massive/encrusting
+Tabular Acropora corals,HC_acropora_tabular,Acropora,Hard_coral,Tabular,Complex
+Turfing algae (<2 cm high algal/sediment mat on rock),Turf_algae,Turf_algae,Turf_algae,Turf_algae,Turf_algae
