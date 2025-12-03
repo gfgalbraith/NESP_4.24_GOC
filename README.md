@@ -6,7 +6,7 @@ Report prepared by: Maya Srinivasan, Gemma Galbraith and Damien Burrows
 
 Centre for Tropical Water and Aquatic Ecosystem Research (TropWater), James Cook University
 
-[![](images/f4c31c_2c1e04f0fadd407cac57f3fe6b0a72fe~mv2.png){width="330"}](https://www.tropwater.com/)
+[![](images/f4c31c_2c1e04f0fadd407cac57f3fe6b0a72fe~mv2.png){width="100"}](https://www.tropwater.com/)
 
 Suggested report citation: Srinivasan, M., Galbraith, G.F. and Burrows, D. (2025) NESP Project 4.24 – Towards assessing the values of reefs in the southern Gulf of Carpentaria. A synthesis of the existing scientific data on the coral reefs in the southern Gulf of Carpentaria. [DOI LINK PLACEHOLDER]
 
