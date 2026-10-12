@@ -1,0 +1,264 @@
+---
+title: "Multivariate and Community GOC Fish Analyses"
+format: 
+  html:
+    code-fold: false
+    code-tools: true
+    toc: true
+editor: visual
+---
+
+# 1. Setup & Libraries
+
+```{r setup, message = FALSE, warning = FALSE}
+library(tidyverse)
+library(vegan)
+library(ggfortify)
+library(ggvegan)
+library(ggrepel)
+library(cowplot)
+library(viridis)
+
+# Set global ggplot theme
+theme_set(theme_classic())
+```
+
+
+# 2. Invertebrate Species List Generation
+```{r}
+# Load and filter invertebrate data
+inverts_raw <- read_csv("../analysis_data/RLS_inverts_analysis_ready.csv", show_col_types = FALSE)
+
+inverts_southern <- inverts_raw %>% 
+  filter(sector == "Southern")
+
+# Export unique species list
+inverts_list <- inverts_southern %>% 
+  distinct(species_name)
+
+write_csv(inverts_list, "../summary_data/inverts_list.csv")
+
+# Compute most abundant invertebrates per site and survey
+inverts_abund <- inverts_southern %>% 
+  group_by(site_code, year, species_name) %>%
+  summarise(total_abundance = sum(total), .groups = "drop") %>%
+  arrange(desc(total_abundance))
+
+write_csv(inverts_abund, "../summary_data/inverts_abundance_southern_GOC.csv")
+
+```
+
+# 3. Base Data Preparation for Fish Assemblages
+```{r}
+# Load raw fish data
+fish_raw <- read_csv("../analysis_data/RLS_multivariate_fish.csv", show_col_types = FALSE)
+
+# Clean and filter base fish dataset
+lat_fish <- fish_raw %>% 
+  filter(list == "Reef_fish") %>% 
+  mutate(sector = if_else(sector == "Mornington", "Southern", sector)) %>% 
+  filter(region %in% c("GOC", "GBR", "WA"),
+         lat < -14.5 & lat > -17.5) %>% 
+  mutate(t_id = paste(site_code, year, transect_2, sep = "_"))
+```
+
+# 4. NMDS Pipeline Function
+```{r}
+run_nmds_pipeline <- function(data, env_vars_cols, k_dims = 3, n_max = 100) {
+  
+  # 1. Create wide species abundance matrix
+  species_mat <- data %>% 
+    dplyr::select(t_id, Species_name, total) %>% 
+    group_by(t_id, Species_name) %>% 
+    summarise(overall_total = sum(total), .groups = "drop") %>% 
+    pivot_wider(names_from = Species_name, values_from = overall_total, values_fill = 0)
+  
+  # Extract numeric community matrix
+  comm_matrix <- as.data.frame(species_mat[,-1])
+  
+  # 2. Extract unique site environmental info
+  site_info <- data %>% 
+    dplyr::select(t_id, all_of(env_vars_cols)) %>% 
+    distinct() %>% 
+    mutate(across(where(is.character), as.factor))
+  
+  # 3. Run metaMDS
+  nmds_model <- metaMDS(comm_matrix, k = k_dims, plot = FALSE, trymax = n_max)
+  
+  # 4. Extract Envfit scores
+  env_fit <- envfit(nmds_model, site_info %>% dplyr::select(-t_id), permutations = 999, na.rm = TRUE)
+  spp_fit <- envfit(nmds_model, comm_matrix, permutations = 999, na.rm = TRUE)
+  
+  # 5. Compile Site Scores
+  site_scores <- as.data.frame(scores(nmds_model, display = "sites")) %>% 
+    bind_cols(site_info)
+  
+  # 6. Compile Species Scores & filter significant ones (p <= 0.001)
+  fish_scores <- as.data.frame(scores(spp_fit, display = "vectors")) %>% 
+    mutate(species = rownames(.), pval = spp_fit$vectors$pvals)
+  
+  top_fish <- fish_scores %>% filter(pval <= 0.001)
+  
+  # 7. Compile Environmental Scores
+  env_scores <- as.data.frame(scores(env_fit, display = "vectors")) %>% 
+    mutate(env_variables = rownames(.), pval = env_fit$vectors$pvals)
+  
+  return(list(
+    model = nmds_model,
+    site_scores = site_scores,
+    top_fish = top_fish,
+    env_scores = env_scores
+  ))
+}
+
+```
+
+# 5. Analysis 1: Multi-Region Fish Assemblage (GBR, WA, GOC)
+Produces Figure 23 in the final report.
+```{R}
+
+# Run pipeline for GBR, WA, and GOC sites
+res_regional <- run_nmds_pipeline(
+  data = lat_fish, 
+  env_vars_cols = c("site_code", "reef_name", "region", "zone"),
+  k_dims = 3, 
+  n_max = 100
+)
+
+# Main Site Plot
+main_plot <- ggplot(res_regional$site_scores, aes(x = NMDS1, y = NMDS2)) +
+  geom_point(aes(color = region), size = 1) +
+  scale_colour_manual(values = c("#15B097", "#AF42AE", "#23A0C6")) +
+  scale_fill_manual(values = c("#15B097", "#AF42AE", "#23A0C6")) +
+  ggtitle(paste0("Stress = ", round(res_regional$model$stress, 2))) +
+  coord_fixed() +
+  theme(legend.position = "bottom",
+        legend.title = element_blank(),
+        plot.title = element_text(hjust = 1, vjust = 0.5, size = 8))
+
+# Fish Biplot
+top_fish_reg <- res_regional$top_fish %>% 
+  slice_head(n = 100) %>% 
+  mutate(species = gsub("^(\\w)\\w*\\.(.*)$", "\\1.\\2", species)) %>% 
+  filter((NMDS1 > 0.1 | NMDS1 < -0.1) & (NMDS2 > 0.1 | NMDS2 < -0.1))
+
+biplot_regional <- ggplot() +
+  geom_segment(data = top_fish_reg, aes(x = 0, xend = NMDS1, y = 0, yend = NMDS2), 
+               arrow = arrow(length = unit(0.25, "cm")), color = "gray10", linewidth = 0.3) +
+  geom_text_repel(data = top_fish_reg, aes(x = NMDS1, y = NMDS2, label = species), 
+                  size = 4, direction = "both", segment.size = 0.25, max.overlaps = 40, fontface = "italic") +
+  scale_x_continuous(limits = c(-1.5, 1.5)) + 
+  scale_y_continuous(limits = c(-1.2, 1.5)) +
+  labs(x = "NMDS1", y = "NMDS2") +
+  coord_equal()
+
+# Combine plots
+combined_plot_regional <- plot_grid(main_plot, biplot_regional, ncol = 2, labels = c("A", "B"))
+combined_plot_regional
+```
+
+# 6. Analysis 2: Southern GOC Sites Only
+Produces Figure 18 in the final report.
+```{r}
+fish_southern_sites <- lat_fish %>% filter(region == "GOC")
+
+res_southern <- run_nmds_pipeline(
+  data = fish_southern_sites, 
+  env_vars_cols = c("site_code", "reef_name", "region", "zone", "geomorph"),
+  k_dims = 3, 
+  n_max = 1000
+)
+
+# South Site Plot
+south_plot <- ggplot(res_southern$site_scores, aes(x = NMDS1, y = NMDS2)) +
+  geom_point(aes(color = zone, shape = geomorph), size = 4) +
+  scale_colour_manual(values = c("#23A0C6", "#D8CC34")) +
+  scale_fill_manual(values = c("#23A0C6", "#D8CC34")) +
+  ggtitle(paste0("Stress = ", round(res_southern$model$stress, 2))) +
+  coord_fixed() +
+  theme(legend.position = "bottom",
+        legend.title = element_blank(),
+        plot.title = element_text(hjust = 1, vjust = 0.5, size = 8))
+
+# South Fish Biplot
+top_fish_south <- res_southern$top_fish %>% 
+  slice_head(n = 30) %>% 
+  mutate(species = gsub("^(\\w)\\w*\\s+(\\w+)$", "\\1. \\2", species)) %>% 
+  filter((NMDS1 > 0.1 | NMDS1 < -0.1) & (NMDS2 > 0.1 | NMDS2 < -0.1))
+
+biplot_southern <- ggplot() +
+  geom_segment(data = top_fish_south, aes(x = 0, xend = NMDS1, y = 0, yend = NMDS2), 
+               arrow = arrow(length = unit(0.25, "cm")), color = "gray10", linewidth = 0.3) +
+  geom_text_repel(data = top_fish_south, aes(x = NMDS1, y = NMDS2, label = species), 
+                  size = 4, direction = "both", segment.size = 0.25, max.overlaps = 40, fontface = "italic") +
+  scale_x_continuous(limits = c(-0.5, 0.5)) + 
+  scale_y_continuous(limits = c(-0.5, 0.5)) +
+  labs(x = "NMDS1", y = "NMDS2") +
+  coord_equal()
+
+# Combine plots
+combined_plot_southern <- plot_grid(south_plot, biplot_southern, ncol = 2, labels = c("A", "B"))
+combined_plot_southern
+
+```
+
+# 7. Analysis 3: Longitudinal Report Sites (36 Sites)
+Produces Figure 22 in the final report.
+```{r}
+report_fish <- fish_raw %>% 
+  filter(report_site == "Yes") %>% 
+  mutate(t_id = paste(site_code, year, transect_2, sep = "_"))
+
+# Save report fish summary data
+write_csv(report_fish, "../summary_data/report_fish.csv")
+
+res_report <- run_nmds_pipeline(
+  data = report_fish, 
+  env_vars_cols = c("site_code", "reef_name", "region", "zone", "geomorph", "sector"),
+  k_dims = 3, 
+  n_max = 100
+)
+
+# Format factor orders and broader geomorphology categories
+site_scores_report36 <- res_report$site_scores %>% 
+  mutate(
+    zone_sec = paste(sector, zone, sep = "_"),
+    broad_geomorph = case_when(
+      geomorph %in% c("Pinnacle", "Shoal") ~ "Submerged Pinnacle or Shoal",
+      geomorph == "Fringing" ~ "Emergent Fringing Reef",
+      TRUE ~ geomorph
+    )
+  )
+
+# 36-Site Plot
+report_plot <- ggplot(site_scores_report36, aes(x = NMDS1, y = NMDS2)) +
+  geom_point(aes(color = sector, shape = broad_geomorph), size = 4) +
+  scale_colour_manual(values = c("#27AD81", "#3B528B", "#AADC32", "#2C728E", "#FDE725", "#472D7B", "#440154")) +
+  scale_fill_manual(values = c("#27AD81", "#3B528B", "#AADC32", "#2C728E", "#FDE725", "#472D7B", "#440154")) +
+  ggtitle(paste0("Stress = ", round(res_report$model$stress, 2))) +
+  coord_fixed() +
+  theme(legend.position = "bottom",
+        legend.title = element_blank(),
+        plot.title = element_text(hjust = 1, vjust = 0.5, size = 8))
+
+# Report Fish Biplot
+top_fish_report <- res_report$top_fish %>% 
+  slice_head(n = 30) %>% 
+  mutate(species = gsub("^(\\w)\\w*\\s+(\\w+)$", "\\1. \\2", species)) %>% 
+  filter((NMDS1 > 0.1 | NMDS1 < -0.1) & (NMDS2 > 0.1 | NMDS2 < -0.1))
+
+biplot_report <- ggplot() +
+  geom_segment(data = top_fish_report, aes(x = 0, xend = NMDS1, y = 0, yend = NMDS2), 
+               arrow = arrow(length = unit(0.25, "cm")), color = "gray10", linewidth = 0.3) +
+  geom_text_repel(data = top_fish_report, aes(x = NMDS1, y = NMDS2, label = species), 
+                  size = 4, direction = "both", segment.size = 0.25, max.overlaps = 40, fontface = "italic") +
+  scale_x_continuous(limits = c(-0.5, 0.5)) + 
+  scale_y_continuous(limits = c(-0.5, 0.5)) +
+  labs(x = "NMDS1", y = "NMDS2") +
+  coord_equal()
+
+# Combine plots
+combined_plot_report <- plot_grid(report_plot, biplot_report, ncol = 2, labels = c("A", "B"))
+combined_plot_report
+
+```

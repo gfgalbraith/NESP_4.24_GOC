@@ -1,0 +1,276 @@
+---
+title: "GOC Fish Community Diversity & Biomass Boxplot Figures"
+author: "GF Galbraith"
+date: "2024-06-05"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    code_folding: show
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE,
+  message = FALSE,
+  warning = FALSE
+)
+```
+
+# 1. Libraries
+```{r}
+library(tidyverse)
+library(lubridate)
+library(vegan)
+library(ggforce)
+library(plotrix)
+library(patchwork)
+library(sjPlot)
+```
+
+# 2. Load and Prepare Fish Data
+```{r}
+# Load analysis-ready fish dataset
+fish_raw <- read_csv("../analysis_data/RLS_allfish_analysis_ready.csv", show_col_types = FALSE) %>% 
+  as.data.frame()
+
+# Filter for reef fish only and report sites
+fish_base <- fish_raw %>% 
+  filter(list == "Reef_fish", report_site == "Yes") %>% 
+  mutate(
+    sector = if_else(sector == "Mornington", "Southern", sector),
+    t_id = paste(site_code, year, transect_2, sep = "_")
+  )
+
+```
+
+# 3.Diversity & Biomass Pipeline Function
+This helper function computes richness, abundance, Shannon/Simpson diversity indices, and total biomass per transect ($T\_ID$), and merges them back with site metadata.
+```{R}
+compile_diversity_data <- function(data_subset) {
+  
+  # 1. Create wide species matrix for vegan indices
+  fish_mat <- data_subset %>% 
+    dplyr::select(t_id, Species_name, stand_abund_100m) %>% 
+    group_by(t_id, Species_name) %>% 
+    summarise(total = sum(stand_abund_100m), .groups = "drop") %>% 
+    pivot_wider(names_from = Species_name, values_from = total, values_fill = 0)
+  
+  spec_mat <- fish_mat %>% dplyr::select(-t_id)
+  
+  # 2. Compute diversity metrics
+  diversity_results <- fish_mat %>% 
+    mutate(
+      richness = rowSums(spec_mat > 0),
+      abundance = rowSums(spec_mat),
+      shannon = diversity(spec_mat),
+      simpson = diversity(spec_mat, index = "simpson")
+    ) %>% 
+    dplyr::select(t_id, richness, abundance, shannon, simpson)
+  
+  # 3. Compute total biomass per transect
+  biomass_results <- data_subset %>% 
+    group_by(t_id) %>% 
+    summarise(total_biomass = sum(stand_biomass_g_100m, na.rm = TRUE), .groups = "drop")
+  
+  # 4. Merge metrics and attach unique site metadata
+  site_info <- data_subset %>% 
+    dplyr::select(site_code, reef_name, t_id, zone, situation, depth_morph, geomorph, region, sector) %>% 
+    distinct(t_id, .keep_all = TRUE)
+  
+  final_data <- diversity_results %>% 
+    left_join(biomass_results, by = "t_id") %>% 
+    left_join(site_info, by = "t_id") %>% 
+    mutate(
+      zone_sit = paste(zone, situation, sep = "_"),
+      zone_sec = as.factor(paste(zone, sector, sep = "_"))
+    )
+  
+  return(final_data)
+}
+```
+
+# 4. Figure 17: Southern GOC (14 Sites)
+```{r}
+fish_southern <- fish_base %>% filter(sector == "Southern") %>% 
+  mutate(situation = fct_relevel(situation, "Offshore", "Nearshore"))
+
+div_southern <- compile_diversity_data(fish_southern)
+
+# Colors for 14-site Southern GOC
+col_14 <- c("#54C1CB", "#D0D1D1", "#BDDBDD")
+
+# A) Density Plot
+p_dens_17 <- ggplot(div_southern, aes(y = abundance, x = reef_name, fill = zone_sit)) + 
+  geom_boxplot(outlier.colour = "black", outlier.shape = 16, outlier.size = 1.5, notch = FALSE) +
+  scale_fill_manual(values = col_14) +
+  ylab(expression(Density~(n.100m^2))) +
+  xlab("") +
+  scale_y_continuous(expand = c(0, 0), limits = c(0, 2500)) + 
+  theme_classic() +
+  facet_row(zone ~ situation, scales = "free_x", space = "free") +
+  theme(
+    axis.text.x = element_blank(),
+    axis.ticks.x = element_blank(),
+    axis.title.y = element_text(size = 10, face = "bold"),
+    legend.position = "none",
+    strip.text = element_text(size = 10, colour = "black", face = "bold"),
+    strip.background = element_blank()
+  )
+
+# B) Biomass Plot
+p_bio_17 <- ggplot(div_southern, aes(y = total_biomass / 1000, x = reef_name, fill = zone_sit)) + 
+  geom_boxplot(outlier.colour = "black", outlier.shape = 16, outlier.size = 1.5, notch = FALSE) +
+  scale_fill_manual(values = col_14) +
+  ylab(expression(Biomass~(Kg.100m^2))) +
+  xlab("") +
+  scale_y_continuous(expand = c(0, 0), limits = c(0, 180)) + 
+  theme_classic() +
+  facet_row(zone ~ situation, scales = "free_x", space = "free") +
+  theme(
+    axis.text.x = element_blank(),
+    axis.ticks.x = element_blank(),
+    axis.title.y = element_text(size = 10, face = "bold"),
+    legend.position = "none",
+    strip.text = element_blank(),
+    strip.background = element_blank()
+  )
+
+# C) Richness Plot
+p_rich_17 <- ggplot(div_southern, aes(y = richness, x = reef_name, fill = zone_sit)) + 
+  geom_boxplot(outlier.colour = "black", outlier.shape = 16, outlier.size = 1.5, notch = FALSE) +
+  scale_fill_manual(values = col_14) +
+  ylab(expression(Richness~(S.100m^2))) +
+  xlab("") +
+  scale_y_continuous(expand = c(0, 0), limits = c(0, 60)) + 
+  theme_classic() +
+  facet_row(zone ~ situation, scales = "free_x", space = "free") +
+  theme(
+    axis.text.x = element_blank(),
+    axis.ticks.x = element_blank(),
+    axis.title.y = element_text(size = 10, face = "bold"),
+    legend.position = "none",
+    strip.text = element_blank(),
+    strip.background = element_blank()
+  )
+
+# D) Shannon Diversity Plot
+p_div_17 <- ggplot(div_southern, aes(y = shannon, x = reef_name, fill = zone_sit)) + 
+  geom_boxplot(outlier.colour = "black", outlier.shape = 16, outlier.size = 1.5, notch = FALSE) +
+  scale_fill_manual(values = col_14) +
+  ylab(expression(Diversity~(H.100m^2))) +
+  xlab("") +
+  labs(fill = "Zone/Situation") +
+  scale_y_continuous(expand = c(0, 0), limits = c(0, 4)) + 
+  theme_classic() +
+  facet_row(zone ~ situation, scales = "free_x", space = "free") +
+  theme(
+    axis.text.x = element_text(size = 9, color = "black", angle = 45, hjust = 1),
+    axis.title.y = element_text(size = 10, face = "bold"),
+    legend.position = "bottom",
+    legend.text = element_text(size = 10),
+    legend.title = element_text(size = 10, face = "bold"),
+    strip.text = element_blank(),
+    strip.background = element_blank()
+  )
+
+# Combine vertically using patchwork
+fig_17_combined <- (p_dens_17 / p_bio_17 / p_rich_17 / p_div_17) +
+  plot_annotation(tag_levels = 'A') &
+  theme(plot.tag = element_text(size = 12, face = "bold"))
+
+fig_17_combined
+
+```
+
+# 5. Figure 21: Broader Regional Subset (36 Sites)
+```{R}
+div_36 <- compile_diversity_data(fish_base) %>% 
+  mutate(
+    sector = fct_relevel(sector, "Outer-shoals", "Wessel", "Northwest", "Western", "Southern", "Northeast"),
+    zone_sec = fct_relevel(zone_sec, "Open_Outer-shoals", "Open_Wessel", "Open_Northwest", "Open_Western", "Blue_Southern", "Open_Southern", "Open_Northeast")
+  )
+
+col_36 <- c("#EE8434", "#990033", "#94A89A", "#795C5F", "#54C1CB", "#D0D1D1", "#FADF7F")
+sector_formula <- fct_relevel(sector, "Outer-shoals", "Wessel", "Northwest", "Western", "Southern", "Northeast") ~ zone
+
+# A) Density 36 Sites
+p_dens_36 <- ggplot(div_36, aes(y = abundance, x = reef_name, fill = zone_sec)) + 
+  geom_boxplot(outlier.colour = "black", outlier.shape = 16, outlier.size = 1.2, notch = FALSE) +
+  scale_fill_manual(values = col_36) +
+  ylab(expression(Density~(n.100m^2))) +
+  xlab("") +
+  scale_y_continuous(expand = c(0, 0), limits = c(0, 3000)) + 
+  theme_classic() +
+  facet_row(sector_formula, scales = "free_x", space = "free") +
+  theme(
+    axis.text.x = element_blank(),
+    axis.ticks.x = element_blank(),
+    axis.title.y = element_text(size = 10, face = "bold"),
+    legend.position = "none",
+    strip.text = element_text(size = 9, colour = "black", face = "bold"),
+    strip.background = element_blank()
+  )
+
+# B) Biomass 36 Sites
+p_bio_36 <- ggplot(div_36, aes(y = total_biomass / 1000, x = reef_name, fill = zone_sec)) + 
+  geom_boxplot(outlier.colour = "black", outlier.shape = 16, outlier.size = 1.2, notch = FALSE) +
+  scale_fill_manual(values = col_36) +
+  ylab(expression(Biomass~(Kg.100m^2))) +
+  xlab("") +
+  scale_y_continuous(expand = c(0, 0), limits = c(0, 150)) + 
+  theme_classic() +
+  facet_row(sector_formula, scales = "free_x", space = "free") +
+  theme(
+    axis.text.x = element_blank(),
+    axis.ticks.x = element_blank(),
+    axis.title.y = element_text(size = 10, face = "bold"),
+    legend.position = "none",
+    strip.text = element_blank(),
+    strip.background = element_blank()
+  )
+
+# C) Richness 36 Sites
+p_rich_36 <- ggplot(div_36, aes(y = richness, x = reef_name, fill = zone_sec)) + 
+  geom_boxplot(outlier.colour = "black", outlier.shape = 16, outlier.size = 1.2, notch = FALSE) +
+  scale_fill_manual(values = col_36) +
+  ylab(expression(Richness~(S.100m^2))) +
+  xlab("") +
+  scale_y_continuous(expand = c(0, 0), limits = c(0, 60)) + 
+  theme_classic() +
+  facet_row(sector_formula, scales = "free_x", space = "free") +
+  theme(
+    axis.text.x = element_blank(),
+    axis.ticks.x = element_blank(),
+    axis.title.y = element_text(size = 10, face = "bold"),
+    legend.position = "none",
+    strip.text = element_blank(),
+    strip.background = element_blank()
+  )
+
+# D) Diversity 36 Sites
+p_div_36 <- ggplot(div_36, aes(y = shannon, x = reef_name, fill = zone_sec)) + 
+  geom_boxplot(outlier.colour = "black", outlier.shape = 16, outlier.size = 1.2, notch = FALSE) +
+  scale_fill_manual(values = col_36) +
+  ylab(expression(Diversity~(H.100m^2))) +
+  xlab("") +
+  scale_y_continuous(expand = c(0, 0), limits = c(0, 4)) + 
+  theme_classic() +
+  facet_row(sector_formula, scales = "free_x", space = "free") +
+  theme(
+    axis.text.x = element_text(size = 8, color = "black", angle = 45, hjust = 1),
+    axis.title.y = element_text(size = 10, face = "bold"),
+    legend.position = "none",
+    strip.text = element_blank(),
+    strip.background = element_blank()
+  )
+
+# Combine vertically using patchwork
+fig_21_combined <- (p_dens_36 / p_bio_36 / p_rich_36 / p_div_36) +
+  plot_annotation(tag_levels = 'A') &
+  theme(plot.tag = element_text(size = 12, face = "bold"))
+
+fig_21_combined
+
+```
+

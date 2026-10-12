@@ -1,0 +1,252 @@
+---
+title: "Southern GOC Benthic Community Figures (14 Sites)"
+author: "GF Galbraith"
+date: "2024-08-08"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    code_folding: show
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE,
+  message = FALSE,
+  warning = FALSE
+)
+```
+
+# 1. Setup & Libraries
+```{r}
+library(tidyverse)
+library(lubridate)
+library(vegan)
+library(ggforce)
+library(plotrix)
+library(sjPlot)
+library(patchwork)
+```
+
+# 2.Load and Prepare Benthic Data
+```{R}
+# Load analysis-ready benthic data and filter for Southern GOC sector
+benthic_raw <- read_csv("../analysis_data/RLS_benthic_analysis_ready.csv", show_col_types = FALSE) %>% 
+  as.data.frame()
+
+benthic_southern <- benthic_raw %>% 
+  filter(sector == "Southern") %>% 
+  mutate(
+    t_id = paste(site_code, year, transect_1, sep = "_"),
+    site_code = as.factor(site_code),
+    reef_name = as.factor(reef_name),
+    situation = as.factor(situation),
+    zone = as.factor(zone),
+    geomorph = as.factor(geomorph)
+  )
+```
+
+
+# 3. Figure 13: Southern GOC Benthic Metrics Stack (Hard Coral Cover)
+```{r}
+
+# 1. Calculate total hard coral cover per transect, then mean per site
+hc_data <- benthic_southern %>% 
+  filter(new_category_3 == "Hard_coral") %>% 
+  group_by(reef_name, situation, zone, t_id) %>% 
+  summarise(total_cover = sum(percent_cover), .groups = "drop") %>% 
+  group_by(reef_name, situation, zone) %>% 
+  summarise(
+    mean_cover = mean(total_cover), 
+    se = std.error(total_cover), 
+    .groups = "drop"
+  ) %>% 
+  mutate(zone_sit = paste(zone, situation, sep = "_"))
+
+# Colors for Southern GOC zones/situations
+col_14 <- c("#54C1CB", "#D0D1D1", "#BDDBDD")
+
+# 2. Generate Figure 13
+fig_13 <- ggplot(hc_data, aes(y = mean_cover, x = reef_name, fill = zone_sit)) + 
+  geom_bar(stat = "identity", colour = "black") +
+  geom_errorbar(aes(ymin = mean_cover - se, ymax = mean_cover + se), width = 0.3) +
+  scale_fill_manual(values = col_14) +
+  ylab("Mean Hard Coral Cover (±SE %)") +
+  xlab("") +
+  labs(fill = "Zone/Situation") +
+  scale_y_continuous(expand = c(0, 0), limits = c(0, 60)) + 
+  theme_classic() +
+  ggforce::facet_row(zone ~ fct_relevel(situation, "Offshore", "Nearshore"), scales = "free_x", space = "free") +
+  theme(
+    axis.text.x = element_text(size = 10, color = "black", angle = 45, hjust = 1),
+    axis.text.y = element_text(size = 12, color = "black"),
+    axis.title.y = element_text(size = 14, vjust = 2),
+    legend.position = "bottom",
+    legend.text = element_text(size = 12),
+    legend.title = element_text(size = 12, face = "bold"),
+    strip.text = element_text(size = 12, colour = "black", face = "bold"),
+    strip.background = element_blank()
+  )
+
+fig_13
+
+tab_df(hc_data)
+
+
+
+```
+# 4. Figure 14: Southern GOC Benthic Metrics Stack (Hard Coral Cover by morphology)
+```{r}
+# 1. Filter for morphological categories and compute means/SE
+morph_data <- benthic_southern %>% 
+  filter(new_category_5 %in% c("Complex", "Massive/encrusting")) %>% 
+  group_by(reef_name, zone, situation, new_category_5, t_id) %>% 
+  summarise(total_cover = sum(percent_cover), .groups = "drop") %>% 
+  group_by(reef_name, zone, situation, new_category_5) %>% 
+  summarise(
+    mean_cover = mean(total_cover), 
+    se = std.error(total_cover), 
+    .groups = "drop"
+  )
+
+# Add dummy zero rows for sites lacking complex coral records
+morph_data <- morph_data %>% 
+  ungroup() %>% 
+  add_row(reef_name = "Carpentaria Reef SW", situation = "Offshore", zone = "Blue", mean_cover = 0.0, se = 0, new_category_5 = "Complex") %>% 
+  add_row(reef_name = "Glasseye Reef", situation = "Offshore", zone = "Blue", mean_cover = 0.0, se = 0, new_category_5 = "Complex")
+
+# 2. Generate Figure 14
+fig_14 <- ggplot(morph_data, aes(y = mean_cover, x = reef_name, fill = new_category_5)) + 
+  geom_bar(stat = "identity", colour = "black", position = position_dodge(1)) +
+  geom_errorbar(aes(ymin = mean_cover - se, ymax = mean_cover + se), width = 0.3, position = position_dodge(1)) +
+  scale_fill_manual(values = c("#F4D35E", "#175793")) +
+  ylab("Mean Coral Cover (±SE %)") +
+  xlab("") +
+  labs(fill = "Coral Morphology") +
+  scale_y_continuous(expand = c(0, 0), limits = c(0, 60)) + 
+  theme_classic() +
+  ggforce::facet_row(zone ~ fct_relevel(situation, "Offshore", "Nearshore"), scales = "free_x", space = "free") +
+  theme(
+    axis.text.x = element_text(size = 10, color = "black", angle = 45, hjust = 1),
+    axis.text.y = element_text(size = 12, color = "black"),
+    axis.title.y = element_text(size = 14, vjust = 2),
+    legend.position = "bottom",
+    legend.text = element_text(size = 12),
+    legend.title = element_text(size = 12, face = "bold"),
+    strip.text = element_text(size = 12, colour = "black", face = "bold"),
+    strip.background = element_blank()
+  )
+
+fig_14
+
+tab_df(morph_data)
+
+```
+# 5. Figure 19 - 36 sites across broader GOC region
+```{R}
+# Filter for report sites across the 34 regional locations
+benthic_36 <- benthic_raw %>% 
+  mutate(
+    sector = if_else(sector == "Mornington", "Southern", sector),
+    t_id = paste(site_code, year, transect_1, sep = "_"),
+    site_code = as.factor(site_code),
+    reef_name = as.factor(reef_name),
+    sector = fct_relevel(sector, "Outer-shoals", "Wessel", "Northwest", "Western", "Southern", "Northeast"),
+    zone_sec = as.factor(paste(zone, sector, sep = "_")) %>% 
+      fct_relevel("Open_Outer-shoals", "Open_Wessel", "Open_Northwest", "Open_Western", "Blue_Southern", "Open_Southern", "Open_Northeast")
+  )
+
+# 1. Calculate total hard coral cover per transect, then mean per site across the 34 sites
+hc_36 <- benthic_36 %>% 
+  filter(new_category_3 == "Hard_coral", report_site == "Yes") %>% 
+  group_by(reef_name, region, sector, situation, zone, zone_sec, t_id) %>% 
+  summarise(total_cover = sum(percent_cover), .groups = "drop") %>% 
+  group_by(reef_name, region, sector, situation, zone, zone_sec) %>% 
+  summarise(
+    mean_cover = mean(total_cover), 
+    se = std.error(total_cover), 
+    .groups = "drop"
+  )
+
+# Define regional palette for sectors/zones
+col_36 <- c("#EE8434", "#990033", "#94A89A", "#795C5F", "#54C1CB", "#D0D1D1", "#FADF7F")
+sector_formula <- fct_relevel(sector, "Outer-shoals", "Wessel", "Northwest", "Western", "Southern", "Northeast") ~ zone
+
+# 2. Generate Figure 19
+fig_19 <- ggplot(hc_36, aes(y = mean_cover, x = reef_name, fill = zone_sec)) + 
+  geom_bar(stat = "identity", colour = "black") +
+  geom_errorbar(aes(ymin = mean_cover - se, ymax = mean_cover + se), width = 0.3) +
+  scale_fill_manual(values = col_36) +
+  ylab("Mean Hard Coral Cover (±SE %)") +
+  xlab("") +
+  labs(fill = "Zone/Sector") +
+  scale_y_continuous(expand = c(0, 0), limits = c(0, 80)) + 
+  theme_classic() +
+  ggforce::facet_row(sector_formula, scales = "free_x", space = "free") +
+  theme(
+    axis.text.x = element_text(size = 8, color = "black", angle = 45, hjust = 1),
+    axis.text.y = element_text(size = 12, color = "black"),
+    axis.title.y = element_text(size = 14, vjust = 2),
+    legend.position = "bottom",
+    legend.text = element_text(size = 10),
+    legend.title = element_text(size = 10, face = "bold"),
+    strip.text = element_text(size = 9, colour = "black", face = "bold"),
+    strip.background = element_blank()
+  )
+
+fig_19
+
+
+tab_df(hc_36)
+```
+# 6. Figure 20: Hard Coral Cover by Morphology across 36 Sites
+```{R}
+# 1. Filter for morphological categories (Complex vs Massive/encrusting) across 34 report sites
+morph_36 <- benthic_36 %>% 
+  filter(report_site == "Yes", new_category_5 %in% c("Complex", "Massive/encrusting")) %>% 
+  group_by(reef_name, region, sector, situation, zone, zone_sec, new_category_5, t_id) %>% 
+  summarise(total_cover = sum(percent_cover), .groups = "drop") %>% 
+  group_by(reef_name, region, sector, situation, zone, zone_sec, new_category_5) %>% 
+  summarise(
+    mean_cover = mean(total_cover), 
+    se = std.error(total_cover), 
+    .groups = "drop"
+  )
+
+# Add dummy rows for missing morph combinations where required
+morph_36 <- morph_36 %>% 
+  ungroup() %>% 
+  add_row(reef_name = "Carpentaria Reef SW", region = "GOC", sector = "Southern", situation = "Offshore", zone = "Blue", zone_sec = "Blue_Southern", mean_cover = 0.0, se = 0, new_category_5 = "Complex") %>% 
+  add_row(reef_name = "Glasseye Reef", region = "GOC", sector = "Southern", situation = "Offshore", zone = "Blue", zone_sec = "Blue_Southern", mean_cover = 0.0, se = 0, new_category_5 = "Complex") %>% 
+  add_row(reef_name = "Arafura Shoal", region = "WA", sector = "Outer-shoals", situation = "Offshore", zone = "Open", zone_sec = "Open_Outer-shoals", mean_cover = 0.0, se = 0, new_category_5 = "Complex") %>%
+  add_row(reef_name = "Truant Island S", region = "WA", sector = "Wessel", situation = "Nearshore", zone = "Open", zone_sec = "Open_Wessel", mean_cover = 0.0, se = 0, new_category_5 = "Complex")
+
+sector_formula <- fct_relevel(sector, "Outer-shoals", "Wessel", "Northwest", "Western", "Southern", "Northeast") ~ zone
+
+# 2. Generate Figure 20
+fig_20 <- ggplot(morph_36, aes(y = mean_cover, x = reef_name, fill = new_category_5)) + 
+  geom_bar(stat = "identity", colour = "black", position = position_dodge(1)) +
+  geom_errorbar(aes(ymin = mean_cover - se, ymax = mean_cover + se), width = 0.3, position = position_dodge(1)) +
+  scale_fill_manual(values = c("#F4D35E", "#175793")) + # Yellow for Complex, Dark Blue for Massive/encrusting
+  ylab("Mean Coral Cover (±SE %)") +
+  xlab("") +
+  labs(fill = "Coral Morphology") +
+  scale_y_continuous(expand = c(0, 0), limits = c(0, 60)) + 
+  theme_classic() +
+  ggforce::facet_row(sector_formula, scales = "free_x", space = "free") +
+  theme(
+    axis.text.x = element_text(size = 8, color = "black", angle = 45, hjust = 1),
+    axis.text.y = element_text(size = 12, color = "black"),
+    axis.title.y = element_text(size = 14, vjust = 2),
+    legend.position = "bottom",
+    legend.text = element_text(size = 10),
+    legend.title = element_text(size = 10, face = "bold"),
+    strip.text = element_text(size = 9, colour = "black", face = "bold"),
+    strip.background = element_blank()
+  )
+
+fig_20
+
+tab_df(morph_36)
+
+```

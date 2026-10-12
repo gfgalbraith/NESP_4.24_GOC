@@ -1,0 +1,254 @@
+---
+title: "RLS Data Preparation and Cleaning"
+author: "GF Galbraith"
+date: "2024-05-22"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    code_folding: show
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE,
+  message = FALSE,
+  warning = FALSE
+)
+```
+
+This script imports raw Reef Life Survey (RLS) data from multiple regions (Gulf of Carpentaria, Western Australia, and the Great Barrier Reef), standardizes temporal formats, assigns survey transect identifiers, integrates custom metadata, validates species names against taxonomic standards and MERMAID constants, and exports clean, analysis-ready datasets used in NESP Project Report 4.24
+
+
+# 1. Libraries
+```{r}
+library(tidyverse)
+library(lubridate)
+library(vegan)
+library(taxize)
+```
+
+# 2. Load and Bind Multi-Region RLS Data
+These individual csv files were downlaoded from the Reeflife survey data layers in the AODN portal at https://portal.aodn.org.au/search
+A bounding box was drawn around the Gulf of Carpentaria and data for reef fish, cryptobenthic fish, invertebrates and off transect observations downloaded.
+Add region ID of GOC
+```{r}
+# Define regions and data types
+regions <- c("GOC", "WA", "GBR")
+data_types <- c("fishdata", "crypticfishdata", "invertdata", "offtransect_obs")
+
+# Helper function to read a single file safely
+load_rls_file <- function(region, type) {
+  file_path <- paste0("../raw_data/RLS_", region, "_", type, ".csv")
+  if (file.exists(file_path)) {
+    read_csv(file_path, show_col_types = FALSE) %>% 
+      as.data.frame() %>% 
+      mutate(
+        region = region,
+        list = case_when(
+          type == "fishdata" ~ "Reef_fish",
+          type == "crypticfishdata" ~ "Crypto_fish",
+          type == "invertdata" ~ "Inverts",
+          type == "offtransect_obs" ~ "Off_transect"
+        )
+      )
+  } else {
+    NULL
+  }
+}
+
+# Generate all combinations and combine rows
+all_data_list <- map(regions, function(reg) {
+  map(data_types, ~ load_rls_file(reg, .x))
+}) %>% flatten() %>% compact()
+
+data_raw <- bind_rows(all_data_list)
+```
+
+# 3. Temporal Processing and Survey Structuring
+```{r}
+# Standardize dates and factor levels
+data_processed <- data_raw %>% 
+  mutate(
+    survey_date = as.Date(dmy(survey_date)),
+    year = as.factor(year(survey_date)),
+    site_code = as.factor(site_code),
+    depth = as.factor(depth),
+    list = as.factor(list)
+  )
+
+# Extract unique surveys to build transect replicates
+# Note: RLS design splits transects into 5m blocks (two sides of a 50x10m belt)
+surveys <- data_processed %>% 
+  dplyr::select(year, country, area, ecoregion, realm, location, site_code, survey_date, depth, block, list) %>% 
+  distinct() %>% 
+  mutate(
+    depth = as.factor(depth),
+    site_code = as.factor(site_code),
+    year = as.factor(year),
+    list = as.factor(list)
+  )
+
+# Add transect identifiers (transect_1 based on depth, transect_2 as sequential block count)
+surveys <- surveys %>% 
+  group_by(site_code, year, list) %>% 
+  mutate(
+    transect_1 = as.numeric(factor(depth)),
+    transect_2 = seq_along(survey_date)
+  )
+```
+
+
+# Add year
+```{r}
+data <- data %>% mutate(
+  survey_date = as.Date(dmy(survey_date)),
+  year = as.factor(year(survey_date)),
+  site_code = as.factor(site_code),
+  depth = as.factor(depth))
+
+```
+
+
+# 4. Integrate Site Metadata
+Found data entry mistakes - some surveys have been entered with the wrong combination of blocks and depths. E.g. the two 19m surveys from NT60 have both been entered as block 1 when they should be 1 and 2. 
+```{r}
+# Load manual site metadata for GOC
+gfg_site_data <- read_csv("../raw_data/GFG_GOC_site_metadata.csv", show_col_types = FALSE) %>% 
+  as.data.frame() %>% 
+  mutate(site_code = as.factor(site_code))
+
+survey_metadata <- left_join(surveys, gfg_site_data, by = "site_code") %>% 
+  mutate(
+    year = as.factor(year),
+    site_code = as.factor(site_code),
+    depth_m = as.factor(depth),
+    transect_1 = as.factor(transect_1),
+    transect_2 = as.factor(transect_2)
+  )
+
+write_csv(survey_metadata, "../analysis_data/GFG_GOC_survey_metadata.csv")
+```
+
+# 5. Merge Main Data with Metadata & Clean Variables
+Uses the surveys.csv created above and the manually entered GFG_Site_metadata file.
+```{r}
+# Select and rename core variables to match survey metadata structure
+data_subset <- data_processed %>% 
+  dplyr::select(
+    site_code, site_name, survey_date, depth, visibility, hour, 
+    survey_latitude, survey_longitude, method, block, phylum, 
+    class, order, family, species_name, reporting_name, size_class, 
+    total, biomass, geom, year, list
+  ) %>% 
+  rename(
+    depth_m = depth,
+    reef_name = site_name
+  )
+
+data_merged <- left_join(
+  data_subset, survey_metadata, 
+  by = c("year", "site_code", "reef_name", "survey_date", "depth_m", "block", "list")
+)
+
+# Remove redundant geographic coordinate columns and finalize factor types
+data_cleaned <- data_merged %>% 
+  dplyr::select(-survey_latitude, -survey_longitude, -depth) %>% 
+  mutate(
+    depth_m = as.factor(depth_m),
+    site_code = as.factor(site_code),
+    year = as.factor(year),
+    transect_1 = as.factor(transect_1),
+    transect_2 = as.factor(transect_2)
+  )
+```
+
+
+# 6. Fish Filtering, Species Validation, and Biomass Standardization
+```{r}
+# Filter for reef fish (Actinopterygii)
+fish_data <- data_cleaned %>% filter(class == "Actinopterygii")
+
+# Extract unique species list (removing generic "spp" entries)
+species_list <- fish_data %>% 
+  dplyr::select(family, reporting_name) %>% 
+  distinct(reporting_name, .keep_all = TRUE) %>% 
+  filter(!str_detect(reporting_name, "spp")) %>% 
+  rename(Species_name = reporting_name)
+
+# Import MERMAID species reference table
+mermaid_data <- read_csv("../01_data/MERMAID-species_GFG.csv", show_col_types = FALSE) %>% 
+  dplyr::select(Family, Genus, Species, Species_name, Biomass.Constant.A, Biomass.Constant.B, Trophic.Level, Trophic.Group, Functional.Group)
+
+# Validate species names, correct known spelling anomalies, and join MERMAID constants
+species_list_corrected <- species_list %>% 
+  mutate(Species_name = case_when(
+    Species_name == "Chromileptes altivelis" ~ "Cromileptes altivelis", 
+    TRUE ~ Species_name
+  ))
+
+species_validated <- left_join(species_list_corrected, mermaid_data, by = "Species_name")
+
+# Export validated species list
+write_csv(species_validated, "../02_output/reef_fish_species_list.csv")
+
+# Prepare fish dataset for main analysis
+fish_prepared <- fish_data %>% 
+  rename(Species_name = reporting_name) %>% 
+  mutate(Species_name = case_when(
+    Species_name == "Chromileptes altivelis" ~ "Cromileptes altivelis", 
+    TRUE ~ Species_name
+  )) %>% 
+  left_join(species_validated, by = "Species_name") %>% 
+  dplyr::select(-family.x, -family.y, -species_name, -Genus, -Species) %>% 
+  separate(Species_name, sep = " ", c("Genus", "Species"), remove = FALSE)
+
+# Fill missing family classifications for genus-level records
+genera_lookup <- fish_prepared %>% 
+  distinct(Genus, Family) %>% 
+  filter(!is.na(Family))
+
+fish_prepared <- fish_prepared %>% 
+  dplyr::select(-Family) %>% 
+  left_join(genera_lookup, by = "Genus") %>% 
+  relocate(Family, .before = Genus) %>% 
+  mutate(Family = case_when(
+    Genus == "Enneapterygius" ~ "Tripterygiidae",
+    Genus == "Gymnothorax" ~ "Muraenidae",
+    TRUE ~ Family
+  ))
+
+# Standardize method 1 fish counts and biomass to 100m2
+fish_standardized <- fish_prepared %>% 
+  mutate(
+    stand_abund_100m = if_else(method == 1, total / 2.5, total),
+    stand_biomass_g_100m = if_else(method == 1, biomass / 2.5, biomass)
+  )
+
+# Incorporate backup genus-level biomass constants where needed
+genus_data <- read_csv("../01_data/GFG_fish-genera.csv", show_col_types = FALSE) %>% 
+  rename(
+    av_bio_A = Biomass.Constant.A,
+    av_bio_b = Biomass.Constant.B,
+    av_bio_c = Biomass.Constant.C
+  ) %>% 
+  dplyr::select(-Family)
+
+fish_final <- fish_standardized %>% 
+  left_join(genus_data, by = "Genus") %>% 
+  mutate(
+    Biomass.Constant.A = coalesce(Biomass.Constant.A, av_bio_A),
+    Biomass.Constant.B = coalesce(Biomass.Constant.B, av_bio_b)
+  )
+```
+
+# 7. Export Final Analysis-Ready Datasets
+```{r}
+# Export full analysis-ready fish dataset
+write_csv(fish_final, "../analysis_data/RLS_allfish_analysis_ready.csv")
+
+# Export invertebrate dataset
+invert_data <- data_cleaned %>% filter(list == "Inverts")
+write_csv(invert_data, "../analysis_data/RLS_inverts_analysis_ready.csv")
+
+```

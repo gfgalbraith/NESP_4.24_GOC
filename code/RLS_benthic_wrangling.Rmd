@@ -1,0 +1,137 @@
+---
+title: "GOC Benthic Data Wrangling"
+author: "GF Galbraith"
+date: "2024-08-08"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    code_folding: show
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE,
+  message = FALSE,
+  warning = FALSE
+)
+```
+
+This markdown imports the raw RLS benthic data and adds variables required for the summary analyses presented in the GOC NESP report.
+
+# Libraries
+Required libraries.
+```{r}
+library(tidyverse)
+library(lubridate)
+library(vegan)
+```
+
+# data
+Load data - this is the raw benthic data sent to the project team by RLS.
+```{r}
+# Load raw benthic data provided by RLS
+benthic_raw <- read_csv("../raw_data/RLS_GOC_benthicdata.csv", show_col_types = FALSE) %>% 
+  as.data.frame()
+
+# Initial data inspection
+glimpse(benthic_raw)
+
+# Inspect unique sites present
+benthic_raw %>% distinct(site_code)
+benthic_raw %>% distinct(site_name)
+```
+Note on Missing Sites: GC10 and GC11 (Foggy Bottom and Chinamans) are absent from the raw benthic dataset; verification confirms no benthic survey data were collected for these specific sites.
+
+
+# Add year as a variable
+Useful for comparing survey times/years and including as a random effect in formal statistical analysis.
+```{r}
+# Convert survey dates and extract year as a factor for random effects
+benthic_processed <- benthic_raw %>% 
+  mutate(
+    survey_date = as.Date(dmy(survey_date)),
+    year = as.factor(year(survey_date)),
+    site_code = as.factor(site_code),
+    depth = as.factor(depth)
+  )
+```
+
+Note on Transect Structure: The raw data lack replicate percentage cover values per individual RLS transect, containing only overall summary percent covers. Consequently, standard errors (SEM) cannot be computed directly at the transect replicate level.
+
+# Import cleaned survey metadata
+This adds useful variables to the benthic data to enable figure production e.g. percent cover per site of interest.
+```{r}
+survey_meta <- read_csv("../raw_data/GOC_survey_metadata.csv", show_col_types = FALSE) %>% 
+  as.data.frame() 
+
+# Select necessary spatial and environmental metadata variables
+survey_meta_clean <- survey_meta %>% 
+  dplyr::select(
+    site_code, reef_name, area, ecoregion, realm, location, 
+    lat, long, zone, region, sector, situation, 
+    depth_morph, geomorph, Harris_site, report_site
+  ) %>% 
+  distinct() %>% 
+  mutate(site_code = as.factor(site_code))
+
+```
+
+# Merge benthic data with site metadata
+```{r}
+# Clean, select, and rename variables to align with metadata structures
+benthic_subset <- benthic_processed %>% 
+  dplyr::select(
+    site_code, site_name, survey_date, depth, visibility, hour, 
+    program, database, RLS_category, RLE_category, 
+    total_points, num_points, percent_cover, year
+  ) %>% 
+  rename(
+    depth_m = depth, 
+    reef_name = site_name
+  )
+
+# Merge benthic data with survey metadata
+benthic_merged <- left_join(benthic_subset, survey_meta_clean, by = c("site_code", "reef_name"))
+
+# Check for missing values or unmatched records
+summary(is.na(benthic_merged))
+benthic_merged %>% filter(is.na(visibility))
+
+# Identify distinct survey depths (representing the two transects per survey) and assign a transect identifier
+benthic_transects <- benthic_merged %>% 
+  group_by(site_code, year) %>% 
+  mutate(transect_1 = as.numeric(factor(depth_m)))
+```
+
+# Format bethic categories
+```{r}
+benthic_categorized <- benthic_transects %>% 
+  mutate(
+    RLS_category = as.factor(RLS_category),
+    RLE_category = as.factor(RLE_category)
+  )
+
+# Review factor levels
+levels(benthic_categorized$RLS_category)
+levels(benthic_categorized$RLE_category)
+```
+
+# Crosswalk to new custom categories
+The report has chosen to present taxon-morpho categories. Import csv of categories to enable crosswalk
+```{r}
+# Import custom crosswalk categories required for the report
+benthic_cats <- read_csv("../analysis_data/RLS_benthic_cats_crosswalk.csv", show_col_types = FALSE) %>% 
+  as.data.frame() 
+
+# Join custom categories to the main dataset
+benthic_final <- left_join(benthic_categorized, benthic_cats, by = "RLS_category")
+```
+
+# Write
+```{r}
+write.csv(data.5, "../analysis_data/RLS_benthic_analysis_ready.csv", row.names = FALSE)
+```
+
+
+
