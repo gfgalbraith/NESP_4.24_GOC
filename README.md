@@ -2,6 +2,8 @@
 
 This repository contains the collated data associated with report for NESP Project 4.24 – Towards assessing the values of reefs in the southern Gulf of Carpentaria. A synthesis of the existing scientific data on the coral reefs in the southern Gulf of Carpentaria.
 
+https://www.nespmarinecoastal.edu.au/project/4-24/
+
 Report prepared by: Maya Srinivasan, Gemma Galbraith and Damien Burrows
 
 Centre for Tropical Water and Aquatic Ecosystem Research (TropWater), James Cook University
@@ -9,6 +11,8 @@ Centre for Tropical Water and Aquatic Ecosystem Research (TropWater), James Cook
 [![](images/f4c31c_2c1e04f0fadd407cac57f3fe6b0a72fe~mv2.png){width="100"}](https://www.tropwater.com/)
 
 Suggested report citation: Srinivasan, M., Galbraith, G.F. and Burrows, D. (2025) NESP Project 4.24 – Towards assessing the values of reefs in the southern Gulf of Carpentaria. A synthesis of the existing scientific data on the coral reefs in the southern Gulf of Carpentaria. [DOI LINK PLACEHOLDER]
+
+https://www.nespmarinecoastal.edu.au/publication/a-synthesis-of-the-existing-scientific-data-on-the-coral-reefs-in-the-southern-gulf-of-carpentaria/
 
 Data have been collated from existing sources and should be cited using original attribution.
 
@@ -28,6 +32,6 @@ IMOS - National Reef Monitoring Network Sub-Facility - Global off-transect speci
 
 IMOS - National Reef Monitoring Network Sub-Facility - Site information
 
-Benthic data was provided directly by RLS (benthic photo annotation data - see rawdata - RLS_GOC_benthicdata.csv)
+Benthic data was provided directly by RLS (benthic photo annotation data - see raw_data - RLS_GOC_benthicdata.csv)
 
 Hamish Malcolm provided raw data
