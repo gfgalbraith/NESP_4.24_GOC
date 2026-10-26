@@ -251,4 +251,9 @@ write_csv(fish_final, "../analysis_data/RLS_allfish_analysis_ready.csv")
 invert_data <- data_cleaned %>% filter(list == "Inverts")
 write_csv(invert_data, "../analysis_data/RLS_inverts_analysis_ready.csv")
 
+# write unique fish species list to csv
+species.list <- fish_final %>% dplyr::select(family, reporting_name) %>%  distinct(reporting_name, .keep_all = TRUE)
+write.csv(species.list, "../02_output/reef_fish_species_list.csv", row.names = FALSE)
+```
+
 ```
