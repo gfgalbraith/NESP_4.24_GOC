@@ -31,9 +31,20 @@ Ecological survey data collected by Reef Life Survey Foundation (RLS) were extra
 
 Benthic data was provided directly by RLS (benthic photo annotation data - see raw_data - RLS_GOC_benthicdata.csv). Benthic images were annotated by Reef Life Survey Foundation (RLS) in Squidle+ and the data were provided to the project team for analysis.
 
-Hamish Malcolm provided raw data from underwater visual census surveys conducted in the southern Gulf of Carpentaria in 1997 and 1998.(raw_data/Hamish_Malcolm_Wellesley_data.xlsx)
-These data were provided to the project team for analysis.
-Malcolm H (1998) Reef Fish Community and Incidental Observations: Wellesley Islands - Gulf of Carpentaria, October 1997 and May 1998. Technical report to the Queensland Department of Environment. 
+Hamish Malcolm provided raw data from underwater visual census surveys conducted in the southern Gulf of Carpentaria in 1997 and 1998.
+(raw_data/Hamish_Malcolm_Wellesley_data.xlsx)
+We obtained a scanned copy of the report from the author and entered the raw data into an Excel file.
+This study is one of just three studies examining fish communities in this region, and the surveys were the first underwater visual surveys to be conducted in the southern Gulf of Carpentaria.
+A total of 12 sites were surveyed across two time periods (October 1997 May 1998), with 3 sites surveyed during both time periods. 
+Survey methods: At each site, one 45-minute timed swim was conducted by a single diver, recording the relative abundance of fish seen within 5 m on either side. Each species of fish was assigned an abundance category based on its relative abundance: rare/uncommon (1 to 5 individuals), common (6 to 125 individuals), and abundant (126 to >3125 individuals). 
+Malcolm H (1998) Reef Fish Community and Incidental Observations: Wellesley Islands - Gulf of Carpentaria, October 1997 and May 1998. Technical report to the Queensland Department of Environment.
+The Excel file contains the following sheets: 
+Data - raw data, with columns for Site (site name), Time (time period) and a column for each species. Each row has the abundance category for each species at each site and time period.
+Incidental sightings - rare species not included in the abundance data as just 1-3 individuals were observed during the study. The 3 columns give the common and scientific names of the species, and the number of sites each species was found at. 
+Site info - list of sites with columns for Site code, Island where the site is, the latitude and longitude (columns: Lat and Long), the date surveyed in each time period (Columns: 1997 date, 1998 date), depth, visibility, and which time period each site was surveyed in (column: "Survey 1/2/both"
+Notes - relative abundance categories are in column A, and the number of fish associated with each category in column B. 
+Species list - a list of all species observed in this study (column: Species), the fish family each species is in (column: Family), and whether the species was included in survey data or incidental sightings (column: Survey/Incidental). 
+The abundance categories are from 1 to 6, 1 = 1 individual in a 45-minute timed swim, 2 = 2 to 5 individuals, 3 = 6 to 25 individuals, 4 = 26 to 125 individuals, 5 = 126 to 525 individual, and 6 = >525 individuals.
 
 **Notes on code structure, folders and outputs**
 
